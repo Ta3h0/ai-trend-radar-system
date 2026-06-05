@@ -111,7 +111,19 @@ function jargonList(items) {
 
 function formatImagePrompts(prompts) {
   if (!prompts || prompts.length === 0) return "None";
-  return prompts.map((prompt) => `- ${prompt.type}: ${prompt.prompt}`).join("\n");
+  const allowedTypes = new Set(["reels_thumbnail", "thumbnail", "body_card", "cta_background"]);
+  const dailyPrompts = prompts.filter((prompt) => allowedTypes.has(prompt.type));
+  if (dailyPrompts.length === 0) return "None";
+  return dailyPrompts.map((prompt) => `- ${prompt.type}: ${prompt.prompt}`).join("\n");
+}
+
+function formatCarouselCard(card) {
+  return [
+    `Card ${card.number}`,
+    `Main copy: ${card.title}`,
+    `Sub copy: ${card.body}`,
+    `Note: ${card.emphasis || "None"}`
+  ].join("\n");
 }
 
 function formatCandidate(candidate, index) {
@@ -216,7 +228,7 @@ function formatCandidate(candidate, index) {
     "",
     "#### If CAROUSEL",
     `- Recommended card count: ${carousel.recommended_card_count || 0}`,
-    ...cards.map((card) => `- Card ${card.number} ${card.role === "thumbnail" ? "Thumbnail" : card.role === "cta" ? "CTA" : ""}: ${card.title} / ${card.body}${card.emphasis ? ` / ${card.emphasis}` : ""}`),
+    ...cards.map(formatCarouselCard),
     `- Last Card CTA: ${carousel.last_card_cta || "None"}`,
     "",
     "### Detailed Caption Draft",

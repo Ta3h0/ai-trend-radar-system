@@ -14,6 +14,7 @@ const { validateSourceMatch, factCheckStatus } = require("./quality-check");
 const { createPopularization } = require("./popularization");
 const { verifiedFactsKorean, uncertainPointsKorean } = require("./koreanize");
 const { writeDailyReport } = require("./build-daily-report");
+const { validateDailyMarkdown, formatValidationError } = require("./validate-daily-markdown");
 
 function parseArgs(argv) {
   const args = {
@@ -250,6 +251,11 @@ function runDaily(options = {}) {
     };
   }
 
+  const markdownValidation = validateDailyMarkdown({ rootDir, date });
+  if (!markdownValidation.ok) {
+    throw new Error(formatValidationError(markdownValidation));
+  }
+
   return {
     mode: "dry-run",
     date,
@@ -257,6 +263,11 @@ function runDaily(options = {}) {
     total_normalized: normalized.length,
     total_clusters: clusters.length,
     final_candidates: candidates.length,
+    markdown_validation: {
+      ok: true,
+      issues: 0,
+      path: path.relative(rootDir, markdownValidation.markdownPath)
+    },
     written: []
   };
 }
@@ -277,6 +288,7 @@ if (require.main === module) {
     total_normalized: result.total_normalized,
     total_clusters: result.total_clusters,
     final_candidates: result.final_candidates,
+    markdown_validation: result.markdown_validation,
     written: result.written.map((filePath) => path.relative(path.resolve(__dirname, ".."), filePath))
   }, null, 2));
 }

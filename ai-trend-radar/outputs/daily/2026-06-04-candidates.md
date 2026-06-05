@@ -52,24 +52,24 @@ AI를 인터넷 밖, 내 노트북 안에서 쓰는 흐름이 커지고 있습�
 ### Hook Title Candidates
 #### General Hook
 1. AI를 인터넷 밖, 내 노트북 안에서 쓰는 흐름이 커지고 있습니다
-2. 내 기기에서 쓰는 AI가 내 일에 들어오면 달라지는 것
-3. 이제 중요한 건 AI 이름보다 내가 써먹는 방법입니다
-4. 오늘 AI 변화, 쉽게 보면 이겁니다
-5. 내 기기에서 쓰는 AI를 처음 보는 사람도 이해하게 정리했습니다
+2. AI가 내 노트북 안으로 들어오고 있습니다
+3. 회사 파일을 밖에 보내지 않는 AI 사용법
+4. 내 컴퓨터에서 먼저 정리하는 AI가 커집니다
+5. AI 비용과 개인정보를 같이 줄이는 흐름
 
 #### Viral Hook
-1. 이건 기술 뉴스가 아니라 돈과 일의 변화입니다
-2. AI를 잘 몰라도 이 변화는 봐야 합니다
-3. 내 기기에서 쓰는 AI 때문에 내 시간이 아껴질 수 있습니다
-4. 내 기기에서 쓰는 AI를 모르고 지나치면 AI 흐름이 더 어렵게 보입니다
-5. 개인 AI 사용에 먼저 연결되는 AI 변화입니다
+1. AI 쓸 때 파일 업로드가 부담된다면
+2. 내 자료를 지키는 AI 사용 흐름
+3. AI 비용 아끼는 사람들은 이 흐름을 봅니다
+4. 노트북 한 대로 AI 작업을 시작하는 변화
+5. 회사 자료 많은 사람은 이 AI 흐름을 봐야 합니다
 
 #### Expert Note Hook
-1. 내 기기에서 쓰는 AI, 원문 기준 핵심만 보면 이렇습니다
-2. 내 기기에서 쓰는 AI의 기술 포인트는 후반부에서만 보면 됩니다
-3. 내 기기에서 쓰는 AI를 과장 없이 보는 체크포인트
-4. 공식 발표와 해석을 분리해서 봐야 합니다
-5. 가능성과 확정 사실을 나눠서 봐야 합니다
+1. 내 기기에서 쓰는 AI, 원문 기준으로 확인할 핵심
+2. 내 기기에서 쓰는 AI, 데모와 실제 활용을 나눠 봐야 합니다
+3. 내 기기에서 쓰는 AI, 아직 확인해야 할 조건
+4. 내 기기에서 쓰는 AI를 과장 없이 보는 체크포인트
+5. 내 기기에서 쓰는 AI, 발행 전 봐야 할 원문 포인트
 
 ### Source Summary
 Google Blog의 2026-06-03 자료는 로컬 멀티모달 AI 관련 변화입니다. 핵심은 Gemma 4 12B는 로컬 실행을 전면에 둔 멀티모달 모델입니다. API 비용, 개인정보, 속도 문제를 줄이는 방향으로 해석할 수 있습니다. 발행 전에는 원문 링크, 출시 범위, 사용권, 과장 가능성을 함께 확인해야 합니다.
@@ -136,32 +136,56 @@ LOW
 
 #### If CAROUSEL
 - Recommended card count: 8
-- Card 1 Thumbnail: AI를 인터넷 밖, 내 노트북 안에서 쓰는 흐름이 커지고 있습니다 / 내 일과 콘텐츠에 생길 변화를 먼저 봅니다. / 일반인용 핵심
-- Card 2 : 쉽게 말하면? / 쉽게 말해, 더 많은 AI 작업을 외부 서버가 아니라 내 기기 가까이에서 처리하려는 흐름입니다. / 전문용어 없이 보기
-- Card 3 : 왜 내 일과 관련 있나 / AI를 쓰는 비용, 개인정보, 작업 속도와 연결되기 때문에 개인 사용자와 작은 팀이 관심을 가질 만합니다. / 일, 돈, 콘텐츠와 연결
-- Card 4 : 어디에 써먹을 수 있나 / 회사 자료나 개인 파일을 매번 외부 서비스에 올리지 않고, 내 노트북 안에서 먼저 정리하고 분석하는 흐름이 커질 수 있습니다. / 현실 예시
-- Card 5 : 원문 기준 핵심 / Google Blog의 2026년 6월 3일 원문 기준: Gemma 4 12B는 로컬 실행을 전면에 둔 멀티모달 모델입니다. / 사실과 해석 분리
-- Card 6 : 아직 조심할 점 / 노트북마다 성능은 다릅니다. 데모와 실제 운영은 분리해서 봐야 합니다. / 과장 금지
-- Card 7 : 한 줄 결론 / AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다. / 쉽게 보는 AI 변화
-- Card 8 CTA: 다음 AI 변화도 쉽게 볼까요? / 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요. / 저장하고 팔로우
+Card 1
+Main copy: AI를 인터넷 밖, 내 노트북 안에서 쓰는 흐름이 커지고 있습니다
+Sub copy: 내 일과 콘텐츠에 생길 변화를 먼저 봅니다.
+Note: 일반인용 핵심
+Card 2
+Main copy: 쉽게 말하면?
+Sub copy: 쉽게 말해, 더 많은 AI 작업을 외부 서버가 아니라 내 기기 가까이에서 처리하려는 흐름입니다.
+Note: 전문용어 없이 보기
+Card 3
+Main copy: 왜 내 일과 관련 있나
+Sub copy: AI를 쓰는 비용, 개인정보, 작업 속도와 연결되기 때문에 개인 사용자와 작은 팀이 관심을 가질 만합니다.
+Note: 일, 돈, 콘텐츠와 연결
+Card 4
+Main copy: 어디에 써먹을 수 있나
+Sub copy: 회사 자료나 개인 파일을 매번 외부 서비스에 올리지 않고, 내 노트북 안에서 먼저 정리하고 분석하는 흐름이 커질 수 있습니다.
+Note: 현실 예시
+Card 5
+Main copy: 원문 기준 핵심
+Sub copy: Google Blog의 2026년 6월 3일 원문 기준: Gemma 4 12B는 로컬 실행을 전면에 둔 멀티모달 모델입니다.
+Note: 사실과 해석 분리
+Card 6
+Main copy: 아직 조심할 점
+Sub copy: 노트북마다 성능은 다릅니다. 데모와 실제 운영은 분리해서 봐야 합니다.
+Note: 과장 금지
+Card 7
+Main copy: 한 줄 결론
+Sub copy: AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.
+Note: 쉽게 보는 AI 변화
+Card 8
+Main copy: 다음 AI 변화도 쉽게 볼까요?
+Sub copy: 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.
+Note: 저장하고 팔로우
 - Last Card CTA: 저장해두고, 다음 AI 변화도 쉽게 확인하세요.
 
 ### Detailed Caption Draft
 회사 파일을 AI에 맡길 때 제일 먼저 떠오르는 걱정은 '이 자료를 밖으로 보내도 되나?'입니다.
 
-AI를 인터넷 밖, 내 노트북 안에서 쓰는 흐름이 커지고 있습니다 이 문장은 기술명을 외우게 하려는 제목이 아니라, 내 일상에서 뭐가 달라지는지 먼저 보게 하는 제목입니다. 비유하면 공동 사무실에 서류를 들고 가는 대신, 내 책상 위에 작은 비서를 두는 쪽에 가깝습니다.
+AI를 인터넷 밖, 내 노트북 안에서 쓰는 흐름이 커지고 있습니다. 비유하면 공동 사무실에 서류를 들고 가는 대신, 내 책상 위에 작은 비서를 두는 쪽에 가깝습니다.
 
-쉽게 말하면 더 많은 AI 작업을 외부 서버가 아니라 내 기기 가까이에서 처리하려는 흐름입니다. 회사 자료나 개인 파일을 매번 외부 서비스에 올리지 않고, 내 노트북 안에서 먼저 정리하고 분석하는 흐름이 커질 수 있습니다. 그래서 이 소재는 전문가용 보고서보다 "내가 내일 어디에 써먹을 수 있지?"라는 질문으로 풀어야 합니다.
+쉽게 말하면 더 많은 AI 작업을 외부 서버가 아니라 내 기기 가까이에서 처리하려는 흐름입니다. 회사 자료나 개인 파일을 매번 외부 서비스에 올리지 않고, 내 노트북 안에서 먼저 정리하고 분석하는 흐름이 커질 수 있습니다. 내 작업 시간, 비용, 결과물의 속도와 연결해서 보면 훨씬 가깝게 느껴집니다.
 
 왜 봐야 하냐면, AI를 쓰는 비용, 개인정보, 작업 속도와 연결되기 때문에 개인 사용자와 작은 팀이 관심을 가질 만합니다. 개인 파일 정리, 회의록 요약, 이미지 확인처럼 사소하지만 자주 반복되는 일에서 먼저 체감될 수 있습니다.
 
-공식 자료 기준 사실은 여기까지입니다. Google Blog가 2026년 6월 3일 공개한 원문에서 확인되는 내용입니다. Google Blog의 2026년 6월 3일 원문 기준: Gemma 4 12B는 로컬 실행을 전면에 둔 멀티모달 모델입니다. 여기서부터는 해석입니다. 이 변화는 AI 작업이 외부 서비스 중심에서 개인 기기 가까이로 내려오는 흐름으로 볼 수 있습니다. 원문에서 확인된 내용과 우리가 붙이는 의미를 분리해야 과장이 줄어듭니다.
+공식 자료 기준으로 확인되는 내용은 이렇습니다. Google Blog가 2026년 6월 3일 공개한 원문에서 확인되는 내용입니다. Google Blog의 2026년 6월 3일 원문 기준: Gemma 4 12B는 로컬 실행을 전면에 둔 멀티모달 모델입니다. 여기서 해석을 붙이면, 이 변화는 AI 작업이 외부 서비스 중심에서 개인 기기 가까이로 내려오는 흐름으로 볼 수 있습니다.
 
-멀티모달은 쉽게 말해 글, 이미지, 소리처럼 여러 종류의 입력을 함께 이해하는 방식입니다. agentic는 쉽게 말해 AI가 여러 단계를 스스로 계획하고 실행하려는 방식입니다. encoder-free는 쉽게 말해 별도 변환 장치를 줄이고 입력을 더 직접 처리하는 구조입니다. 이런 보충은 앞부분에 몰아넣지 않는 편이 좋습니다. 먼저 쉬운 장면으로 멈추게 하고, 저장한 사람이 뒤에서 기술 포인트를 확인하게 만드는 구성이 인스타에 더 맞습니다.
+멀티모달은 쉽게 말해 글, 이미지, 소리처럼 여러 종류의 입력을 함께 이해하는 방식입니다. agentic는 쉽게 말해 AI가 여러 단계를 스스로 계획하고 실행하려는 방식입니다. encoder-free는 쉽게 말해 별도 변환 장치를 줄이고 입력을 더 직접 처리하는 구조입니다. 처음에는 낯설어도, 실제 사용 장면과 연결하면 훨씬 덜 어렵습니다.
 
 조심할 점도 있습니다. 노트북마다 성능은 다릅니다. 데모와 실제 운영은 분리해서 봐야 합니다. 다만 내 기기에서 쓴다는 말이 모든 노트북에서 매끄럽게 돈다는 뜻은 아닙니다. 공식 발표는 방향을 보여주지만, 가격, 사용권, 실제 성능, 적용 범위는 발행 전에 다시 확인해야 합니다.
 
-오늘 제작 판단은 저장형 카드뉴스입니다. 첫 장은 'AI가 내 노트북 안으로 들어온다'는 감각을 주고, 뒤에서는 비용과 개인정보 이야기를 풀면 좋습니다.
+핵심은 AI를 더 안전하고 가볍게 쓰려는 흐름이 개인 사용자에게도 가까워지고 있다는 점입니다.
 
 여러분은 AI를 쓸 때 비용이 더 신경 쓰이나요, 개인정보가 더 신경 쓰이나요?
 
@@ -174,14 +198,6 @@ AI를 인터넷 밖, 내 노트북 안에서 쓰는 흐름이 커지고 있습�
 - thumbnail: Create a 4:5 carousel thumbnail background. Scene: a closed laptop on a tidy desk, private documents, a small audio waveform, and a photo thumbnail glowing inside the screen while a distant cloud icon fades outside the window. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: laptop, locked folder, local desk lamp. Color and lighting: deep graphite desk, warm screen glow, soft blue privacy light. Card role: "AI를 인터넷 밖, 내 노트북 안에서 쓰는 흐름이 커지고 있습니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - body_card: Create a 4:5 reusable explanatory body-card background. Scene: a closed laptop on a tidy desk, private documents, a small audio waveform, and a photo thumbnail glowing inside the screen while a distant cloud icon fades outside the window. Specific visual direction: keep the center calm and place the main object lower right so Korean copy can sit clearly on the left. Key objects: laptop, locked folder, local desk lamp. Color and lighting: deep graphite desk, warm screen glow, soft blue privacy light. Single-purpose visual with no collage. Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - cta_background: Create a calm 4:5 closing CTA background. Scene: a closed laptop on a tidy desk, private documents, a small audio waveform, and a photo thumbnail glowing inside the screen while a distant cloud icon fades outside the window. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: laptop, locked folder, local desk lamp. Color and lighting: deep graphite desk, warm screen glow, soft blue privacy light. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_1: Create a 4:5 visual background for carousel card 1. Scene: a closed laptop on a tidy desk, private documents, a small audio waveform, and a photo thumbnail glowing inside the screen while a distant cloud icon fades outside the window. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: laptop, locked folder, local desk lamp. Color and lighting: deep graphite desk, warm screen glow, soft blue privacy light. Card role: "AI를 인터넷 밖, 내 노트북 안에서 쓰는 흐름이 커지고 있습니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_2: Create a 4:5 visual background for carousel card 2. Scene: a closed laptop on a tidy desk, private documents, a small audio waveform, and a photo thumbnail glowing inside the screen while a distant cloud icon fades outside the window. Specific visual direction: show the simple explanation visually, as if a complex box is opened to reveal one clear everyday object. Key objects: laptop, locked folder, local desk lamp. Color and lighting: deep graphite desk, warm screen glow, soft blue privacy light. Card role: "쉽게 말하면?" / "쉽게 말해, 더 많은 AI 작업을 외부 서버가 아니라 내 기기 가까이에서 처리하려는 흐름입니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_3: Create a 4:5 visual background for carousel card 3. Scene: a closed laptop on a tidy desk, private documents, a small audio waveform, and a photo thumbnail glowing inside the screen while a distant cloud icon fades outside the window. Specific visual direction: connect the scene to time, money, work, or content output using objects like a calendar, receipt, clock, or creator dashboard without readable text. Key objects: laptop, locked folder, local desk lamp. Color and lighting: deep graphite desk, warm screen glow, soft blue privacy light. Card role: "왜 내 일과 관련 있나" / "AI를 쓰는 비용, 개인정보, 작업 속도와 연결되기 때문에 개인 사용자와 작은 팀이 관심을 가질 만합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_4: Create a 4:5 visual background for carousel card 4. Scene: a closed laptop on a tidy desk, private documents, a small audio waveform, and a photo thumbnail glowing inside the screen while a distant cloud icon fades outside the window. Specific visual direction: show the concrete everyday use case in progress, with a hand, desk tool, camera, laptop, or lab object doing one clear action. Key objects: laptop, locked folder, local desk lamp. Color and lighting: deep graphite desk, warm screen glow, soft blue privacy light. Card role: "어디에 써먹을 수 있나" / "회사 자료나 개인 파일을 매번 외부 서비스에 올리지 않고, 내 노트북 안에서 먼저 정리하고 분석하는 흐름이 커질 수 있습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_5: Create a 4:5 visual background for carousel card 5. Scene: a closed laptop on a tidy desk, private documents, a small audio waveform, and a photo thumbnail glowing inside the screen while a distant cloud icon fades outside the window. Specific visual direction: show an official-source moment using an abstract document page, date marker, and verification pin without readable text or logos. Key objects: laptop, locked folder, local desk lamp. Color and lighting: deep graphite desk, warm screen glow, soft blue privacy light. Card role: "원문 기준 핵심" / "Google Blog의 2026년 6월 3일 원문 기준: Gemma 4 12B는 로컬 실행을 전면에 둔 멀티모달 모델입니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_6: Create a 4:5 visual background for carousel card 6. Scene: a closed laptop on a tidy desk, private documents, a small audio waveform, and a photo thumbnail glowing inside the screen while a distant cloud icon fades outside the window. Specific visual direction: show caution through a measuring ruler, checklist, small warning marker, or comparison scale, not fear imagery. Key objects: laptop, locked folder, local desk lamp. Color and lighting: deep graphite desk, warm screen glow, soft blue privacy light. Card role: "아직 조심할 점" / "노트북마다 성능은 다릅니다. 데모와 실제 운영은 분리해서 봐야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_7: Create a 4:5 visual background for carousel card 7. Scene: a closed laptop on a tidy desk, private documents, a small audio waveform, and a photo thumbnail glowing inside the screen while a distant cloud icon fades outside the window. Specific visual direction: show a clean one-line-conclusion feeling: one path from input to useful outcome, minimal and decisive. Key objects: laptop, locked folder, local desk lamp. Color and lighting: deep graphite desk, warm screen glow, soft blue privacy light. Card role: "한 줄 결론" / "AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_8: Create a 4:5 visual background for carousel card 8. Scene: a closed laptop on a tidy desk, private documents, a small audio waveform, and a photo thumbnail glowing inside the screen while a distant cloud icon fades outside the window. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: laptop, locked folder, local desk lamp. Color and lighting: deep graphite desk, warm screen glow, soft blue privacy light. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 
 ## Candidate 02
 
@@ -215,24 +231,24 @@ AI를 인터넷 밖, 내 노트북 안에서 쓰는 흐름이 커지고 있습�
 ### Hook Title Candidates
 #### General Hook
 1. 촬영 전에 영상 아이디어를 먼저 실험하는 시대가 오고 있습니다
-2. 촬영 전 AI 시안가 내 일에 들어오면 달라지는 것
-3. 이제 중요한 건 AI 이름보다 내가 써먹는 방법입니다
-4. 오늘 AI 변화, 쉽게 보면 이겁니다
-5. 촬영 전 AI 시안을 처음 보는 사람도 이해하게 정리했습니다
+2. 촬영 전에 장면을 먼저 테스트하는 AI
+3. 릴스 아이디어를 찍기 전에 실험합니다
+4. 영상 제작의 첫 단계가 바뀌고 있습니다
+5. 촬영비 쓰기 전에 AI로 먼저 확인합니다
 
 #### Viral Hook
-1. 이건 기술 뉴스가 아니라 돈과 일의 변화입니다
-2. AI를 잘 몰라도 이 변화는 봐야 합니다
-3. 촬영 전 AI 시안 때문에 내 시간이 아껴질 수 있습니다
-4. 촬영 전 AI 시안을 모르고 지나치면 AI 흐름이 더 어렵게 보입니다
-5. 콘텐츠 제작에 먼저 연결되는 AI 변화입니다
+1. 촬영장 가기 전에 이 장면부터 봅니다
+2. 릴스 만드는 사람은 이 흐름을 놓치면 아깝습니다
+3. 광고 시안 만드는 시간이 줄어들 수 있습니다
+4. 영상 아이디어 실패 비용을 줄이는 방법
+5. 카메라 켜기 전에 AI가 먼저 리허설합니다
 
 #### Expert Note Hook
-1. 촬영 전 AI 시안, 원문 기준 핵심만 보면 이렇습니다
-2. 촬영 전 AI 시안의 기술 포인트는 후반부에서만 보면 됩니다
-3. 촬영 전 AI 시안을 과장 없이 보는 체크포인트
-4. 공식 발표와 해석을 분리해서 봐야 합니다
-5. 가능성과 확정 사실을 나눠서 봐야 합니다
+1. 촬영 전 AI 시안, 원문 기준으로 확인할 핵심
+2. 촬영 전 AI 시안, 데모와 실제 활용을 나눠 봐야 합니다
+3. 촬영 전 AI 시안, 아직 확인해야 할 조건
+4. 촬영 전 AI 시안을 과장 없이 보는 체크포인트
+5. 촬영 전 AI 시안, 발행 전 봐야 할 원문 포인트
 
 ### Source Summary
 Luma의 2026-06-03 자료는 AI 크리에이터 스튜디오 관련 변화입니다. 핵심은 한 번 생성하는 데모보다 여러 도구가 제작 흐름으로 묶이는 변화가 큽니다. Luma는 실제 퍼포먼스를 중심에 두고 AI가 세계를 넓히는 방향을 강조합니다. 발행 전에는 원문 링크, 출시 범위, 사용권, 과장 가능성을 함께 확인해야 합니다.
@@ -299,32 +315,56 @@ MEDIUM
 
 #### If CAROUSEL
 - Recommended card count: 8
-- Card 1 Thumbnail: 촬영 전에 영상 아이디어를 먼저 실험하는 시대가 오고 있습니다 / 내 일과 콘텐츠에 생길 변화를 먼저 봅니다. / 일반인용 핵심
-- Card 2 : 쉽게 말하면? / 쉽게 말해, 촬영 전에 여러 장면과 분위기를 AI로 먼저 실험해보는 제작 방식입니다. / 전문용어 없이 보기
-- Card 3 : 왜 내 일과 관련 있나 / 촬영과 편집 전에 더 많은 아이디어를 싸게 시험해볼 수 있어 콘텐츠 제작자의 시간과 비용에 직접 연결됩니다. / 일, 돈, 콘텐츠와 연결
-- Card 4 : 어디에 써먹을 수 있나 / 릴스나 광고를 찍기 전에 배우, 배경, 분위기를 여러 버전으로 먼저 실험해볼 수 있습니다. / 현실 예시
-- Card 5 : 원문 기준 핵심 / Luma의 2026년 6월 3일 원문 기준: 한 번 생성하는 데모보다 여러 도구가 제작 흐름으로 묶이는 변화가 큽니다. / 사실과 해석 분리
-- Card 6 : 아직 조심할 점 / 공식 영상도 직접 재사용 전 권리 확인이 필요합니다. / 과장 금지
-- Card 7 : 한 줄 결론 / AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다. / 쉽게 보는 AI 변화
-- Card 8 CTA: 다음 AI 변화도 쉽게 볼까요? / 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요. / 저장하고 팔로우
+Card 1
+Main copy: 촬영 전에 영상 아이디어를 먼저 실험하는 시대가 오고 있습니다
+Sub copy: 내 일과 콘텐츠에 생길 변화를 먼저 봅니다.
+Note: 일반인용 핵심
+Card 2
+Main copy: 쉽게 말하면?
+Sub copy: 쉽게 말해, 촬영 전에 여러 장면과 분위기를 AI로 먼저 실험해보는 제작 방식입니다.
+Note: 전문용어 없이 보기
+Card 3
+Main copy: 왜 내 일과 관련 있나
+Sub copy: 촬영과 편집 전에 더 많은 아이디어를 싸게 시험해볼 수 있어 콘텐츠 제작자의 시간과 비용에 직접 연결됩니다.
+Note: 일, 돈, 콘텐츠와 연결
+Card 4
+Main copy: 어디에 써먹을 수 있나
+Sub copy: 릴스나 광고를 찍기 전에 배우, 배경, 분위기를 여러 버전으로 먼저 실험해볼 수 있습니다.
+Note: 현실 예시
+Card 5
+Main copy: 원문 기준 핵심
+Sub copy: Luma의 2026년 6월 3일 원문 기준: 한 번 생성하는 데모보다 여러 도구가 제작 흐름으로 묶이는 변화가 큽니다.
+Note: 사실과 해석 분리
+Card 6
+Main copy: 아직 조심할 점
+Sub copy: 공식 영상도 직접 재사용 전 권리 확인이 필요합니다.
+Note: 과장 금지
+Card 7
+Main copy: 한 줄 결론
+Sub copy: AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.
+Note: 쉽게 보는 AI 변화
+Card 8
+Main copy: 다음 AI 변화도 쉽게 볼까요?
+Sub copy: 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.
+Note: 저장하고 팔로우
 - Last Card CTA: 저장해두고, 다음 AI 변화도 쉽게 확인하세요.
 
 ### Detailed Caption Draft
 촬영장 잡기 전에 머릿속 장면을 먼저 굴려볼 수 있다면, 콘텐츠 제작 속도는 꽤 달라집니다.
 
-촬영 전에 영상 아이디어를 먼저 실험하는 시대가 오고 있습니다 이 문장은 기술명을 외우게 하려는 제목이 아니라, 내 일상에서 뭐가 달라지는지 먼저 보게 하는 제목입니다. 비유하면 카메라를 켜기 전에 작은 가상 무대에서 조명, 배우, 분위기를 미리 리허설하는 겁니다.
+촬영 전에 영상 아이디어를 먼저 실험하는 시대가 오고 있습니다. 비유하면 카메라를 켜기 전에 작은 가상 무대에서 조명, 배우, 분위기를 미리 리허설하는 겁니다.
 
-쉽게 말하면 촬영 전에 여러 장면과 분위기를 AI로 먼저 실험해보는 제작 방식입니다. 릴스나 광고를 찍기 전에 배우, 배경, 분위기를 여러 버전으로 먼저 실험해볼 수 있습니다. 그래서 이 소재는 전문가용 보고서보다 "내가 내일 어디에 써먹을 수 있지?"라는 질문으로 풀어야 합니다.
+쉽게 말하면 촬영 전에 여러 장면과 분위기를 AI로 먼저 실험해보는 제작 방식입니다. 릴스나 광고를 찍기 전에 배우, 배경, 분위기를 여러 버전으로 먼저 실험해볼 수 있습니다. 내 작업 시간, 비용, 결과물의 속도와 연결해서 보면 훨씬 가깝게 느껴집니다.
 
 왜 봐야 하냐면, 촬영과 편집 전에 더 많은 아이디어를 싸게 시험해볼 수 있어 콘텐츠 제작자의 시간과 비용에 직접 연결됩니다. 릴스 콘셉트, 광고 시안, 쇼츠 오프닝처럼 실패 비용이 큰 장면을 먼저 시험하는 데 잘 맞습니다.
 
-공식 자료 기준 사실은 여기까지입니다. Luma가 2026년 6월 3일 공개한 원문에서 확인되는 내용입니다. Luma의 2026년 6월 3일 원문 기준: 한 번 생성하는 데모보다 여러 도구가 제작 흐름으로 묶이는 변화가 큽니다. 여기서부터는 해석입니다. 이 변화는 콘텐츠 제작자가 촬영 전에 아이디어를 더 많이 실험하는 흐름으로 볼 수 있습니다. 원문에서 확인된 내용과 우리가 붙이는 의미를 분리해야 과장이 줄어듭니다.
+공식 자료 기준으로 확인되는 내용은 이렇습니다. Luma가 2026년 6월 3일 공개한 원문에서 확인되는 내용입니다. Luma의 2026년 6월 3일 원문 기준: 한 번 생성하는 데모보다 여러 도구가 제작 흐름으로 묶이는 변화가 큽니다. 여기서 해석을 붙이면, 이 변화는 콘텐츠 제작자가 촬영 전에 아이디어를 더 많이 실험하는 흐름으로 볼 수 있습니다.
 
-전문용어를 더 붙이지 않아도 됩니다. 이 소재는 기능명보다 실제 사용 장면을 먼저 보여주는 편이 더 잘 읽힙니다. 이런 보충은 앞부분에 몰아넣지 않는 편이 좋습니다. 먼저 쉬운 장면으로 멈추게 하고, 저장한 사람이 뒤에서 기술 포인트를 확인하게 만드는 구성이 인스타에 더 맞습니다.
+어려운 이름보다 중요한 건 실제로 어디에 쓰이는지입니다. 처음에는 낯설어도, 실제 사용 장면과 연결하면 훨씬 덜 어렵습니다.
 
 조심할 점도 있습니다. 공식 영상도 직접 재사용 전 권리 확인이 필요합니다. 멋진 데모가 곧바로 상업 제작의 완성도를 보장한다는 뜻은 아닙니다. 공식 발표는 방향을 보여주지만, 가격, 사용권, 실제 성능, 적용 범위는 발행 전에 다시 확인해야 합니다.
 
-오늘 제작 판단은 릴스 먼저 보여주고, 카드뉴스로 저장시키는 구성입니다. 릴스에서는 장면 변화 자체를 먼저 보여주고, 카드뉴스에서는 제작비와 시안 속도 이야기를 받쳐주면 좋습니다.
+핵심은 촬영 전에 더 많은 아이디어를 미리 비교해볼 수 있다는 점입니다.
 
 여러분이라면 촬영 전에 어떤 장면을 AI로 먼저 테스트해보고 싶나요?
 
@@ -338,14 +378,6 @@ MEDIUM
 - thumbnail: Create a 4:5 carousel thumbnail background. Scene: a miniature film set on a tabletop where a camera, stage lights, and three floating scene previews are being tested before a real shoot. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: director viewfinder, tiny stage, preview frames. Color and lighting: cinematic black stage, amber key light, magenta edge light. Card role: "촬영 전에 영상 아이디어를 먼저 실험하는 시대가 오고 있습니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - body_card: Create a 4:5 reusable explanatory body-card background. Scene: a miniature film set on a tabletop where a camera, stage lights, and three floating scene previews are being tested before a real shoot. Specific visual direction: keep the center calm and place the main object lower right so Korean copy can sit clearly on the left. Key objects: director viewfinder, tiny stage, preview frames. Color and lighting: cinematic black stage, amber key light, magenta edge light. Single-purpose visual with no collage. Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - cta_background: Create a calm 4:5 closing CTA background. Scene: a miniature film set on a tabletop where a camera, stage lights, and three floating scene previews are being tested before a real shoot. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: director viewfinder, tiny stage, preview frames. Color and lighting: cinematic black stage, amber key light, magenta edge light. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_1: Create a 4:5 visual background for carousel card 1. Scene: a miniature film set on a tabletop where a camera, stage lights, and three floating scene previews are being tested before a real shoot. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: director viewfinder, tiny stage, preview frames. Color and lighting: cinematic black stage, amber key light, magenta edge light. Card role: "촬영 전에 영상 아이디어를 먼저 실험하는 시대가 오고 있습니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_2: Create a 4:5 visual background for carousel card 2. Scene: a miniature film set on a tabletop where a camera, stage lights, and three floating scene previews are being tested before a real shoot. Specific visual direction: show the simple explanation visually, as if a complex box is opened to reveal one clear everyday object. Key objects: director viewfinder, tiny stage, preview frames. Color and lighting: cinematic black stage, amber key light, magenta edge light. Card role: "쉽게 말하면?" / "쉽게 말해, 촬영 전에 여러 장면과 분위기를 AI로 먼저 실험해보는 제작 방식입니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_3: Create a 4:5 visual background for carousel card 3. Scene: a miniature film set on a tabletop where a camera, stage lights, and three floating scene previews are being tested before a real shoot. Specific visual direction: connect the scene to time, money, work, or content output using objects like a calendar, receipt, clock, or creator dashboard without readable text. Key objects: director viewfinder, tiny stage, preview frames. Color and lighting: cinematic black stage, amber key light, magenta edge light. Card role: "왜 내 일과 관련 있나" / "촬영과 편집 전에 더 많은 아이디어를 싸게 시험해볼 수 있어 콘텐츠 제작자의 시간과 비용에 직접 연결됩니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_4: Create a 4:5 visual background for carousel card 4. Scene: a miniature film set on a tabletop where a camera, stage lights, and three floating scene previews are being tested before a real shoot. Specific visual direction: show the concrete everyday use case in progress, with a hand, desk tool, camera, laptop, or lab object doing one clear action. Key objects: director viewfinder, tiny stage, preview frames. Color and lighting: cinematic black stage, amber key light, magenta edge light. Card role: "어디에 써먹을 수 있나" / "릴스나 광고를 찍기 전에 배우, 배경, 분위기를 여러 버전으로 먼저 실험해볼 수 있습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_5: Create a 4:5 visual background for carousel card 5. Scene: a miniature film set on a tabletop where a camera, stage lights, and three floating scene previews are being tested before a real shoot. Specific visual direction: show an official-source moment using an abstract document page, date marker, and verification pin without readable text or logos. Key objects: director viewfinder, tiny stage, preview frames. Color and lighting: cinematic black stage, amber key light, magenta edge light. Card role: "원문 기준 핵심" / "Luma의 2026년 6월 3일 원문 기준: 한 번 생성하는 데모보다 여러 도구가 제작 흐름으로 묶이는 변화가 큽니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_6: Create a 4:5 visual background for carousel card 6. Scene: a miniature film set on a tabletop where a camera, stage lights, and three floating scene previews are being tested before a real shoot. Specific visual direction: show caution through a measuring ruler, checklist, small warning marker, or comparison scale, not fear imagery. Key objects: director viewfinder, tiny stage, preview frames. Color and lighting: cinematic black stage, amber key light, magenta edge light. Card role: "아직 조심할 점" / "공식 영상도 직접 재사용 전 권리 확인이 필요합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_7: Create a 4:5 visual background for carousel card 7. Scene: a miniature film set on a tabletop where a camera, stage lights, and three floating scene previews are being tested before a real shoot. Specific visual direction: show a clean one-line-conclusion feeling: one path from input to useful outcome, minimal and decisive. Key objects: director viewfinder, tiny stage, preview frames. Color and lighting: cinematic black stage, amber key light, magenta edge light. Card role: "한 줄 결론" / "AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_8: Create a 4:5 visual background for carousel card 8. Scene: a miniature film set on a tabletop where a camera, stage lights, and three floating scene previews are being tested before a real shoot. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: director viewfinder, tiny stage, preview frames. Color and lighting: cinematic black stage, amber key light, magenta edge light. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 
 ## Candidate 03
 
@@ -379,24 +411,24 @@ AI 이미지는 이제 만드는 것보다 고치는 게 더 중요해집니다
 ### Hook Title Candidates
 #### General Hook
 1. AI 이미지는 이제 만드는 것보다 고치는 게 더 중요해집니다
-2. 수정하기 쉬운 AI 이미지가 내 일에 들어오면 달라지는 것
-3. 이제 중요한 건 AI 이름보다 내가 써먹는 방법입니다
-4. 오늘 AI 변화, 쉽게 보면 이겁니다
-5. 수정하기 쉬운 AI 이미지를 처음 보는 사람도 이해하게 정리했습니다
+2. AI 이미지는 이제 다시 고치는 게 핵심입니다
+3. 썸네일 수정 시간이 줄어들 수 있습니다
+4. 이미지를 통째로 다시 만들 필요가 줄어듭니다
+5. 배경만 바꾸는 AI 이미지 흐름
 
 #### Viral Hook
-1. 이건 기술 뉴스가 아니라 돈과 일의 변화입니다
-2. AI를 잘 몰라도 이 변화는 봐야 합니다
-3. 수정하기 쉬운 AI 이미지 때문에 내 시간이 아껴질 수 있습니다
-4. 수정하기 쉬운 AI 이미지를 모르고 지나치면 AI 흐름이 더 어렵게 보입니다
-5. 디자인에 먼저 연결되는 AI 변화입니다
+1. 썸네일 다시 만들기 전에 이걸 봐야 합니다
+2. AI 이미지에서 진짜 편한 건 수정입니다
+3. 배경만 바꾸고 싶은 사람에게 필요한 변화
+4. 상세페이지 이미지 수정이 쉬워질 수 있습니다
+5. AI 이미지 작업 시간이 줄어드는 지점
 
 #### Expert Note Hook
-1. 수정하기 쉬운 AI 이미지, 원문 기준 핵심만 보면 이렇습니다
-2. 수정하기 쉬운 AI 이미지의 기술 포인트는 후반부에서만 보면 됩니다
-3. 수정하기 쉬운 AI 이미지를 과장 없이 보는 체크포인트
-4. 공식 발표와 해석을 분리해서 봐야 합니다
-5. 가능성과 확정 사실을 나눠서 봐야 합니다
+1. 수정하기 쉬운 AI 이미지, 원문 기준으로 확인할 핵심
+2. 수정하기 쉬운 AI 이미지, 데모와 실제 활용을 나눠 봐야 합니다
+3. 수정하기 쉬운 AI 이미지, 아직 확인해야 할 조건
+4. 수정하기 쉬운 AI 이미지를 과장 없이 보는 체크포인트
+5. 수정하기 쉬운 AI 이미지, 발행 전 봐야 할 원문 포인트
 
 ### Source Summary
 Stability AI의 2026-06-03 자료는 AI 이미지 편집 관련 변화입니다. 핵심은 AI 이미지는 이제 생성보다 편집 가능성이 중요해지고 있습니다. 텍스트, 배경, 물체가 분리되면 카드뉴스와 광고 소재를 다시 쓰기 쉬워집니다. 발행 전에는 원문 링크, 출시 범위, 사용권, 과장 가능성을 함께 확인해야 합니다.
@@ -463,32 +495,56 @@ LOW
 
 #### If CAROUSEL
 - Recommended card count: 8
-- Card 1 Thumbnail: AI 이미지는 이제 만드는 것보다 고치는 게 더 중요해집니다 / 내 일과 콘텐츠에 생길 변화를 먼저 봅니다. / 일반인용 핵심
-- Card 2 : 쉽게 말하면? / 쉽게 말해, AI 이미지를 한 번 뽑고 끝내는 게 아니라 필요한 부분만 나눠 고치려는 기술입니다. / 전문용어 없이 보기
-- Card 3 : 왜 내 일과 관련 있나 / 썸네일, 상세페이지, 광고 이미지를 다시 만드는 시간을 줄일 수 있어 콘텐츠 제작 비용과 수정 속도에 영향을 줍니다. / 일, 돈, 콘텐츠와 연결
-- Card 4 : 어디에 써먹을 수 있나 / 카드뉴스 썸네일을 통째로 다시 만들지 않고, 배경과 물체를 나눠 고치는 식으로 작업할 수 있습니다. / 현실 예시
-- Card 5 : 원문 기준 핵심 / Stability AI의 2026년 6월 3일 원문 기준: AI 이미지는 이제 생성보다 편집 가능성이 중요해지고 있습니다. / 사실과 해석 분리
-- Card 6 : 아직 조심할 점 / 아직 연구 단계로 보고, 실제 제품화 여부는 따로 확인해야 합니다. / 과장 금지
-- Card 7 : 한 줄 결론 / AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다. / 쉽게 보는 AI 변화
-- Card 8 CTA: 다음 AI 변화도 쉽게 볼까요? / 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요. / 저장하고 팔로우
+Card 1
+Main copy: AI 이미지는 이제 만드는 것보다 고치는 게 더 중요해집니다
+Sub copy: 내 일과 콘텐츠에 생길 변화를 먼저 봅니다.
+Note: 일반인용 핵심
+Card 2
+Main copy: 쉽게 말하면?
+Sub copy: 쉽게 말해, AI 이미지를 한 번 뽑고 끝내는 게 아니라 필요한 부분만 나눠 고치려는 기술입니다.
+Note: 전문용어 없이 보기
+Card 3
+Main copy: 왜 내 일과 관련 있나
+Sub copy: 썸네일, 상세페이지, 광고 이미지를 다시 만드는 시간을 줄일 수 있어 콘텐츠 제작 비용과 수정 속도에 영향을 줍니다.
+Note: 일, 돈, 콘텐츠와 연결
+Card 4
+Main copy: 어디에 써먹을 수 있나
+Sub copy: 카드뉴스 썸네일을 통째로 다시 만들지 않고, 배경과 물체를 나눠 고치는 식으로 작업할 수 있습니다.
+Note: 현실 예시
+Card 5
+Main copy: 원문 기준 핵심
+Sub copy: Stability AI의 2026년 6월 3일 원문 기준: AI 이미지는 이제 생성보다 편집 가능성이 중요해지고 있습니다.
+Note: 사실과 해석 분리
+Card 6
+Main copy: 아직 조심할 점
+Sub copy: 아직 연구 단계로 보고, 실제 제품화 여부는 따로 확인해야 합니다.
+Note: 과장 금지
+Card 7
+Main copy: 한 줄 결론
+Sub copy: AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.
+Note: 쉽게 보는 AI 변화
+Card 8
+Main copy: 다음 AI 변화도 쉽게 볼까요?
+Sub copy: 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.
+Note: 저장하고 팔로우
 - Last Card CTA: 저장해두고, 다음 AI 변화도 쉽게 확인하세요.
 
 ### Detailed Caption Draft
 AI 이미지의 진짜 시간 절약은 '처음 만들기'보다 '다시 고치기'에서 나옵니다.
 
-AI 이미지는 이제 만드는 것보다 고치는 게 더 중요해집니다 이 문장은 기술명을 외우게 하려는 제목이 아니라, 내 일상에서 뭐가 달라지는지 먼저 보게 하는 제목입니다. 비유하면 그림을 통째로 지우고 다시 그리는 게 아니라, 배경지와 인물 스티커를 따로 떼어 고치는 방식입니다.
+AI 이미지는 이제 만드는 것보다 고치는 게 더 중요해집니다. 비유하면 그림을 통째로 지우고 다시 그리는 게 아니라, 배경지와 인물 스티커를 따로 떼어 고치는 방식입니다.
 
-쉽게 말하면 AI 이미지를 한 번 뽑고 끝내는 게 아니라 필요한 부분만 나눠 고치려는 기술입니다. 카드뉴스 썸네일을 통째로 다시 만들지 않고, 배경과 물체를 나눠 고치는 식으로 작업할 수 있습니다. 그래서 이 소재는 전문가용 보고서보다 "내가 내일 어디에 써먹을 수 있지?"라는 질문으로 풀어야 합니다.
+쉽게 말하면 AI 이미지를 한 번 뽑고 끝내는 게 아니라 필요한 부분만 나눠 고치려는 기술입니다. 카드뉴스 썸네일을 통째로 다시 만들지 않고, 배경과 물체를 나눠 고치는 식으로 작업할 수 있습니다. 내 작업 시간, 비용, 결과물의 속도와 연결해서 보면 훨씬 가깝게 느껴집니다.
 
 왜 봐야 하냐면, 썸네일, 상세페이지, 광고 이미지를 다시 만드는 시간을 줄일 수 있어 콘텐츠 제작 비용과 수정 속도에 영향을 줍니다. 썸네일 배경만 바꾸기, 제품만 교체하기, 상세페이지 분위기만 바꾸기처럼 반복 수정에 바로 연결됩니다.
 
-공식 자료 기준 사실은 여기까지입니다. Stability AI가 2026년 6월 3일 공개한 원문에서 확인되는 내용입니다. Stability AI의 2026년 6월 3일 원문 기준: AI 이미지는 이제 생성보다 편집 가능성이 중요해지고 있습니다. 여기서부터는 해석입니다. 이 변화는 AI 이미지 제작의 중심이 생성에서 수정과 재활용으로 이동하는 흐름으로 볼 수 있습니다. 원문에서 확인된 내용과 우리가 붙이는 의미를 분리해야 과장이 줄어듭니다.
+공식 자료 기준으로 확인되는 내용은 이렇습니다. Stability AI가 2026년 6월 3일 공개한 원문에서 확인되는 내용입니다. Stability AI의 2026년 6월 3일 원문 기준: AI 이미지는 이제 생성보다 편집 가능성이 중요해지고 있습니다. 여기서 해석을 붙이면, 이 변화는 AI 이미지 제작의 중심이 생성에서 수정과 재활용으로 이동하는 흐름으로 볼 수 있습니다.
 
-VLM는 쉽게 말해 이미지와 글을 함께 이해하는 AI입니다. 이런 보충은 앞부분에 몰아넣지 않는 편이 좋습니다. 먼저 쉬운 장면으로 멈추게 하고, 저장한 사람이 뒤에서 기술 포인트를 확인하게 만드는 구성이 인스타에 더 맞습니다.
+VLM는 쉽게 말해 이미지와 글을 함께 이해하는 AI입니다. 처음에는 낯설어도, 실제 사용 장면과 연결하면 훨씬 덜 어렵습니다.
 
 조심할 점도 있습니다. 아직 연구 단계로 보고, 실제 제품화 여부는 따로 확인해야 합니다. 레이어가 나뉜다고 해서 모든 이미지가 완벽하게 편집 가능한 파일이 되는 것은 아닙니다. 공식 발표는 방향을 보여주지만, 가격, 사용권, 실제 성능, 적용 범위는 발행 전에 다시 확인해야 합니다.
 
-오늘 제작 판단은 저장형 카드뉴스입니다. 첫 장은 'AI 이미지, 이제 수정이 핵심'으로 잡고, 중간 카드에서 전후 수정 장면을 보여주면 저장 가치가 생깁니다.
+핵심은 AI 이미지 작업의 시간이 생성보다 수정 단계에서 더 많이 줄어들 수 있다는 점입니다.
 
 AI 이미지에서 여러분이 제일 자주 고치고 싶은 건 배경인가요, 인물인가요, 제품인가요?
 
@@ -501,14 +557,6 @@ AI 이미지에서 여러분이 제일 자주 고치고 싶은 건 배경인가�
 - thumbnail: Create a 4:5 carousel thumbnail background. Scene: a product poster separated into transparent layers, with the background, object, shadow, and color plate floating apart like editable sheets. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: layered poster, product cutout, editing glove. Color and lighting: clean studio white, translucent glass layers, focused green accent. Card role: "AI 이미지는 이제 만드는 것보다 고치는 게 더 중요해집니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - body_card: Create a 4:5 reusable explanatory body-card background. Scene: a product poster separated into transparent layers, with the background, object, shadow, and color plate floating apart like editable sheets. Specific visual direction: keep the center calm and place the main object lower right so Korean copy can sit clearly on the left. Key objects: layered poster, product cutout, editing glove. Color and lighting: clean studio white, translucent glass layers, focused green accent. Single-purpose visual with no collage. Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - cta_background: Create a calm 4:5 closing CTA background. Scene: a product poster separated into transparent layers, with the background, object, shadow, and color plate floating apart like editable sheets. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: layered poster, product cutout, editing glove. Color and lighting: clean studio white, translucent glass layers, focused green accent. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_1: Create a 4:5 visual background for carousel card 1. Scene: a product poster separated into transparent layers, with the background, object, shadow, and color plate floating apart like editable sheets. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: layered poster, product cutout, editing glove. Color and lighting: clean studio white, translucent glass layers, focused green accent. Card role: "AI 이미지는 이제 만드는 것보다 고치는 게 더 중요해집니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_2: Create a 4:5 visual background for carousel card 2. Scene: a product poster separated into transparent layers, with the background, object, shadow, and color plate floating apart like editable sheets. Specific visual direction: show the simple explanation visually, as if a complex box is opened to reveal one clear everyday object. Key objects: layered poster, product cutout, editing glove. Color and lighting: clean studio white, translucent glass layers, focused green accent. Card role: "쉽게 말하면?" / "쉽게 말해, AI 이미지를 한 번 뽑고 끝내는 게 아니라 필요한 부분만 나눠 고치려는 기술입니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_3: Create a 4:5 visual background for carousel card 3. Scene: a product poster separated into transparent layers, with the background, object, shadow, and color plate floating apart like editable sheets. Specific visual direction: connect the scene to time, money, work, or content output using objects like a calendar, receipt, clock, or creator dashboard without readable text. Key objects: layered poster, product cutout, editing glove. Color and lighting: clean studio white, translucent glass layers, focused green accent. Card role: "왜 내 일과 관련 있나" / "썸네일, 상세페이지, 광고 이미지를 다시 만드는 시간을 줄일 수 있어 콘텐츠 제작 비용과 수정 속도에 영향을 줍니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_4: Create a 4:5 visual background for carousel card 4. Scene: a product poster separated into transparent layers, with the background, object, shadow, and color plate floating apart like editable sheets. Specific visual direction: show the concrete everyday use case in progress, with a hand, desk tool, camera, laptop, or lab object doing one clear action. Key objects: layered poster, product cutout, editing glove. Color and lighting: clean studio white, translucent glass layers, focused green accent. Card role: "어디에 써먹을 수 있나" / "카드뉴스 썸네일을 통째로 다시 만들지 않고, 배경과 물체를 나눠 고치는 식으로 작업할 수 있습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_5: Create a 4:5 visual background for carousel card 5. Scene: a product poster separated into transparent layers, with the background, object, shadow, and color plate floating apart like editable sheets. Specific visual direction: show an official-source moment using an abstract document page, date marker, and verification pin without readable text or logos. Key objects: layered poster, product cutout, editing glove. Color and lighting: clean studio white, translucent glass layers, focused green accent. Card role: "원문 기준 핵심" / "Stability AI의 2026년 6월 3일 원문 기준: AI 이미지는 이제 생성보다 편집 가능성이 중요해지고 있습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_6: Create a 4:5 visual background for carousel card 6. Scene: a product poster separated into transparent layers, with the background, object, shadow, and color plate floating apart like editable sheets. Specific visual direction: show caution through a measuring ruler, checklist, small warning marker, or comparison scale, not fear imagery. Key objects: layered poster, product cutout, editing glove. Color and lighting: clean studio white, translucent glass layers, focused green accent. Card role: "아직 조심할 점" / "아직 연구 단계로 보고, 실제 제품화 여부는 따로 확인해야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_7: Create a 4:5 visual background for carousel card 7. Scene: a product poster separated into transparent layers, with the background, object, shadow, and color plate floating apart like editable sheets. Specific visual direction: show a clean one-line-conclusion feeling: one path from input to useful outcome, minimal and decisive. Key objects: layered poster, product cutout, editing glove. Color and lighting: clean studio white, translucent glass layers, focused green accent. Card role: "한 줄 결론" / "AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_8: Create a 4:5 visual background for carousel card 8. Scene: a product poster separated into transparent layers, with the background, object, shadow, and color plate floating apart like editable sheets. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: layered poster, product cutout, editing glove. Color and lighting: clean studio white, translucent glass layers, focused green accent. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 
 ## Candidate 04
 
@@ -542,24 +590,24 @@ AI에게 일을 맡겼다면, 이제 관리하는 법도 필요합니다
 ### Hook Title Candidates
 #### General Hook
 1. AI에게 일을 맡겼다면, 이제 관리하는 법도 필요합니다
-2. AI 업무 관리가 내 일에 들어오면 달라지는 것
-3. 이제 중요한 건 AI 이름보다 내가 써먹는 방법입니다
-4. 오늘 AI 변화, 쉽게 보면 이겁니다
-5. AI 업무 관리를 처음 보는 사람도 이해하게 정리했습니다
+2. AI에게 일을 맡기면 관리도 필요합니다
+3. AI 직원이 늘면 규칙부터 필요해집니다
+4. AI가 한 일을 확인하는 화면이 중요해집니다
+5. 업무 AI는 시키는 것보다 관리가 어렵습니다
 
 #### Viral Hook
-1. 이건 기술 뉴스가 아니라 돈과 일의 변화입니다
-2. AI를 잘 몰라도 이 변화는 봐야 합니다
-3. AI 업무 관리 때문에 내 시간이 아껴질 수 있습니다
-4. AI 업무 관리를 모르고 지나치면 AI 흐름이 더 어렵게 보입니다
-5. 업무 자동화에 먼저 연결되는 AI 변화입니다
+1. 회사에 AI 직원이 생기면 누가 관리할까
+2. AI가 일할수록 기록이 더 중요해집니다
+3. AI에게 맡긴 일, 그냥 믿어도 될까요
+4. 직장인이 먼저 알아야 할 AI 관리 흐름
+5. AI 업무 자동화의 다음 문제는 관리입니다
 
 #### Expert Note Hook
-1. AI 업무 관리, 원문 기준 핵심만 보면 이렇습니다
-2. AI 업무 관리의 기술 포인트는 후반부에서만 보면 됩니다
-3. AI 업무 관리를 과장 없이 보는 체크포인트
-4. 공식 발표와 해석을 분리해서 봐야 합니다
-5. 가능성과 확정 사실을 나눠서 봐야 합니다
+1. AI 업무 관리, 원문 기준으로 확인할 핵심
+2. AI 업무 관리, 데모와 실제 활용을 나눠 봐야 합니다
+3. AI 업무 관리, 아직 확인해야 할 조건
+4. AI 업무 관리를 과장 없이 보는 체크포인트
+5. AI 업무 관리, 발행 전 봐야 할 원문 포인트
 
 ### Source Summary
 Microsoft Official Blog의 2026-06-02 자료는 AI 에이전트 운영 관련 변화입니다. 핵심은 만드는 것보다 어디서 실행되고 누가 통제하는지가 중요해졌습니다. 업무 맥락과 웹 지식을 에이전트에 연결하는 컨텍스트 계층입니다. 발행 전에는 원문 링크, 출시 범위, 사용권, 과장 가능성을 함께 확인해야 합니다.
@@ -626,32 +674,56 @@ LOW
 
 #### If CAROUSEL
 - Recommended card count: 8
-- Card 1 Thumbnail: AI에게 일을 맡겼다면, 이제 관리하는 법도 필요합니다 / 내 일과 콘텐츠에 생길 변화를 먼저 봅니다. / 일반인용 핵심
-- Card 2 : 쉽게 말하면? / 쉽게 말해, 여러 AI에게 일을 맡기려면 관리표와 안전장치도 같이 필요해진다는 이야기입니다. / 전문용어 없이 보기
-- Card 3 : 왜 내 일과 관련 있나 / AI에게 일을 맡기는 회사가 늘수록 권한, 책임, 기록을 관리하는 방식이 실제 업무 기준이 되기 때문입니다. / 일, 돈, 콘텐츠와 연결
-- Card 4 : 어디에 써먹을 수 있나 / AI에게 일을 맡긴 뒤, 누가 어떤 권한으로 무엇을 했는지 확인하는 관리 화면이 필요해질 수 있습니다. / 현실 예시
-- Card 5 : 원문 기준 핵심 / Microsoft Official Blog의 2026년 6월 2일 원문 기준: 만드는 것보다 어디서 실행되고 누가 통제하는지가 중요해졌습니다. / 사실과 해석 분리
-- Card 6 : 아직 조심할 점 / 원문 기준으로 출시 범위, 실제 성능, 과장 가능성을 다시 확인해야 합니다. / 과장 금지
-- Card 7 : 한 줄 결론 / AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다. / 쉽게 보는 AI 변화
-- Card 8 CTA: 다음 AI 변화도 쉽게 볼까요? / 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요. / 저장하고 팔로우
+Card 1
+Main copy: AI에게 일을 맡겼다면, 이제 관리하는 법도 필요합니다
+Sub copy: 내 일과 콘텐츠에 생길 변화를 먼저 봅니다.
+Note: 일반인용 핵심
+Card 2
+Main copy: 쉽게 말하면?
+Sub copy: 쉽게 말해, 여러 AI에게 일을 맡기려면 관리표와 안전장치도 같이 필요해진다는 이야기입니다.
+Note: 전문용어 없이 보기
+Card 3
+Main copy: 왜 내 일과 관련 있나
+Sub copy: AI에게 일을 맡기는 회사가 늘수록 권한, 책임, 기록을 관리하는 방식이 실제 업무 기준이 되기 때문입니다.
+Note: 일, 돈, 콘텐츠와 연결
+Card 4
+Main copy: 어디에 써먹을 수 있나
+Sub copy: AI에게 일을 맡긴 뒤, 누가 어떤 권한으로 무엇을 했는지 확인하는 관리 화면이 필요해질 수 있습니다.
+Note: 현실 예시
+Card 5
+Main copy: 원문 기준 핵심
+Sub copy: Microsoft Official Blog의 2026년 6월 2일 원문 기준: 만드는 것보다 어디서 실행되고 누가 통제하는지가 중요해졌습니다.
+Note: 사실과 해석 분리
+Card 6
+Main copy: 아직 조심할 점
+Sub copy: 원문 기준으로 출시 범위, 실제 성능, 과장 가능성을 다시 확인해야 합니다.
+Note: 과장 금지
+Card 7
+Main copy: 한 줄 결론
+Sub copy: AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.
+Note: 쉽게 보는 AI 변화
+Card 8
+Main copy: 다음 AI 변화도 쉽게 볼까요?
+Sub copy: 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.
+Note: 저장하고 팔로우
 - Last Card CTA: 저장해두고, 다음 AI 변화도 쉽게 확인하세요.
 
 ### Detailed Caption Draft
 AI에게 일을 시키는 순간, 다음 질문은 '누가 이 일을 관리하지?'가 됩니다.
 
-AI에게 일을 맡겼다면, 이제 관리하는 법도 필요합니다 이 문장은 기술명을 외우게 하려는 제목이 아니라, 내 일상에서 뭐가 달라지는지 먼저 보게 하는 제목입니다. 비유하면 아르바이트생을 여러 명 뽑아놓고 출근표, 권한표, 업무일지를 새로 만드는 상황과 비슷합니다.
+AI에게 일을 맡겼다면, 이제 관리하는 법도 필요합니다. 비유하면 아르바이트생을 여러 명 뽑아놓고 출근표, 권한표, 업무일지를 새로 만드는 상황과 비슷합니다.
 
-쉽게 말하면 여러 AI에게 일을 맡기려면 관리표와 안전장치도 같이 필요해진다는 이야기입니다. AI에게 일을 맡긴 뒤, 누가 어떤 권한으로 무엇을 했는지 확인하는 관리 화면이 필요해질 수 있습니다. 그래서 이 소재는 전문가용 보고서보다 "내가 내일 어디에 써먹을 수 있지?"라는 질문으로 풀어야 합니다.
+쉽게 말하면 여러 AI에게 일을 맡기려면 관리표와 안전장치도 같이 필요해진다는 이야기입니다. AI에게 일을 맡긴 뒤, 누가 어떤 권한으로 무엇을 했는지 확인하는 관리 화면이 필요해질 수 있습니다. 내 작업 시간, 비용, 결과물의 속도와 연결해서 보면 훨씬 가깝게 느껴집니다.
 
 왜 봐야 하냐면, AI에게 일을 맡기는 회사가 늘수록 권한, 책임, 기록을 관리하는 방식이 실제 업무 기준이 되기 때문입니다. 보고서 작성, 고객 응대, 자료 검색처럼 AI가 맡는 일이 늘수록 누가 무엇을 했는지 남기는 장치가 필요합니다.
 
-공식 자료 기준 사실은 여기까지입니다. Microsoft Official Blog가 2026년 6월 2일 공개한 원문에서 확인되는 내용입니다. Microsoft Official Blog의 2026년 6월 2일 원문 기준: 만드는 것보다 어디서 실행되고 누가 통제하는지가 중요해졌습니다. 여기서부터는 해석입니다. 이 변화는 AI를 쓰는 단계를 넘어 AI 작업을 관리하는 기준이 중요해지는 흐름으로 볼 수 있습니다. 원문에서 확인된 내용과 우리가 붙이는 의미를 분리해야 과장이 줄어듭니다.
+공식 자료 기준으로 확인되는 내용은 이렇습니다. Microsoft Official Blog가 2026년 6월 2일 공개한 원문에서 확인되는 내용입니다. Microsoft Official Blog의 2026년 6월 2일 원문 기준: 만드는 것보다 어디서 실행되고 누가 통제하는지가 중요해졌습니다. 여기서 해석을 붙이면, 이 변화는 AI를 쓰는 단계를 넘어 AI 작업을 관리하는 기준이 중요해지는 흐름으로 볼 수 있습니다.
 
-전문용어를 더 붙이지 않아도 됩니다. 이 소재는 기능명보다 실제 사용 장면을 먼저 보여주는 편이 더 잘 읽힙니다. 이런 보충은 앞부분에 몰아넣지 않는 편이 좋습니다. 먼저 쉬운 장면으로 멈추게 하고, 저장한 사람이 뒤에서 기술 포인트를 확인하게 만드는 구성이 인스타에 더 맞습니다.
+어려운 이름보다 중요한 건 실제로 어디에 쓰이는지입니다. 처음에는 낯설어도, 실제 사용 장면과 연결하면 훨씬 덜 어렵습니다.
 
 조심할 점도 있습니다. 원문 기준으로 출시 범위, 실제 성능, 과장 가능성을 다시 확인해야 합니다. 관리 도구가 나온다고 해서 AI 실수가 사라지는 것은 아닙니다. 공식 발표는 방향을 보여주지만, 가격, 사용권, 실제 성능, 적용 범위는 발행 전에 다시 확인해야 합니다.
 
-오늘 제작 판단은 저장형 카드뉴스입니다. 카드뉴스는 'AI를 쓰는 법'보다 'AI를 통제하는 법'으로 잡으면 직장인에게 더 쉽게 닿습니다.
+핵심은 AI를 많이 쓰는 회사일수록 맡기는 법만큼 관리하는 법도 중요해진다는 점입니다.
 
 여러분 회사에 AI 직원이 생긴다면 제일 먼저 어떤 규칙이 필요할까요?
 
@@ -664,14 +736,6 @@ AI에게 일을 맡겼다면, 이제 관리하는 법도 필요합니다 이 문
 - thumbnail: Create a 4:5 carousel thumbnail background. Scene: a command desk where several small AI task cards move through permission gates, audit trails, and approval stamps without showing any text. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: control dashboard, permission keys, audit timeline. Color and lighting: quiet enterprise gray, signal blue, warning amber. Card role: "AI에게 일을 맡겼다면, 이제 관리하는 법도 필요합니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - body_card: Create a 4:5 reusable explanatory body-card background. Scene: a command desk where several small AI task cards move through permission gates, audit trails, and approval stamps without showing any text. Specific visual direction: keep the center calm and place the main object lower right so Korean copy can sit clearly on the left. Key objects: control dashboard, permission keys, audit timeline. Color and lighting: quiet enterprise gray, signal blue, warning amber. Single-purpose visual with no collage. Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - cta_background: Create a calm 4:5 closing CTA background. Scene: a command desk where several small AI task cards move through permission gates, audit trails, and approval stamps without showing any text. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: control dashboard, permission keys, audit timeline. Color and lighting: quiet enterprise gray, signal blue, warning amber. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_1: Create a 4:5 visual background for carousel card 1. Scene: a command desk where several small AI task cards move through permission gates, audit trails, and approval stamps without showing any text. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: control dashboard, permission keys, audit timeline. Color and lighting: quiet enterprise gray, signal blue, warning amber. Card role: "AI에게 일을 맡겼다면, 이제 관리하는 법도 필요합니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_2: Create a 4:5 visual background for carousel card 2. Scene: a command desk where several small AI task cards move through permission gates, audit trails, and approval stamps without showing any text. Specific visual direction: show the simple explanation visually, as if a complex box is opened to reveal one clear everyday object. Key objects: control dashboard, permission keys, audit timeline. Color and lighting: quiet enterprise gray, signal blue, warning amber. Card role: "쉽게 말하면?" / "쉽게 말해, 여러 AI에게 일을 맡기려면 관리표와 안전장치도 같이 필요해진다는 이야기입니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_3: Create a 4:5 visual background for carousel card 3. Scene: a command desk where several small AI task cards move through permission gates, audit trails, and approval stamps without showing any text. Specific visual direction: connect the scene to time, money, work, or content output using objects like a calendar, receipt, clock, or creator dashboard without readable text. Key objects: control dashboard, permission keys, audit timeline. Color and lighting: quiet enterprise gray, signal blue, warning amber. Card role: "왜 내 일과 관련 있나" / "AI에게 일을 맡기는 회사가 늘수록 권한, 책임, 기록을 관리하는 방식이 실제 업무 기준이 되기 때문입니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_4: Create a 4:5 visual background for carousel card 4. Scene: a command desk where several small AI task cards move through permission gates, audit trails, and approval stamps without showing any text. Specific visual direction: show the concrete everyday use case in progress, with a hand, desk tool, camera, laptop, or lab object doing one clear action. Key objects: control dashboard, permission keys, audit timeline. Color and lighting: quiet enterprise gray, signal blue, warning amber. Card role: "어디에 써먹을 수 있나" / "AI에게 일을 맡긴 뒤, 누가 어떤 권한으로 무엇을 했는지 확인하는 관리 화면이 필요해질 수 있습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_5: Create a 4:5 visual background for carousel card 5. Scene: a command desk where several small AI task cards move through permission gates, audit trails, and approval stamps without showing any text. Specific visual direction: show an official-source moment using an abstract document page, date marker, and verification pin without readable text or logos. Key objects: control dashboard, permission keys, audit timeline. Color and lighting: quiet enterprise gray, signal blue, warning amber. Card role: "원문 기준 핵심" / "Microsoft Official Blog의 2026년 6월 2일 원문 기준: 만드는 것보다 어디서 실행되고 누가 통제하는지가 중요해졌습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_6: Create a 4:5 visual background for carousel card 6. Scene: a command desk where several small AI task cards move through permission gates, audit trails, and approval stamps without showing any text. Specific visual direction: show caution through a measuring ruler, checklist, small warning marker, or comparison scale, not fear imagery. Key objects: control dashboard, permission keys, audit timeline. Color and lighting: quiet enterprise gray, signal blue, warning amber. Card role: "아직 조심할 점" / "원문 기준으로 출시 범위, 실제 성능, 과장 가능성을 다시 확인해야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_7: Create a 4:5 visual background for carousel card 7. Scene: a command desk where several small AI task cards move through permission gates, audit trails, and approval stamps without showing any text. Specific visual direction: show a clean one-line-conclusion feeling: one path from input to useful outcome, minimal and decisive. Key objects: control dashboard, permission keys, audit timeline. Color and lighting: quiet enterprise gray, signal blue, warning amber. Card role: "한 줄 결론" / "AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_8: Create a 4:5 visual background for carousel card 8. Scene: a command desk where several small AI task cards move through permission gates, audit trails, and approval stamps without showing any text. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: control dashboard, permission keys, audit timeline. Color and lighting: quiet enterprise gray, signal blue, warning amber. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 
 ## Candidate 05
 
@@ -705,24 +769,24 @@ AI에게 일을 맡겼다면, 이제 관리하는 법도 필요합니다 이 문
 ### Hook Title Candidates
 #### General Hook
 1. 개발자는 코드를 쓰는 사람에서 AI 작업을 검토하는 사람으로 바뀝니다
-2. AI 코딩 검토가 내 일에 들어오면 달라지는 것
-3. 이제 중요한 건 AI 이름보다 내가 써먹는 방법입니다
-4. 오늘 AI 변화, 쉽게 보면 이겁니다
-5. AI 코딩 검토를 처음 보는 사람도 이해하게 정리했습니다
+2. 개발자는 이제 AI 작업을 검토합니다
+3. 코딩보다 AI 결과 확인이 중요해집니다
+4. 코드를 쓰는 일보다 고르는 일이 커집니다
+5. AI 코딩 시대의 개발자 역할 변화
 
 #### Viral Hook
-1. 이건 기술 뉴스가 아니라 돈과 일의 변화입니다
-2. AI를 잘 몰라도 이 변화는 봐야 합니다
-3. AI 코딩 검토 때문에 내 시간이 아껴질 수 있습니다
-4. AI 코딩 검토를 모르고 지나치면 AI 흐름이 더 어렵게 보입니다
-5. 개발 업무에 먼저 연결되는 AI 변화입니다
+1. AI가 코드를 짜면 개발자는 뭘 할까
+2. 코딩 속도보다 검토 능력이 중요해집니다
+3. AI 코드가 많아질수록 사람이 더 봐야 합니다
+4. 개발자 일이 사라지는 게 아니라 바뀝니다
+5. AI 코딩 결과를 고르는 사람이 필요합니다
 
 #### Expert Note Hook
-1. AI 코딩 검토, 원문 기준 핵심만 보면 이렇습니다
-2. AI 코딩 검토의 기술 포인트는 후반부에서만 보면 됩니다
-3. AI 코딩 검토를 과장 없이 보는 체크포인트
-4. 공식 발표와 해석을 분리해서 봐야 합니다
-5. 가능성과 확정 사실을 나눠서 봐야 합니다
+1. AI 코딩 검토, 원문 기준으로 확인할 핵심
+2. AI 코딩 검토, 데모와 실제 활용을 나눠 봐야 합니다
+3. AI 코딩 검토, 아직 확인해야 할 조건
+4. AI 코딩 검토를 과장 없이 보는 체크포인트
+5. AI 코딩 검토, 발행 전 봐야 할 원문 포인트
 
 ### Source Summary
 GitHub Blog의 2026-06-02 자료는 코딩 에이전트 관련 변화입니다. 핵심은 한 번에 하나를 묻는 챗봇에서 여러 세션을 관리하는 흐름으로 갑니다. 여러 에이전트가 버그, 기능, 리뷰를 동시에 처리하면 상태판이 필요합니다. 발행 전에는 원문 링크, 출시 범위, 사용권, 과장 가능성을 함께 확인해야 합니다.
@@ -789,32 +853,56 @@ LOW
 
 #### If CAROUSEL
 - Recommended card count: 8
-- Card 1 Thumbnail: 개발자는 코드를 쓰는 사람에서 AI 작업을 검토하는 사람으로 바뀝니다 / 내 일과 콘텐츠에 생길 변화를 먼저 봅니다. / 일반인용 핵심
-- Card 2 : 쉽게 말하면? / 쉽게 말해, 개발자가 코드를 전부 직접 쓰기보다 AI 작업을 나눠 맡기고 검토하는 흐름입니다. / 전문용어 없이 보기
-- Card 3 : 왜 내 일과 관련 있나 / 코드를 직접 쓰는 시간보다 AI가 만든 결과를 검토하고 합치는 시간이 더 중요해질 수 있기 때문입니다. / 일, 돈, 콘텐츠와 연결
-- Card 4 : 어디에 써먹을 수 있나 / 개발자가 직접 모든 코드를 쓰기보다, 여러 AI 작업을 맡기고 결과를 검토하는 식으로 일이 바뀔 수 있습니다. / 현실 예시
-- Card 5 : 원문 기준 핵심 / GitHub Blog의 2026년 6월 2일 원문 기준: 한 번에 하나를 묻는 챗봇에서 여러 세션을 관리하는 흐름으로 갑니다. / 사실과 해석 분리
-- Card 6 : 아직 조심할 점 / 출시 범위와 가격은 원문에서 다시 확인해야 합니다. / 과장 금지
-- Card 7 : 한 줄 결론 / AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다. / 쉽게 보는 AI 변화
-- Card 8 CTA: 다음 AI 변화도 쉽게 볼까요? / 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요. / 저장하고 팔로우
+Card 1
+Main copy: 개발자는 코드를 쓰는 사람에서 AI 작업을 검토하는 사람으로 바뀝니다
+Sub copy: 내 일과 콘텐츠에 생길 변화를 먼저 봅니다.
+Note: 일반인용 핵심
+Card 2
+Main copy: 쉽게 말하면?
+Sub copy: 쉽게 말해, 개발자가 코드를 전부 직접 쓰기보다 AI 작업을 나눠 맡기고 검토하는 흐름입니다.
+Note: 전문용어 없이 보기
+Card 3
+Main copy: 왜 내 일과 관련 있나
+Sub copy: 코드를 직접 쓰는 시간보다 AI가 만든 결과를 검토하고 합치는 시간이 더 중요해질 수 있기 때문입니다.
+Note: 일, 돈, 콘텐츠와 연결
+Card 4
+Main copy: 어디에 써먹을 수 있나
+Sub copy: 개발자가 직접 모든 코드를 쓰기보다, 여러 AI 작업을 맡기고 결과를 검토하는 식으로 일이 바뀔 수 있습니다.
+Note: 현실 예시
+Card 5
+Main copy: 원문 기준 핵심
+Sub copy: GitHub Blog의 2026년 6월 2일 원문 기준: 한 번에 하나를 묻는 챗봇에서 여러 세션을 관리하는 흐름으로 갑니다.
+Note: 사실과 해석 분리
+Card 6
+Main copy: 아직 조심할 점
+Sub copy: 출시 범위와 가격은 원문에서 다시 확인해야 합니다.
+Note: 과장 금지
+Card 7
+Main copy: 한 줄 결론
+Sub copy: AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.
+Note: 쉽게 보는 AI 변화
+Card 8
+Main copy: 다음 AI 변화도 쉽게 볼까요?
+Sub copy: 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.
+Note: 저장하고 팔로우
 - Last Card CTA: 저장해두고, 다음 AI 변화도 쉽게 확인하세요.
 
 ### Detailed Caption Draft
 개발자의 일은 코드를 많이 치는 일에서, AI가 만든 결과를 고르는 일로 이동하고 있습니다.
 
-개발자는 코드를 쓰는 사람에서 AI 작업을 검토하는 사람으로 바뀝니다 이 문장은 기술명을 외우게 하려는 제목이 아니라, 내 일상에서 뭐가 달라지는지 먼저 보게 하는 제목입니다. 비유하면 혼자 벽돌을 쌓는 사람에서 여러 작업자를 감독하는 현장 소장에 가까워지는 겁니다.
+개발자는 코드를 쓰는 사람에서 AI 작업을 검토하는 사람으로 바뀝니다. 비유하면 혼자 벽돌을 쌓는 사람에서 여러 작업자를 감독하는 현장 소장에 가까워지는 겁니다.
 
-쉽게 말하면 개발자가 코드를 전부 직접 쓰기보다 AI 작업을 나눠 맡기고 검토하는 흐름입니다. 개발자가 직접 모든 코드를 쓰기보다, 여러 AI 작업을 맡기고 결과를 검토하는 식으로 일이 바뀔 수 있습니다. 그래서 이 소재는 전문가용 보고서보다 "내가 내일 어디에 써먹을 수 있지?"라는 질문으로 풀어야 합니다.
+쉽게 말하면 개발자가 코드를 전부 직접 쓰기보다 AI 작업을 나눠 맡기고 검토하는 흐름입니다. 개발자가 직접 모든 코드를 쓰기보다, 여러 AI 작업을 맡기고 결과를 검토하는 식으로 일이 바뀔 수 있습니다. 내 작업 시간, 비용, 결과물의 속도와 연결해서 보면 훨씬 가깝게 느껴집니다.
 
 왜 봐야 하냐면, 코드를 직접 쓰는 시간보다 AI가 만든 결과를 검토하고 합치는 시간이 더 중요해질 수 있기 때문입니다. 버그 수정, 기능 초안, 문서화처럼 작은 작업을 나눠 맡기고 사람은 방향과 품질을 확인하는 그림입니다.
 
-공식 자료 기준 사실은 여기까지입니다. GitHub Blog가 2026년 6월 2일 공개한 원문에서 확인되는 내용입니다. GitHub Blog의 2026년 6월 2일 원문 기준: 한 번에 하나를 묻는 챗봇에서 여러 세션을 관리하는 흐름으로 갑니다. 여기서부터는 해석입니다. 이 변화는 개발자가 직접 작성자에서 AI 작업 검토자로 역할을 넓히는 흐름으로 볼 수 있습니다. 원문에서 확인된 내용과 우리가 붙이는 의미를 분리해야 과장이 줄어듭니다.
+공식 자료 기준으로 확인되는 내용은 이렇습니다. GitHub Blog가 2026년 6월 2일 공개한 원문에서 확인되는 내용입니다. GitHub Blog의 2026년 6월 2일 원문 기준: 한 번에 하나를 묻는 챗봇에서 여러 세션을 관리하는 흐름으로 갑니다. 여기서 해석을 붙이면, 이 변화는 개발자가 직접 작성자에서 AI 작업 검토자로 역할을 넓히는 흐름으로 볼 수 있습니다.
 
-agentic는 쉽게 말해 AI가 여러 단계를 스스로 계획하고 실행하려는 방식입니다. 이런 보충은 앞부분에 몰아넣지 않는 편이 좋습니다. 먼저 쉬운 장면으로 멈추게 하고, 저장한 사람이 뒤에서 기술 포인트를 확인하게 만드는 구성이 인스타에 더 맞습니다.
+agentic는 쉽게 말해 AI가 여러 단계를 스스로 계획하고 실행하려는 방식입니다. 처음에는 낯설어도, 실제 사용 장면과 연결하면 훨씬 덜 어렵습니다.
 
 조심할 점도 있습니다. 출시 범위와 가격은 원문에서 다시 확인해야 합니다. AI가 만든 코드가 많아질수록 검토, 보안, 책임 소재는 더 중요해집니다. 공식 발표는 방향을 보여주지만, 가격, 사용권, 실제 성능, 적용 범위는 발행 전에 다시 확인해야 합니다.
 
-오늘 제작 판단은 저장형 카드뉴스입니다. 첫 장은 개발자만 알아듣는 기능명보다 '코딩보다 검토가 중요해진다'로 가는 편이 좋습니다.
+핵심은 개발자의 가치가 작성 속도보다 검토와 판단 쪽으로 넓어질 수 있다는 점입니다.
 
 AI가 코드를 대신 짠다면, 사람 개발자는 어디까지 맡아야 한다고 보시나요?
 
@@ -827,14 +915,6 @@ AI가 코드를 대신 짠다면, 사람 개발자는 어디까지 맡아야 한
 - thumbnail: Create a 4:5 carousel thumbnail background. Scene: a developer desk seen from above, with multiple abstract code windows flowing into a single review checklist controlled by one hand. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: review checklist, code panels, merge switch. Color and lighting: dark workstation, cyan code glow, calm white highlights. Card role: "개발자는 코드를 쓰는 사람에서 AI 작업을 검토하는 사람으로 바뀝니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - body_card: Create a 4:5 reusable explanatory body-card background. Scene: a developer desk seen from above, with multiple abstract code windows flowing into a single review checklist controlled by one hand. Specific visual direction: keep the center calm and place the main object lower right so Korean copy can sit clearly on the left. Key objects: review checklist, code panels, merge switch. Color and lighting: dark workstation, cyan code glow, calm white highlights. Single-purpose visual with no collage. Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - cta_background: Create a calm 4:5 closing CTA background. Scene: a developer desk seen from above, with multiple abstract code windows flowing into a single review checklist controlled by one hand. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: review checklist, code panels, merge switch. Color and lighting: dark workstation, cyan code glow, calm white highlights. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_1: Create a 4:5 visual background for carousel card 1. Scene: a developer desk seen from above, with multiple abstract code windows flowing into a single review checklist controlled by one hand. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: review checklist, code panels, merge switch. Color and lighting: dark workstation, cyan code glow, calm white highlights. Card role: "개발자는 코드를 쓰는 사람에서 AI 작업을 검토하는 사람으로 바뀝니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_2: Create a 4:5 visual background for carousel card 2. Scene: a developer desk seen from above, with multiple abstract code windows flowing into a single review checklist controlled by one hand. Specific visual direction: show the simple explanation visually, as if a complex box is opened to reveal one clear everyday object. Key objects: review checklist, code panels, merge switch. Color and lighting: dark workstation, cyan code glow, calm white highlights. Card role: "쉽게 말하면?" / "쉽게 말해, 개발자가 코드를 전부 직접 쓰기보다 AI 작업을 나눠 맡기고 검토하는 흐름입니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_3: Create a 4:5 visual background for carousel card 3. Scene: a developer desk seen from above, with multiple abstract code windows flowing into a single review checklist controlled by one hand. Specific visual direction: connect the scene to time, money, work, or content output using objects like a calendar, receipt, clock, or creator dashboard without readable text. Key objects: review checklist, code panels, merge switch. Color and lighting: dark workstation, cyan code glow, calm white highlights. Card role: "왜 내 일과 관련 있나" / "코드를 직접 쓰는 시간보다 AI가 만든 결과를 검토하고 합치는 시간이 더 중요해질 수 있기 때문입니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_4: Create a 4:5 visual background for carousel card 4. Scene: a developer desk seen from above, with multiple abstract code windows flowing into a single review checklist controlled by one hand. Specific visual direction: show the concrete everyday use case in progress, with a hand, desk tool, camera, laptop, or lab object doing one clear action. Key objects: review checklist, code panels, merge switch. Color and lighting: dark workstation, cyan code glow, calm white highlights. Card role: "어디에 써먹을 수 있나" / "개발자가 직접 모든 코드를 쓰기보다, 여러 AI 작업을 맡기고 결과를 검토하는 식으로 일이 바뀔 수 있습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_5: Create a 4:5 visual background for carousel card 5. Scene: a developer desk seen from above, with multiple abstract code windows flowing into a single review checklist controlled by one hand. Specific visual direction: show an official-source moment using an abstract document page, date marker, and verification pin without readable text or logos. Key objects: review checklist, code panels, merge switch. Color and lighting: dark workstation, cyan code glow, calm white highlights. Card role: "원문 기준 핵심" / "GitHub Blog의 2026년 6월 2일 원문 기준: 한 번에 하나를 묻는 챗봇에서 여러 세션을 관리하는 흐름으로 갑니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_6: Create a 4:5 visual background for carousel card 6. Scene: a developer desk seen from above, with multiple abstract code windows flowing into a single review checklist controlled by one hand. Specific visual direction: show caution through a measuring ruler, checklist, small warning marker, or comparison scale, not fear imagery. Key objects: review checklist, code panels, merge switch. Color and lighting: dark workstation, cyan code glow, calm white highlights. Card role: "아직 조심할 점" / "출시 범위와 가격은 원문에서 다시 확인해야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_7: Create a 4:5 visual background for carousel card 7. Scene: a developer desk seen from above, with multiple abstract code windows flowing into a single review checklist controlled by one hand. Specific visual direction: show a clean one-line-conclusion feeling: one path from input to useful outcome, minimal and decisive. Key objects: review checklist, code panels, merge switch. Color and lighting: dark workstation, cyan code glow, calm white highlights. Card role: "한 줄 결론" / "AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_8: Create a 4:5 visual background for carousel card 8. Scene: a developer desk seen from above, with multiple abstract code windows flowing into a single review checklist controlled by one hand. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: review checklist, code panels, merge switch. Color and lighting: dark workstation, cyan code glow, calm white highlights. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 
 ## Candidate 06
 
@@ -868,24 +948,24 @@ AI가 회의실을 넘어 연구실 조수처럼 쓰이기 시작했습니다
 ### Hook Title Candidates
 #### General Hook
 1. AI가 회의실을 넘어 연구실 조수처럼 쓰이기 시작했습니다
-2. 연구를 돕는 AI가 내 일에 들어오면 달라지는 것
-3. 이제 중요한 건 AI 이름보다 내가 써먹는 방법입니다
-4. 오늘 AI 변화, 쉽게 보면 이겁니다
-5. 연구를 돕는 AI를 처음 보는 사람도 이해하게 정리했습니다
+2. AI가 연구실 조수처럼 쓰이기 시작했습니다
+3. 다음 실험 후보를 AI가 먼저 찾아봅니다
+4. 연구 속도를 바꾸는 AI 조수
+5. 실험 노트를 읽는 AI가 늘어납니다
 
 #### Viral Hook
-1. 이건 기술 뉴스가 아니라 돈과 일의 변화입니다
-2. AI를 잘 몰라도 이 변화는 봐야 합니다
-3. 연구를 돕는 AI 때문에 내 시간이 아껴질 수 있습니다
-4. 연구를 돕는 AI를 모르고 지나치면 AI 흐름이 더 어렵게 보입니다
-5. 연구와 실험에 먼저 연결되는 AI 변화입니다
+1. AI가 연구실에 들어가면 뭐가 달라질까
+2. 다음 신약 후보를 찾는 방식이 바뀔 수 있습니다
+3. 실험이 많은 산업은 이 변화를 봐야 합니다
+4. AI가 자료 정리를 넘어 실험을 돕습니다
+5. 연구 시간이 줄어드는 출발점
 
 #### Expert Note Hook
-1. 연구를 돕는 AI, 원문 기준 핵심만 보면 이렇습니다
-2. 연구를 돕는 AI의 기술 포인트는 후반부에서만 보면 됩니다
-3. 연구를 돕는 AI를 과장 없이 보는 체크포인트
-4. 공식 발표와 해석을 분리해서 봐야 합니다
-5. 가능성과 확정 사실을 나눠서 봐야 합니다
+1. 연구를 돕는 AI, 원문 기준으로 확인할 핵심
+2. 연구를 돕는 AI, 데모와 실제 활용을 나눠 봐야 합니다
+3. 연구를 돕는 AI, 아직 확인해야 할 조건
+4. 연구를 돕는 AI를 과장 없이 보는 체크포인트
+5. 연구를 돕는 AI, 발행 전 봐야 할 원문 포인트
 
 ### Source Summary
 Microsoft Source의 2026-06-02 자료는 과학 연구 에이전트 관련 변화입니다. 핵심은 Microsoft는 Discovery의 agentic AI가 칩 연구 workflow를 도왔다고 설명합니다. 측정 관리, 제조 최적화, 결함 탐지, 해결책 제안 같은 복잡한 작업입니다. 발행 전에는 원문 링크, 출시 범위, 사용권, 과장 가능성을 함께 확인해야 합니다.
@@ -952,32 +1032,56 @@ MEDIUM
 
 #### If CAROUSEL
 - Recommended card count: 8
-- Card 1 Thumbnail: AI가 회의실을 넘어 연구실 조수처럼 쓰이기 시작했습니다 / 내 일과 콘텐츠에 생길 변화를 먼저 봅니다. / 일반인용 핵심
-- Card 2 : 쉽게 말하면? / 쉽게 말해, AI가 연구 데이터를 살피고 다음 실험 후보를 제안하는 조수처럼 쓰이는 흐름입니다. / 전문용어 없이 보기
-- Card 3 : 왜 내 일과 관련 있나 / 연구와 실험 속도가 빨라지면 신약, 소재, 반도체처럼 생활에 닿는 산업의 개발 방식도 달라질 수 있습니다. / 일, 돈, 콘텐츠와 연결
-- Card 4 : 어디에 써먹을 수 있나 / 복잡한 실험에서 AI가 데이터를 살피고 다음 실험 후보를 제안하는 조수처럼 쓰일 수 있습니다. / 현실 예시
-- Card 5 : 원문 기준 핵심 / Microsoft Source의 2026년 6월 2일 원문 기준: Microsoft는 Discovery의 agentic AI가 칩 연구 workflow를 도왔다고 설명합니다. / 사실과 해석 분리
-- Card 6 : 아직 조심할 점 / 양자 컴퓨터 일정은 전망입니다. 확정처럼 말하면 안 됩니다. / 과장 금지
-- Card 7 : 한 줄 결론 / AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다. / 쉽게 보는 AI 변화
-- Card 8 CTA: 다음 AI 변화도 쉽게 볼까요? / 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요. / 저장하고 팔로우
+Card 1
+Main copy: AI가 회의실을 넘어 연구실 조수처럼 쓰이기 시작했습니다
+Sub copy: 내 일과 콘텐츠에 생길 변화를 먼저 봅니다.
+Note: 일반인용 핵심
+Card 2
+Main copy: 쉽게 말하면?
+Sub copy: 쉽게 말해, AI가 연구 데이터를 살피고 다음 실험 후보를 제안하는 조수처럼 쓰이는 흐름입니다.
+Note: 전문용어 없이 보기
+Card 3
+Main copy: 왜 내 일과 관련 있나
+Sub copy: 연구와 실험 속도가 빨라지면 신약, 소재, 반도체처럼 생활에 닿는 산업의 개발 방식도 달라질 수 있습니다.
+Note: 일, 돈, 콘텐츠와 연결
+Card 4
+Main copy: 어디에 써먹을 수 있나
+Sub copy: 복잡한 실험에서 AI가 데이터를 살피고 다음 실험 후보를 제안하는 조수처럼 쓰일 수 있습니다.
+Note: 현실 예시
+Card 5
+Main copy: 원문 기준 핵심
+Sub copy: Microsoft Source의 2026년 6월 2일 원문 기준: Microsoft는 Discovery의 agentic AI가 칩 연구 workflow를 도왔다고 설명합니다.
+Note: 사실과 해석 분리
+Card 6
+Main copy: 아직 조심할 점
+Sub copy: 양자 컴퓨터 일정은 전망입니다. 확정처럼 말하면 안 됩니다.
+Note: 과장 금지
+Card 7
+Main copy: 한 줄 결론
+Sub copy: AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.
+Note: 쉽게 보는 AI 변화
+Card 8
+Main copy: 다음 AI 변화도 쉽게 볼까요?
+Sub copy: 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.
+Note: 저장하고 팔로우
 - Last Card CTA: 저장해두고, 다음 AI 변화도 쉽게 확인하세요.
 
 ### Detailed Caption Draft
 AI가 회의록만 정리하는 도구를 넘어, 연구실에서 다음 실험 후보를 고르는 조수처럼 쓰이기 시작했습니다.
 
-AI가 회의실을 넘어 연구실 조수처럼 쓰이기 시작했습니다 이 문장은 기술명을 외우게 하려는 제목이 아니라, 내 일상에서 뭐가 달라지는지 먼저 보게 하는 제목입니다. 비유하면 수많은 실험 노트를 뒤져 '다음에는 이 조합을 먼저 보자'고 말해주는 보조 연구원입니다.
+AI가 회의실을 넘어 연구실 조수처럼 쓰이기 시작했습니다. 비유하면 수많은 실험 노트를 뒤져 '다음에는 이 조합을 먼저 보자'고 말해주는 보조 연구원입니다.
 
-쉽게 말하면 AI가 연구 데이터를 살피고 다음 실험 후보를 제안하는 조수처럼 쓰이는 흐름입니다. 복잡한 실험에서 AI가 데이터를 살피고 다음 실험 후보를 제안하는 조수처럼 쓰일 수 있습니다. 그래서 이 소재는 전문가용 보고서보다 "내가 내일 어디에 써먹을 수 있지?"라는 질문으로 풀어야 합니다.
+쉽게 말하면 AI가 연구 데이터를 살피고 다음 실험 후보를 제안하는 조수처럼 쓰이는 흐름입니다. 복잡한 실험에서 AI가 데이터를 살피고 다음 실험 후보를 제안하는 조수처럼 쓰일 수 있습니다. 내 작업 시간, 비용, 결과물의 속도와 연결해서 보면 훨씬 가깝게 느껴집니다.
 
 왜 봐야 하냐면, 연구와 실험 속도가 빨라지면 신약, 소재, 반도체처럼 생활에 닿는 산업의 개발 방식도 달라질 수 있습니다. 신소재, 반도체, 의약품처럼 실험 후보가 너무 많은 분야에서 탐색 시간을 줄이는 방향으로 연결될 수 있습니다.
 
-공식 자료 기준 사실은 여기까지입니다. Microsoft Source가 2026년 6월 2일 공개한 원문에서 확인되는 내용입니다. Microsoft Source의 2026년 6월 2일 원문 기준: Microsoft는 Discovery의 agentic AI가 칩 연구 workflow를 도왔다고 설명합니다. 여기서부터는 해석입니다. 이 변화는 AI가 사무실 도구를 넘어 연구와 실험 보조로 들어오는 흐름으로 볼 수 있습니다. 원문에서 확인된 내용과 우리가 붙이는 의미를 분리해야 과장이 줄어듭니다.
+공식 자료 기준으로 확인되는 내용은 이렇습니다. Microsoft Source가 2026년 6월 2일 공개한 원문에서 확인되는 내용입니다. Microsoft Source의 2026년 6월 2일 원문 기준: Microsoft는 Discovery의 agentic AI가 칩 연구 workflow를 도왔다고 설명합니다. 여기서 해석을 붙이면, 이 변화는 AI가 사무실 도구를 넘어 연구와 실험 보조로 들어오는 흐름으로 볼 수 있습니다.
 
-agentic는 쉽게 말해 AI가 여러 단계를 스스로 계획하고 실행하려는 방식입니다. 이런 보충은 앞부분에 몰아넣지 않는 편이 좋습니다. 먼저 쉬운 장면으로 멈추게 하고, 저장한 사람이 뒤에서 기술 포인트를 확인하게 만드는 구성이 인스타에 더 맞습니다.
+agentic는 쉽게 말해 AI가 여러 단계를 스스로 계획하고 실행하려는 방식입니다. 처음에는 낯설어도, 실제 사용 장면과 연결하면 훨씬 덜 어렵습니다.
 
 조심할 점도 있습니다. 양자 컴퓨터 일정은 전망입니다. 확정처럼 말하면 안 됩니다. 연구 보조가 곧 발견 보장을 뜻하지는 않습니다. 실험과 검증은 여전히 필요합니다. 공식 발표는 방향을 보여주지만, 가격, 사용권, 실제 성능, 적용 범위는 발행 전에 다시 확인해야 합니다.
 
-오늘 제작 판단은 릴스 먼저 보여주고, 카드뉴스로 저장시키는 구성입니다. 릴스는 연구실 장면으로 시선을 잡고, 카드뉴스는 '왜 내 생활 산업까지 이어질 수 있는가'를 풀면 좋습니다.
+핵심은 AI가 사무 도구를 넘어 실험과 발견의 속도에도 영향을 줄 수 있다는 점입니다.
 
 AI가 연구 속도를 높이면 가장 먼저 바뀔 산업은 어디라고 보시나요?
 
@@ -991,14 +1095,6 @@ AI가 연구 속도를 높이면 가장 먼저 바뀔 산업은 어디라고 보
 - thumbnail: Create a 4:5 carousel thumbnail background. Scene: a research bench with sample trays, microscope glass, and a glowing suggestion path connecting possible next experiments. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: sample tray, microscope, experiment path. Color and lighting: laboratory silver, clean white light, electric blue data glow. Card role: "AI가 회의실을 넘어 연구실 조수처럼 쓰이기 시작했습니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - body_card: Create a 4:5 reusable explanatory body-card background. Scene: a research bench with sample trays, microscope glass, and a glowing suggestion path connecting possible next experiments. Specific visual direction: keep the center calm and place the main object lower right so Korean copy can sit clearly on the left. Key objects: sample tray, microscope, experiment path. Color and lighting: laboratory silver, clean white light, electric blue data glow. Single-purpose visual with no collage. Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - cta_background: Create a calm 4:5 closing CTA background. Scene: a research bench with sample trays, microscope glass, and a glowing suggestion path connecting possible next experiments. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: sample tray, microscope, experiment path. Color and lighting: laboratory silver, clean white light, electric blue data glow. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_1: Create a 4:5 visual background for carousel card 1. Scene: a research bench with sample trays, microscope glass, and a glowing suggestion path connecting possible next experiments. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: sample tray, microscope, experiment path. Color and lighting: laboratory silver, clean white light, electric blue data glow. Card role: "AI가 회의실을 넘어 연구실 조수처럼 쓰이기 시작했습니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_2: Create a 4:5 visual background for carousel card 2. Scene: a research bench with sample trays, microscope glass, and a glowing suggestion path connecting possible next experiments. Specific visual direction: show the simple explanation visually, as if a complex box is opened to reveal one clear everyday object. Key objects: sample tray, microscope, experiment path. Color and lighting: laboratory silver, clean white light, electric blue data glow. Card role: "쉽게 말하면?" / "쉽게 말해, AI가 연구 데이터를 살피고 다음 실험 후보를 제안하는 조수처럼 쓰이는 흐름입니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_3: Create a 4:5 visual background for carousel card 3. Scene: a research bench with sample trays, microscope glass, and a glowing suggestion path connecting possible next experiments. Specific visual direction: connect the scene to time, money, work, or content output using objects like a calendar, receipt, clock, or creator dashboard without readable text. Key objects: sample tray, microscope, experiment path. Color and lighting: laboratory silver, clean white light, electric blue data glow. Card role: "왜 내 일과 관련 있나" / "연구와 실험 속도가 빨라지면 신약, 소재, 반도체처럼 생활에 닿는 산업의 개발 방식도 달라질 수 있습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_4: Create a 4:5 visual background for carousel card 4. Scene: a research bench with sample trays, microscope glass, and a glowing suggestion path connecting possible next experiments. Specific visual direction: show the concrete everyday use case in progress, with a hand, desk tool, camera, laptop, or lab object doing one clear action. Key objects: sample tray, microscope, experiment path. Color and lighting: laboratory silver, clean white light, electric blue data glow. Card role: "어디에 써먹을 수 있나" / "복잡한 실험에서 AI가 데이터를 살피고 다음 실험 후보를 제안하는 조수처럼 쓰일 수 있습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_5: Create a 4:5 visual background for carousel card 5. Scene: a research bench with sample trays, microscope glass, and a glowing suggestion path connecting possible next experiments. Specific visual direction: show an official-source moment using an abstract document page, date marker, and verification pin without readable text or logos. Key objects: sample tray, microscope, experiment path. Color and lighting: laboratory silver, clean white light, electric blue data glow. Card role: "원문 기준 핵심" / "Microsoft Source의 2026년 6월 2일 원문 기준: Microsoft는 Discovery의 agentic AI가 칩 연구 workflow를 도왔다고 설명합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_6: Create a 4:5 visual background for carousel card 6. Scene: a research bench with sample trays, microscope glass, and a glowing suggestion path connecting possible next experiments. Specific visual direction: show caution through a measuring ruler, checklist, small warning marker, or comparison scale, not fear imagery. Key objects: sample tray, microscope, experiment path. Color and lighting: laboratory silver, clean white light, electric blue data glow. Card role: "아직 조심할 점" / "양자 컴퓨터 일정은 전망입니다. 확정처럼 말하면 안 됩니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_7: Create a 4:5 visual background for carousel card 7. Scene: a research bench with sample trays, microscope glass, and a glowing suggestion path connecting possible next experiments. Specific visual direction: show a clean one-line-conclusion feeling: one path from input to useful outcome, minimal and decisive. Key objects: sample tray, microscope, experiment path. Color and lighting: laboratory silver, clean white light, electric blue data glow. Card role: "한 줄 결론" / "AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_8: Create a 4:5 visual background for carousel card 8. Scene: a research bench with sample trays, microscope glass, and a glowing suggestion path connecting possible next experiments. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: sample tray, microscope, experiment path. Color and lighting: laboratory silver, clean white light, electric blue data glow. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 
 ## Candidate 07
 
@@ -1032,24 +1128,24 @@ AI가 코드를 짜는 만큼, 코드를 지키는 AI도 필요해집니다
 ### Hook Title Candidates
 #### General Hook
 1. AI가 코드를 짜는 만큼, 코드를 지키는 AI도 필요해집니다
-2. 코드를 지키는 AI가 내 일에 들어오면 달라지는 것
-3. 이제 중요한 건 AI 이름보다 내가 써먹는 방법입니다
-4. 오늘 AI 변화, 쉽게 보면 이겁니다
-5. 코드를 지키는 AI를 처음 보는 사람도 이해하게 정리했습니다
+2. AI가 만든 코드를 지키는 AI도 필요합니다
+3. 코드가 빨리 만들어질수록 점검도 빨라져야 합니다
+4. AI 서비스의 다음 문제는 보안입니다
+5. AI 코딩 뒤에는 보안 점검이 따라옵니다
 
 #### Viral Hook
-1. 이건 기술 뉴스가 아니라 돈과 일의 변화입니다
-2. AI를 잘 몰라도 이 변화는 봐야 합니다
-3. 코드를 지키는 AI 때문에 내 시간이 아껴질 수 있습니다
-4. 코드를 지키는 AI를 모르고 지나치면 AI 흐름이 더 어렵게 보입니다
-5. 보안에 먼저 연결되는 AI 변화입니다
+1. AI로 만든 코드, 그냥 배포해도 될까요
+2. 개발 속도가 빨라질수록 구멍도 빨리 생깁니다
+3. AI가 만든 서비스를 지키는 방법
+4. 보안 점검 없는 AI 코딩은 위험합니다
+5. 작은 회사도 이 AI 보안 흐름을 봐야 합니다
 
 #### Expert Note Hook
-1. 코드를 지키는 AI, 원문 기준 핵심만 보면 이렇습니다
-2. 코드를 지키는 AI의 기술 포인트는 후반부에서만 보면 됩니다
-3. 코드를 지키는 AI를 과장 없이 보는 체크포인트
-4. 공식 발표와 해석을 분리해서 봐야 합니다
-5. 가능성과 확정 사실을 나눠서 봐야 합니다
+1. 코드를 지키는 AI, 원문 기준으로 확인할 핵심
+2. 코드를 지키는 AI, 데모와 실제 활용을 나눠 봐야 합니다
+3. 코드를 지키는 AI, 아직 확인해야 할 조건
+4. 코드를 지키는 AI를 과장 없이 보는 체크포인트
+5. 코드를 지키는 AI, 발행 전 봐야 할 원문 포인트
 
 ### Source Summary
 Anthropic의 2026-06-02 자료는 AI 보안 관련 변화입니다. 핵심은 Anthropic은 Project Glasswing 확장과 Claude Security를 발표했습니다. 코드베이스를 스캔하고 패치를 제안하는 방어적 AI 활용입니다. 발행 전에는 원문 링크, 출시 범위, 사용권, 과장 가능성을 함께 확인해야 합니다.
@@ -1116,32 +1212,56 @@ MEDIUM
 
 #### If CAROUSEL
 - Recommended card count: 8
-- Card 1 Thumbnail: AI가 코드를 짜는 만큼, 코드를 지키는 AI도 필요해집니다 / 내 일과 콘텐츠에 생길 변화를 먼저 봅니다. / 일반인용 핵심
-- Card 2 : 쉽게 말하면? / 쉽게 말해, AI가 만든 코드가 늘어날수록 그 코드를 지키는 AI도 필요해진다는 이야기입니다. / 전문용어 없이 보기
-- Card 3 : 왜 내 일과 관련 있나 / AI가 코드를 더 빨리 만들수록 오류와 보안 구멍도 빨리 생길 수 있어, 작은 회사와 개인 서비스에도 영향을 줍니다. / 일, 돈, 콘텐츠와 연결
-- Card 4 : 어디에 써먹을 수 있나 / 회사 코드나 홈페이지에서 위험한 구멍을 더 빨리 찾고 고치는 도구가 늘어날 수 있습니다. / 현실 예시
-- Card 5 : 원문 기준 핵심 / Anthropic의 2026년 6월 2일 원문 기준: Anthropic은 Project Glasswing 확장과 Claude Security를 발표했습니다. / 사실과 해석 분리
-- Card 6 : 아직 조심할 점 / 악용 방법은 다루지 않고, 방어 관점과 운영 리스크만 설명합니다. / 과장 금지
-- Card 7 : 한 줄 결론 / AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다. / 쉽게 보는 AI 변화
-- Card 8 CTA: 다음 AI 변화도 쉽게 볼까요? / 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요. / 저장하고 팔로우
+Card 1
+Main copy: AI가 코드를 짜는 만큼, 코드를 지키는 AI도 필요해집니다
+Sub copy: 내 일과 콘텐츠에 생길 변화를 먼저 봅니다.
+Note: 일반인용 핵심
+Card 2
+Main copy: 쉽게 말하면?
+Sub copy: 쉽게 말해, AI가 만든 코드가 늘어날수록 그 코드를 지키는 AI도 필요해진다는 이야기입니다.
+Note: 전문용어 없이 보기
+Card 3
+Main copy: 왜 내 일과 관련 있나
+Sub copy: AI가 코드를 더 빨리 만들수록 오류와 보안 구멍도 빨리 생길 수 있어, 작은 회사와 개인 서비스에도 영향을 줍니다.
+Note: 일, 돈, 콘텐츠와 연결
+Card 4
+Main copy: 어디에 써먹을 수 있나
+Sub copy: 회사 코드나 홈페이지에서 위험한 구멍을 더 빨리 찾고 고치는 도구가 늘어날 수 있습니다.
+Note: 현실 예시
+Card 5
+Main copy: 원문 기준 핵심
+Sub copy: Anthropic의 2026년 6월 2일 원문 기준: Anthropic은 Project Glasswing 확장과 Claude Security를 발표했습니다.
+Note: 사실과 해석 분리
+Card 6
+Main copy: 아직 조심할 점
+Sub copy: 악용 방법은 다루지 않고, 방어 관점과 운영 리스크만 설명합니다.
+Note: 과장 금지
+Card 7
+Main copy: 한 줄 결론
+Sub copy: AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.
+Note: 쉽게 보는 AI 변화
+Card 8
+Main copy: 다음 AI 변화도 쉽게 볼까요?
+Sub copy: 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.
+Note: 저장하고 팔로우
 - Last Card CTA: 저장해두고, 다음 AI 변화도 쉽게 확인하세요.
 
 ### Detailed Caption Draft
 AI가 코드를 빨리 만들수록, 위험한 구멍도 더 빨리 생길 수 있습니다.
 
-AI가 코드를 짜는 만큼, 코드를 지키는 AI도 필요해집니다 이 문장은 기술명을 외우게 하려는 제목이 아니라, 내 일상에서 뭐가 달라지는지 먼저 보게 하는 제목입니다. 비유하면 집을 빠르게 짓는 기술이 좋아질수록, 문단속을 확인하는 사람도 더 필요해지는 셈입니다.
+AI가 코드를 짜는 만큼, 코드를 지키는 AI도 필요해집니다. 비유하면 집을 빠르게 짓는 기술이 좋아질수록, 문단속을 확인하는 사람도 더 필요해지는 셈입니다.
 
-쉽게 말하면 AI가 만든 코드가 늘어날수록 그 코드를 지키는 AI도 필요해진다는 이야기입니다. 회사 코드나 홈페이지에서 위험한 구멍을 더 빨리 찾고 고치는 도구가 늘어날 수 있습니다. 그래서 이 소재는 전문가용 보고서보다 "내가 내일 어디에 써먹을 수 있지?"라는 질문으로 풀어야 합니다.
+쉽게 말하면 AI가 만든 코드가 늘어날수록 그 코드를 지키는 AI도 필요해진다는 이야기입니다. 회사 코드나 홈페이지에서 위험한 구멍을 더 빨리 찾고 고치는 도구가 늘어날 수 있습니다. 내 작업 시간, 비용, 결과물의 속도와 연결해서 보면 훨씬 가깝게 느껴집니다.
 
 왜 봐야 하냐면, AI가 코드를 더 빨리 만들수록 오류와 보안 구멍도 빨리 생길 수 있어, 작은 회사와 개인 서비스에도 영향을 줍니다. 작은 쇼핑몰, 사내 도구, 랜딩페이지처럼 개발 속도를 높인 서비스일수록 보안 점검의 중요성이 커집니다.
 
-공식 자료 기준 사실은 여기까지입니다. Anthropic가 2026년 6월 2일 공개한 원문에서 확인되는 내용입니다. Anthropic의 2026년 6월 2일 원문 기준: Anthropic은 Project Glasswing 확장과 Claude Security를 발표했습니다. 여기서부터는 해석입니다. 이 변화는 AI가 만든 결과물을 다시 AI로 점검해야 하는 흐름으로 볼 수 있습니다. 원문에서 확인된 내용과 우리가 붙이는 의미를 분리해야 과장이 줄어듭니다.
+공식 자료 기준으로 확인되는 내용은 이렇습니다. Anthropic가 2026년 6월 2일 공개한 원문에서 확인되는 내용입니다. Anthropic의 2026년 6월 2일 원문 기준: Anthropic은 Project Glasswing 확장과 Claude Security를 발표했습니다. 여기서 해석을 붙이면, 이 변화는 AI가 만든 결과물을 다시 AI로 점검해야 하는 흐름으로 볼 수 있습니다.
 
-전문용어를 더 붙이지 않아도 됩니다. 이 소재는 기능명보다 실제 사용 장면을 먼저 보여주는 편이 더 잘 읽힙니다. 이런 보충은 앞부분에 몰아넣지 않는 편이 좋습니다. 먼저 쉬운 장면으로 멈추게 하고, 저장한 사람이 뒤에서 기술 포인트를 확인하게 만드는 구성이 인스타에 더 맞습니다.
+어려운 이름보다 중요한 건 실제로 어디에 쓰이는지입니다. 처음에는 낯설어도, 실제 사용 장면과 연결하면 훨씬 덜 어렵습니다.
 
 조심할 점도 있습니다. 악용 방법은 다루지 않고, 방어 관점과 운영 리스크만 설명합니다. 보안 AI가 있다고 해서 사람이 확인해야 할 책임이 사라지는 것은 아닙니다. 공식 발표는 방향을 보여주지만, 가격, 사용권, 실제 성능, 적용 범위는 발행 전에 다시 확인해야 합니다.
 
-오늘 제작 판단은 저장형 카드뉴스입니다. 첫 장은 무서운 해킹 이미지보다 'AI가 만든 코드를 지키는 AI'라는 대비로 잡는 편이 명확합니다.
+핵심은 AI로 만든 코드가 늘어날수록 점검과 방어도 함께 커져야 한다는 점입니다.
 
 AI로 만든 서비스가 늘어나면, 보안 점검은 누가 책임져야 할까요?
 
@@ -1154,14 +1274,6 @@ AI로 만든 서비스가 늘어나면, 보안 점검은 누가 책임져야 할
 - thumbnail: Create a 4:5 carousel thumbnail background. Scene: a code repository visualized as a building blueprint while a scanning shield finds one small vulnerable doorway. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: shield scanner, blueprint, risk marker. Color and lighting: matte black security room, cool cyan scan lines, red risk pin. Card role: "AI가 코드를 짜는 만큼, 코드를 지키는 AI도 필요해집니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - body_card: Create a 4:5 reusable explanatory body-card background. Scene: a code repository visualized as a building blueprint while a scanning shield finds one small vulnerable doorway. Specific visual direction: keep the center calm and place the main object lower right so Korean copy can sit clearly on the left. Key objects: shield scanner, blueprint, risk marker. Color and lighting: matte black security room, cool cyan scan lines, red risk pin. Single-purpose visual with no collage. Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - cta_background: Create a calm 4:5 closing CTA background. Scene: a code repository visualized as a building blueprint while a scanning shield finds one small vulnerable doorway. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: shield scanner, blueprint, risk marker. Color and lighting: matte black security room, cool cyan scan lines, red risk pin. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_1: Create a 4:5 visual background for carousel card 1. Scene: a code repository visualized as a building blueprint while a scanning shield finds one small vulnerable doorway. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: shield scanner, blueprint, risk marker. Color and lighting: matte black security room, cool cyan scan lines, red risk pin. Card role: "AI가 코드를 짜는 만큼, 코드를 지키는 AI도 필요해집니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_2: Create a 4:5 visual background for carousel card 2. Scene: a code repository visualized as a building blueprint while a scanning shield finds one small vulnerable doorway. Specific visual direction: show the simple explanation visually, as if a complex box is opened to reveal one clear everyday object. Key objects: shield scanner, blueprint, risk marker. Color and lighting: matte black security room, cool cyan scan lines, red risk pin. Card role: "쉽게 말하면?" / "쉽게 말해, AI가 만든 코드가 늘어날수록 그 코드를 지키는 AI도 필요해진다는 이야기입니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_3: Create a 4:5 visual background for carousel card 3. Scene: a code repository visualized as a building blueprint while a scanning shield finds one small vulnerable doorway. Specific visual direction: connect the scene to time, money, work, or content output using objects like a calendar, receipt, clock, or creator dashboard without readable text. Key objects: shield scanner, blueprint, risk marker. Color and lighting: matte black security room, cool cyan scan lines, red risk pin. Card role: "왜 내 일과 관련 있나" / "AI가 코드를 더 빨리 만들수록 오류와 보안 구멍도 빨리 생길 수 있어, 작은 회사와 개인 서비스에도 영향을 줍니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_4: Create a 4:5 visual background for carousel card 4. Scene: a code repository visualized as a building blueprint while a scanning shield finds one small vulnerable doorway. Specific visual direction: show the concrete everyday use case in progress, with a hand, desk tool, camera, laptop, or lab object doing one clear action. Key objects: shield scanner, blueprint, risk marker. Color and lighting: matte black security room, cool cyan scan lines, red risk pin. Card role: "어디에 써먹을 수 있나" / "회사 코드나 홈페이지에서 위험한 구멍을 더 빨리 찾고 고치는 도구가 늘어날 수 있습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_5: Create a 4:5 visual background for carousel card 5. Scene: a code repository visualized as a building blueprint while a scanning shield finds one small vulnerable doorway. Specific visual direction: show an official-source moment using an abstract document page, date marker, and verification pin without readable text or logos. Key objects: shield scanner, blueprint, risk marker. Color and lighting: matte black security room, cool cyan scan lines, red risk pin. Card role: "원문 기준 핵심" / "Anthropic의 2026년 6월 2일 원문 기준: Anthropic은 Project Glasswing 확장과 Claude Security를 발표했습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_6: Create a 4:5 visual background for carousel card 6. Scene: a code repository visualized as a building blueprint while a scanning shield finds one small vulnerable doorway. Specific visual direction: show caution through a measuring ruler, checklist, small warning marker, or comparison scale, not fear imagery. Key objects: shield scanner, blueprint, risk marker. Color and lighting: matte black security room, cool cyan scan lines, red risk pin. Card role: "아직 조심할 점" / "악용 방법은 다루지 않고, 방어 관점과 운영 리스크만 설명합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_7: Create a 4:5 visual background for carousel card 7. Scene: a code repository visualized as a building blueprint while a scanning shield finds one small vulnerable doorway. Specific visual direction: show a clean one-line-conclusion feeling: one path from input to useful outcome, minimal and decisive. Key objects: shield scanner, blueprint, risk marker. Color and lighting: matte black security room, cool cyan scan lines, red risk pin. Card role: "한 줄 결론" / "AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_8: Create a 4:5 visual background for carousel card 8. Scene: a code repository visualized as a building blueprint while a scanning shield finds one small vulnerable doorway. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: shield scanner, blueprint, risk marker. Color and lighting: matte black security room, cool cyan scan lines, red risk pin. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 
 ## Candidate 08
 
@@ -1196,24 +1308,24 @@ AI 영상은 이제 예쁜 장면을 넘어 로봇의 눈이 되고 있습니다
 ### Hook Title Candidates
 #### General Hook
 1. AI 영상은 이제 예쁜 장면을 넘어 로봇의 눈이 되고 있습니다
-2. 다음 장면을 예측하는 AI가 내 일에 들어오면 달라지는 것
-3. 이제 중요한 건 AI 이름보다 내가 써먹는 방법입니다
-4. 오늘 AI 변화, 쉽게 보면 이겁니다
-5. 다음 장면을 예측하는 AI를 처음 보는 사람도 이해하게 정리했습니다
+2. AI 영상은 다음 장면을 예측하기 시작했습니다
+3. 예쁜 영상 다음은 움직임을 이해하는 AI입니다
+4. AI가 장면의 다음 움직임을 봅니다
+5. 로봇의 눈이 될 수 있는 영상 AI
 
 #### Viral Hook
-1. 이건 기술 뉴스가 아니라 돈과 일의 변화입니다
-2. AI를 잘 몰라도 이 변화는 봐야 합니다
-3. 다음 장면을 예측하는 AI 때문에 내 시간이 아껴질 수 있습니다
-4. 다음 장면을 예측하는 AI를 모르고 지나치면 AI 흐름이 더 어렵게 보입니다
-5. 콘텐츠와 로봇에 먼저 연결되는 AI 변화입니다
+1. AI 영상이 로봇과 연결되는 이유
+2. 영상 생성 다음 단계는 움직임 예측입니다
+3. 게임과 로봇이 같이 보는 AI 변화
+4. 예쁜 장면보다 중요한 건 다음 움직임입니다
+5. AI가 화면 속 세계를 이해하려 합니다
 
 #### Expert Note Hook
-1. 다음 장면을 예측하는 AI, 원문 기준 핵심만 보면 이렇습니다
-2. 다음 장면을 예측하는 AI의 기술 포인트는 후반부에서만 보면 됩니다
-3. 다음 장면을 예측하는 AI를 과장 없이 보는 체크포인트
-4. 공식 발표와 해석을 분리해서 봐야 합니다
-5. 가능성과 확정 사실을 나눠서 봐야 합니다
+1. 다음 장면을 예측하는 AI, 원문 기준으로 확인할 핵심
+2. 다음 장면을 예측하는 AI, 데모와 실제 활용을 나눠 봐야 합니다
+3. 다음 장면을 예측하는 AI, 아직 확인해야 할 조건
+4. 다음 장면을 예측하는 AI를 과장 없이 보는 체크포인트
+5. 다음 장면을 예측하는 AI, 발행 전 봐야 할 원문 포인트
 
 ### Source Summary
 Runway의 2026-06-01 자료는 월드 모델 관련 변화입니다. 핵심은 Runway는 NVIDIA와 함께 물리 AI용 월드 모델 협력을 발표했습니다. 환경과 행동, 다음 상태를 이해하고 예측하는 모델로 볼 수 있습니다. 발행 전에는 원문 링크, 출시 범위, 사용권, 과장 가능성을 함께 확인해야 합니다.
@@ -1280,32 +1392,56 @@ LOW
 
 #### If CAROUSEL
 - Recommended card count: 8
-- Card 1 Thumbnail: AI 영상은 이제 예쁜 장면을 넘어 로봇의 눈이 되고 있습니다 / 내 일과 콘텐츠에 생길 변화를 먼저 봅니다. / 일반인용 핵심
-- Card 2 : 쉽게 말하면? / 쉽게 말해, AI가 장면을 예쁘게 만드는 수준을 넘어 다음 움직임까지 이해하려는 흐름입니다. / 전문용어 없이 보기
-- Card 3 : 왜 내 일과 관련 있나 / 영상, 게임, 로봇, 시뮬레이션 제작에서 장면을 이해하고 다음 움직임을 예측하는 방식이 중요해질 수 있습니다. / 일, 돈, 콘텐츠와 연결
-- Card 4 : 어디에 써먹을 수 있나 / AI가 영상 속 장면을 이해하고 다음 움직임을 예측하면, 로봇·게임·시뮬레이션 제작 방식도 달라질 수 있습니다. / 현실 예시
-- Card 5 : 원문 기준 핵심 / Runway의 2026년 6월 1일 원문 기준: Runway는 NVIDIA와 함께 물리 AI용 월드 모델 협력을 발표했습니다. / 사실과 해석 분리
-- Card 6 : 아직 조심할 점 / 아직 구체 모델과 성능은 공개 전입니다. 가능성과 사실을 분리해야 합니다. / 과장 금지
-- Card 7 : 한 줄 결론 / AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다. / 쉽게 보는 AI 변화
-- Card 8 CTA: 다음 AI 변화도 쉽게 볼까요? / 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요. / 저장하고 팔로우
+Card 1
+Main copy: AI 영상은 이제 예쁜 장면을 넘어 로봇의 눈이 되고 있습니다
+Sub copy: 내 일과 콘텐츠에 생길 변화를 먼저 봅니다.
+Note: 일반인용 핵심
+Card 2
+Main copy: 쉽게 말하면?
+Sub copy: 쉽게 말해, AI가 장면을 예쁘게 만드는 수준을 넘어 다음 움직임까지 이해하려는 흐름입니다.
+Note: 전문용어 없이 보기
+Card 3
+Main copy: 왜 내 일과 관련 있나
+Sub copy: 영상, 게임, 로봇, 시뮬레이션 제작에서 장면을 이해하고 다음 움직임을 예측하는 방식이 중요해질 수 있습니다.
+Note: 일, 돈, 콘텐츠와 연결
+Card 4
+Main copy: 어디에 써먹을 수 있나
+Sub copy: AI가 영상 속 장면을 이해하고 다음 움직임을 예측하면, 로봇·게임·시뮬레이션 제작 방식도 달라질 수 있습니다.
+Note: 현실 예시
+Card 5
+Main copy: 원문 기준 핵심
+Sub copy: Runway의 2026년 6월 1일 원문 기준: Runway는 NVIDIA와 함께 물리 AI용 월드 모델 협력을 발표했습니다.
+Note: 사실과 해석 분리
+Card 6
+Main copy: 아직 조심할 점
+Sub copy: 아직 구체 모델과 성능은 공개 전입니다. 가능성과 사실을 분리해야 합니다.
+Note: 과장 금지
+Card 7
+Main copy: 한 줄 결론
+Sub copy: AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.
+Note: 쉽게 보는 AI 변화
+Card 8
+Main copy: 다음 AI 변화도 쉽게 볼까요?
+Sub copy: 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.
+Note: 저장하고 팔로우
 - Last Card CTA: 저장해두고, 다음 AI 변화도 쉽게 확인하세요.
 
 ### Detailed Caption Draft
 영상 AI가 예쁜 장면을 만드는 단계를 넘어, 다음에 무슨 일이 일어날지 이해하려는 쪽으로 가고 있습니다.
 
-AI 영상은 이제 예쁜 장면을 넘어 로봇의 눈이 되고 있습니다 이 문장은 기술명을 외우게 하려는 제목이 아니라, 내 일상에서 뭐가 달라지는지 먼저 보게 하는 제목입니다. 비유하면 사진 한 장을 꾸미는 앱이 아니라, 공이 굴러가면 어디로 갈지 예상하는 눈을 만드는 일입니다.
+AI 영상은 이제 예쁜 장면을 넘어 로봇의 눈이 되고 있습니다. 비유하면 사진 한 장을 꾸미는 앱이 아니라, 공이 굴러가면 어디로 갈지 예상하는 눈을 만드는 일입니다.
 
-쉽게 말하면 AI가 장면을 예쁘게 만드는 수준을 넘어 다음 움직임까지 이해하려는 흐름입니다. AI가 영상 속 장면을 이해하고 다음 움직임을 예측하면, 로봇·게임·시뮬레이션 제작 방식도 달라질 수 있습니다. 그래서 이 소재는 전문가용 보고서보다 "내가 내일 어디에 써먹을 수 있지?"라는 질문으로 풀어야 합니다.
+쉽게 말하면 AI가 장면을 예쁘게 만드는 수준을 넘어 다음 움직임까지 이해하려는 흐름입니다. AI가 영상 속 장면을 이해하고 다음 움직임을 예측하면, 로봇·게임·시뮬레이션 제작 방식도 달라질 수 있습니다. 내 작업 시간, 비용, 결과물의 속도와 연결해서 보면 훨씬 가깝게 느껴집니다.
 
 왜 봐야 하냐면, 영상, 게임, 로봇, 시뮬레이션 제작에서 장면을 이해하고 다음 움직임을 예측하는 방식이 중요해질 수 있습니다. 로봇 훈련, 게임 장면, 시뮬레이션, 영상 제작에서 움직임을 예측하는 재료가 될 수 있습니다.
 
-공식 자료 기준 사실은 여기까지입니다. Runway가 2026년 6월 1일 공개한 원문에서 확인되는 내용입니다. Runway의 2026년 6월 1일 원문 기준: Runway는 NVIDIA와 함께 물리 AI용 월드 모델 협력을 발표했습니다. 여기서부터는 해석입니다. 이 변화는 영상 AI가 장면 생성에서 움직임 예측으로 확장되는 흐름으로 볼 수 있습니다. 원문에서 확인된 내용과 우리가 붙이는 의미를 분리해야 과장이 줄어듭니다.
+공식 자료 기준으로 확인되는 내용은 이렇습니다. Runway가 2026년 6월 1일 공개한 원문에서 확인되는 내용입니다. Runway의 2026년 6월 1일 원문 기준: Runway는 NVIDIA와 함께 물리 AI용 월드 모델 협력을 발표했습니다. 여기서 해석을 붙이면, 이 변화는 영상 AI가 장면 생성에서 움직임 예측으로 확장되는 흐름으로 볼 수 있습니다.
 
-월드 모델은 쉽게 말해 AI가 장면과 행동의 다음 변화를 예측하는 모델입니다. world model는 쉽게 말해 AI가 장면과 행동의 다음 변화를 예측하는 모델입니다. 이런 보충은 앞부분에 몰아넣지 않는 편이 좋습니다. 먼저 쉬운 장면으로 멈추게 하고, 저장한 사람이 뒤에서 기술 포인트를 확인하게 만드는 구성이 인스타에 더 맞습니다.
+월드 모델은 쉽게 말해 AI가 장면과 행동의 다음 변화를 예측하는 모델입니다. world model는 쉽게 말해 AI가 장면과 행동의 다음 변화를 예측하는 모델입니다. 처음에는 낯설어도, 실제 사용 장면과 연결하면 훨씬 덜 어렵습니다.
 
 조심할 점도 있습니다. 아직 구체 모델과 성능은 공개 전입니다. 가능성과 사실을 분리해야 합니다. 장면을 예측한다고 해서 현실 세계를 완벽하게 이해한다는 뜻은 아닙니다. 공식 발표는 방향을 보여주지만, 가격, 사용권, 실제 성능, 적용 범위는 발행 전에 다시 확인해야 합니다.
 
-오늘 제작 판단은 저장형 카드뉴스입니다. 릴스에서는 장면이 다음 행동으로 이어지는 느낌을 먼저 보여주고, 후반에 기술 배경을 짧게 붙이면 좋습니다.
+핵심은 영상 AI가 보기 좋은 그림을 넘어 움직임과 물리적 상황을 이해하려 한다는 점입니다.
 
 여러분은 이런 AI가 영상 제작에 먼저 쓰일 것 같나요, 로봇에 먼저 쓰일 것 같나요?
 
@@ -1318,14 +1454,6 @@ AI 영상은 이제 예쁜 장면을 넘어 로봇의 눈이 되고 있습니다
 - thumbnail: Create a 4:5 carousel thumbnail background. Scene: a robot training scene where a moving ball, a city block, and a video frame connect into one predicted motion path. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: motion path, robot camera, simulation grid. Color and lighting: midnight robotics lab, violet simulation light, steel reflections. Card role: "AI 영상은 이제 예쁜 장면을 넘어 로봇의 눈이 되고 있습니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - body_card: Create a 4:5 reusable explanatory body-card background. Scene: a robot training scene where a moving ball, a city block, and a video frame connect into one predicted motion path. Specific visual direction: keep the center calm and place the main object lower right so Korean copy can sit clearly on the left. Key objects: motion path, robot camera, simulation grid. Color and lighting: midnight robotics lab, violet simulation light, steel reflections. Single-purpose visual with no collage. Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - cta_background: Create a calm 4:5 closing CTA background. Scene: a robot training scene where a moving ball, a city block, and a video frame connect into one predicted motion path. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: motion path, robot camera, simulation grid. Color and lighting: midnight robotics lab, violet simulation light, steel reflections. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_1: Create a 4:5 visual background for carousel card 1. Scene: a robot training scene where a moving ball, a city block, and a video frame connect into one predicted motion path. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: motion path, robot camera, simulation grid. Color and lighting: midnight robotics lab, violet simulation light, steel reflections. Card role: "AI 영상은 이제 예쁜 장면을 넘어 로봇의 눈이 되고 있습니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_2: Create a 4:5 visual background for carousel card 2. Scene: a robot training scene where a moving ball, a city block, and a video frame connect into one predicted motion path. Specific visual direction: show the simple explanation visually, as if a complex box is opened to reveal one clear everyday object. Key objects: motion path, robot camera, simulation grid. Color and lighting: midnight robotics lab, violet simulation light, steel reflections. Card role: "쉽게 말하면?" / "쉽게 말해, AI가 장면을 예쁘게 만드는 수준을 넘어 다음 움직임까지 이해하려는 흐름입니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_3: Create a 4:5 visual background for carousel card 3. Scene: a robot training scene where a moving ball, a city block, and a video frame connect into one predicted motion path. Specific visual direction: connect the scene to time, money, work, or content output using objects like a calendar, receipt, clock, or creator dashboard without readable text. Key objects: motion path, robot camera, simulation grid. Color and lighting: midnight robotics lab, violet simulation light, steel reflections. Card role: "왜 내 일과 관련 있나" / "영상, 게임, 로봇, 시뮬레이션 제작에서 장면을 이해하고 다음 움직임을 예측하는 방식이 중요해질 수 있습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_4: Create a 4:5 visual background for carousel card 4. Scene: a robot training scene where a moving ball, a city block, and a video frame connect into one predicted motion path. Specific visual direction: show the concrete everyday use case in progress, with a hand, desk tool, camera, laptop, or lab object doing one clear action. Key objects: motion path, robot camera, simulation grid. Color and lighting: midnight robotics lab, violet simulation light, steel reflections. Card role: "어디에 써먹을 수 있나" / "AI가 영상 속 장면을 이해하고 다음 움직임을 예측하면, 로봇·게임·시뮬레이션 제작 방식도 달라질 수 있습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_5: Create a 4:5 visual background for carousel card 5. Scene: a robot training scene where a moving ball, a city block, and a video frame connect into one predicted motion path. Specific visual direction: show an official-source moment using an abstract document page, date marker, and verification pin without readable text or logos. Key objects: motion path, robot camera, simulation grid. Color and lighting: midnight robotics lab, violet simulation light, steel reflections. Card role: "원문 기준 핵심" / "Runway의 2026년 6월 1일 원문 기준: Runway는 NVIDIA와 함께 물리 AI용 월드 모델 협력을 발표했습니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_6: Create a 4:5 visual background for carousel card 6. Scene: a robot training scene where a moving ball, a city block, and a video frame connect into one predicted motion path. Specific visual direction: show caution through a measuring ruler, checklist, small warning marker, or comparison scale, not fear imagery. Key objects: motion path, robot camera, simulation grid. Color and lighting: midnight robotics lab, violet simulation light, steel reflections. Card role: "아직 조심할 점" / "아직 구체 모델과 성능은 공개 전입니다. 가능성과 사실을 분리해야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_7: Create a 4:5 visual background for carousel card 7. Scene: a robot training scene where a moving ball, a city block, and a video frame connect into one predicted motion path. Specific visual direction: show a clean one-line-conclusion feeling: one path from input to useful outcome, minimal and decisive. Key objects: motion path, robot camera, simulation grid. Color and lighting: midnight robotics lab, violet simulation light, steel reflections. Card role: "한 줄 결론" / "AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_8: Create a 4:5 visual background for carousel card 8. Scene: a robot training scene where a moving ball, a city block, and a video frame connect into one predicted motion path. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: motion path, robot camera, simulation grid. Color and lighting: midnight robotics lab, violet simulation light, steel reflections. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 
 ## Candidate 09
 
@@ -1359,24 +1487,24 @@ AI 영상은 이제 예쁜 장면을 넘어 로봇의 눈이 되고 있습니다
 ### Hook Title Candidates
 #### General Hook
 1. AI가 코드를 짜는 만큼, 코드를 지키는 AI도 필요해집니다
-2. 코드를 지키는 AI가 내 일에 들어오면 달라지는 것
-3. 이제 중요한 건 AI 이름보다 내가 써먹는 방법입니다
-4. 오늘 AI 변화, 쉽게 보면 이겁니다
-5. 코드를 지키는 AI를 처음 보는 사람도 이해하게 정리했습니다
+2. AI가 만든 코드를 지키는 AI도 필요합니다
+3. 코드가 빨리 만들어질수록 점검도 빨라져야 합니다
+4. AI 서비스의 다음 문제는 보안입니다
+5. AI 코딩 뒤에는 보안 점검이 따라옵니다
 
 #### Viral Hook
-1. 이건 기술 뉴스가 아니라 돈과 일의 변화입니다
-2. AI를 잘 몰라도 이 변화는 봐야 합니다
-3. 코드를 지키는 AI 때문에 내 시간이 아껴질 수 있습니다
-4. 코드를 지키는 AI를 모르고 지나치면 AI 흐름이 더 어렵게 보입니다
-5. 보안에 먼저 연결되는 AI 변화입니다
+1. AI로 만든 코드, 그냥 배포해도 될까요
+2. 개발 속도가 빨라질수록 구멍도 빨리 생깁니다
+3. AI가 만든 서비스를 지키는 방법
+4. 보안 점검 없는 AI 코딩은 위험합니다
+5. 작은 회사도 이 AI 보안 흐름을 봐야 합니다
 
 #### Expert Note Hook
-1. 코드를 지키는 AI, 원문 기준 핵심만 보면 이렇습니다
-2. 코드를 지키는 AI의 기술 포인트는 후반부에서만 보면 됩니다
-3. 코드를 지키는 AI를 과장 없이 보는 체크포인트
-4. 공식 발표와 해석을 분리해서 봐야 합니다
-5. 가능성과 확정 사실을 나눠서 봐야 합니다
+1. 코드를 지키는 AI, 원문 기준으로 확인할 핵심
+2. 코드를 지키는 AI, 데모와 실제 활용을 나눠 봐야 합니다
+3. 코드를 지키는 AI, 아직 확인해야 할 조건
+4. 코드를 지키는 AI를 과장 없이 보는 체크포인트
+5. 코드를 지키는 AI, 발행 전 봐야 할 원문 포인트
 
 ### Source Summary
 OpenAI Help Center의 2026-06-02 자료는 ChatGPT 업데이트 관련 변화입니다. 핵심은 릴리즈 노트는 실제 업무 흐름에 영향을 주는 변경을 담고 있습니다. 계정 세션을 확인하고 모르는 세션을 로그아웃할 수 있는 보안 기능입니다. 발행 전에는 원문 링크, 출시 범위, 사용권, 과장 가능성을 함께 확인해야 합니다.
@@ -1504,24 +1632,24 @@ AI 회사들은 이제 챗봇 하나만 팔지 않습니다
 ### Hook Title Candidates
 #### General Hook
 1. AI 회사들은 이제 챗봇 하나만 팔지 않습니다
-2. 업무 전체를 묶는 AI가 내 일에 들어오면 달라지는 것
-3. 이제 중요한 건 AI 이름보다 내가 써먹는 방법입니다
-4. 오늘 AI 변화, 쉽게 보면 이겁니다
-5. 업무 전체를 묶는 AI를 처음 보는 사람도 이해하게 정리했습니다
+2. AI 회사들은 챗봇 하나만 팔지 않습니다
+3. 챗봇 다음은 업무 전체를 묶는 AI입니다
+4. AI가 메일과 리서치와 코딩을 한데 묶습니다
+5. 기업용 AI는 도구 묶음으로 커집니다
 
 #### Viral Hook
-1. 이건 기술 뉴스가 아니라 돈과 일의 변화입니다
-2. AI를 잘 몰라도 이 변화는 봐야 합니다
-3. 업무 전체를 묶는 AI 때문에 내 시간이 아껴질 수 있습니다
-4. 업무 전체를 묶는 AI를 모르고 지나치면 AI 흐름이 더 어렵게 보입니다
-5. 기업 업무에 먼저 연결되는 AI 변화입니다
+1. 챗봇만 보는 사람은 이 흐름을 놓칩니다
+2. AI 회사들이 업무 전체를 노리는 이유
+3. 메일부터 코딩까지 묶는 AI 경쟁
+4. 기업이 AI를 사는 방식이 바뀔 수 있습니다
+5. AI 경쟁은 이제 업무 패키지 싸움입니다
 
 #### Expert Note Hook
-1. 업무 전체를 묶는 AI, 원문 기준 핵심만 보면 이렇습니다
-2. 업무 전체를 묶는 AI의 기술 포인트는 후반부에서만 보면 됩니다
-3. 업무 전체를 묶는 AI를 과장 없이 보는 체크포인트
-4. 공식 발표와 해석을 분리해서 봐야 합니다
-5. 가능성과 확정 사실을 나눠서 봐야 합니다
+1. 업무 전체를 묶는 AI, 원문 기준으로 확인할 핵심
+2. 업무 전체를 묶는 AI, 데모와 실제 활용을 나눠 봐야 합니다
+3. 업무 전체를 묶는 AI, 아직 확인해야 할 조건
+4. 업무 전체를 묶는 AI를 과장 없이 보는 체크포인트
+5. 업무 전체를 묶는 AI, 발행 전 봐야 할 원문 포인트
 
 ### Source Summary
 Mistral AI의 2026-05-28 자료는 풀스택 AI 경쟁 관련 변화입니다. 핵심은 Mistral 발표는 모델, 업무 에이전트, 산업 솔루션, 인프라를 함께 보여줍니다. 메일, 캘린더, 리서치, 산출물, 코딩까지 긴 작업을 처리하는 에이전트로 소개됩니다. 발행 전에는 원문 링크, 출시 범위, 사용권, 과장 가능성을 함께 확인해야 합니다.
@@ -1588,32 +1716,56 @@ LOW
 
 #### If CAROUSEL
 - Recommended card count: 8
-- Card 1 Thumbnail: AI 회사들은 이제 챗봇 하나만 팔지 않습니다 / 내 일과 콘텐츠에 생길 변화를 먼저 봅니다. / 일반인용 핵심
-- Card 2 : 쉽게 말하면? / 쉽게 말해, AI 회사들이 챗봇 하나가 아니라 업무 도구와 운영 기반까지 함께 묶으려는 흐름입니다. / 전문용어 없이 보기
-- Card 3 : 왜 내 일과 관련 있나 / 기업용 AI가 챗봇을 넘어 업무 도구와 운영 기반까지 묶이면, 회사가 AI를 도입하는 방식 자체가 바뀝니다. / 일, 돈, 콘텐츠와 연결
-- Card 4 : 어디에 써먹을 수 있나 / AI 회사가 챗봇 하나만 파는 것이 아니라, 업무 도구와 데이터센터까지 묶어서 제공하려는 흐름입니다. / 현실 예시
-- Card 5 : 원문 기준 핵심 / Mistral AI의 2026년 5월 28일 원문 기준: Mistral 발표는 모델, 업무 에이전트, 산업 솔루션, 인프라를 함께 보여줍니다. / 사실과 해석 분리
-- Card 6 : 아직 조심할 점 / 출시 범위와 가격은 원문에서 다시 확인해야 합니다. / 과장 금지
-- Card 7 : 한 줄 결론 / AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다. / 쉽게 보는 AI 변화
-- Card 8 CTA: 다음 AI 변화도 쉽게 볼까요? / 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요. / 저장하고 팔로우
+Card 1
+Main copy: AI 회사들은 이제 챗봇 하나만 팔지 않습니다
+Sub copy: 내 일과 콘텐츠에 생길 변화를 먼저 봅니다.
+Note: 일반인용 핵심
+Card 2
+Main copy: 쉽게 말하면?
+Sub copy: 쉽게 말해, AI 회사들이 챗봇 하나가 아니라 업무 도구와 운영 기반까지 함께 묶으려는 흐름입니다.
+Note: 전문용어 없이 보기
+Card 3
+Main copy: 왜 내 일과 관련 있나
+Sub copy: 기업용 AI가 챗봇을 넘어 업무 도구와 운영 기반까지 묶이면, 회사가 AI를 도입하는 방식 자체가 바뀝니다.
+Note: 일, 돈, 콘텐츠와 연결
+Card 4
+Main copy: 어디에 써먹을 수 있나
+Sub copy: AI 회사가 챗봇 하나만 파는 것이 아니라, 업무 도구와 데이터센터까지 묶어서 제공하려는 흐름입니다.
+Note: 현실 예시
+Card 5
+Main copy: 원문 기준 핵심
+Sub copy: Mistral AI의 2026년 5월 28일 원문 기준: Mistral 발표는 모델, 업무 에이전트, 산업 솔루션, 인프라를 함께 보여줍니다.
+Note: 사실과 해석 분리
+Card 6
+Main copy: 아직 조심할 점
+Sub copy: 출시 범위와 가격은 원문에서 다시 확인해야 합니다.
+Note: 과장 금지
+Card 7
+Main copy: 한 줄 결론
+Sub copy: AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.
+Note: 쉽게 보는 AI 변화
+Card 8
+Main copy: 다음 AI 변화도 쉽게 볼까요?
+Sub copy: 저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.
+Note: 저장하고 팔로우
 - Last Card CTA: 저장해두고, 다음 AI 변화도 쉽게 확인하세요.
 
 ### Detailed Caption Draft
 AI 회사들이 이제 챗봇 하나만 팔지 않는 이유가 보이기 시작했습니다.
 
-AI 회사들은 이제 챗봇 하나만 팔지 않습니다 이 문장은 기술명을 외우게 하려는 제목이 아니라, 내 일상에서 뭐가 달라지는지 먼저 보게 하는 제목입니다. 비유하면 계산기 하나를 파는 게 아니라, 책상, 직원, 서류함, 전기까지 한 번에 묶어 파는 흐름입니다.
+AI 회사들은 이제 챗봇 하나만 팔지 않습니다. 비유하면 계산기 하나를 파는 게 아니라, 책상, 직원, 서류함, 전기까지 한 번에 묶어 파는 흐름입니다.
 
-쉽게 말하면 AI 회사들이 챗봇 하나가 아니라 업무 도구와 운영 기반까지 함께 묶으려는 흐름입니다. AI 회사가 챗봇 하나만 파는 것이 아니라, 업무 도구와 데이터센터까지 묶어서 제공하려는 흐름입니다. 그래서 이 소재는 전문가용 보고서보다 "내가 내일 어디에 써먹을 수 있지?"라는 질문으로 풀어야 합니다.
+쉽게 말하면 AI 회사들이 챗봇 하나가 아니라 업무 도구와 운영 기반까지 함께 묶으려는 흐름입니다. AI 회사가 챗봇 하나만 파는 것이 아니라, 업무 도구와 데이터센터까지 묶어서 제공하려는 흐름입니다. 내 작업 시간, 비용, 결과물의 속도와 연결해서 보면 훨씬 가깝게 느껴집니다.
 
 왜 봐야 하냐면, 기업용 AI가 챗봇을 넘어 업무 도구와 운영 기반까지 묶이면, 회사가 AI를 도입하는 방식 자체가 바뀝니다. 메일 정리, 리서치, 코딩, 산업 현장 도구처럼 회사 업무 전체를 한 묶음으로 잡으려는 방향입니다.
 
-공식 자료 기준 사실은 여기까지입니다. Mistral AI가 2026년 5월 28일 공개한 원문에서 확인되는 내용입니다. Mistral AI의 2026년 5월 28일 원문 기준: Mistral 발표는 모델, 업무 에이전트, 산업 솔루션, 인프라를 함께 보여줍니다. 여기서부터는 해석입니다. 이 변화는 AI 경쟁이 챗봇 하나에서 업무 전체 운영권으로 넓어지는 흐름으로 볼 수 있습니다. 원문에서 확인된 내용과 우리가 붙이는 의미를 분리해야 과장이 줄어듭니다.
+공식 자료 기준으로 확인되는 내용은 이렇습니다. Mistral AI가 2026년 5월 28일 공개한 원문에서 확인되는 내용입니다. Mistral AI의 2026년 5월 28일 원문 기준: Mistral 발표는 모델, 업무 에이전트, 산업 솔루션, 인프라를 함께 보여줍니다. 여기서 해석을 붙이면, 이 변화는 AI 경쟁이 챗봇 하나에서 업무 전체 운영권으로 넓어지는 흐름으로 볼 수 있습니다.
 
-전문용어를 더 붙이지 않아도 됩니다. 이 소재는 기능명보다 실제 사용 장면을 먼저 보여주는 편이 더 잘 읽힙니다. 이런 보충은 앞부분에 몰아넣지 않는 편이 좋습니다. 먼저 쉬운 장면으로 멈추게 하고, 저장한 사람이 뒤에서 기술 포인트를 확인하게 만드는 구성이 인스타에 더 맞습니다.
+어려운 이름보다 중요한 건 실제로 어디에 쓰이는지입니다. 처음에는 낯설어도, 실제 사용 장면과 연결하면 훨씬 덜 어렵습니다.
 
 조심할 점도 있습니다. 출시 범위와 가격은 원문에서 다시 확인해야 합니다. 큰 기업의 발표를 작은 팀의 즉시 성과로 바로 일반화하면 안 됩니다. 공식 발표는 방향을 보여주지만, 가격, 사용권, 실제 성능, 적용 범위는 발행 전에 다시 확인해야 합니다.
 
-오늘 제작 판단은 저장형 카드뉴스입니다. 카드뉴스에서는 '챗봇 다음은 업무 전체 패키지'라는 흐름으로 잡으면 쉽게 읽힙니다.
+핵심은 AI 회사들의 경쟁이 챗봇 하나에서 업무 전체를 묶는 방향으로 넓어진다는 점입니다.
 
 여러분은 AI 회사가 챗봇보다 어떤 업무 도구를 먼저 잘 만들어야 한다고 보시나요?
 
@@ -1626,12 +1778,4 @@ AI 회사들은 이제 챗봇 하나만 팔지 않습니다 이 문장은 기술
 - thumbnail: Create a 4:5 carousel thumbnail background. Scene: an operations map connecting a chat window, inbox tray, factory icon, and data center block into one business workflow chain. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: workflow map, inbox tray, data center block. Color and lighting: strategic operations room, charcoal table, teal connection lines. Card role: "AI 회사들은 이제 챗봇 하나만 팔지 않습니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - body_card: Create a 4:5 reusable explanatory body-card background. Scene: an operations map connecting a chat window, inbox tray, factory icon, and data center block into one business workflow chain. Specific visual direction: keep the center calm and place the main object lower right so Korean copy can sit clearly on the left. Key objects: workflow map, inbox tray, data center block. Color and lighting: strategic operations room, charcoal table, teal connection lines. Single-purpose visual with no collage. Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 - cta_background: Create a calm 4:5 closing CTA background. Scene: an operations map connecting a chat window, inbox tray, factory icon, and data center block into one business workflow chain. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: workflow map, inbox tray, data center block. Color and lighting: strategic operations room, charcoal table, teal connection lines. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_1: Create a 4:5 visual background for carousel card 1. Scene: an operations map connecting a chat window, inbox tray, factory icon, and data center block into one business workflow chain. Specific visual direction: make it poster-like with one unmistakable central object and strong empty space for a large hook. Key objects: workflow map, inbox tray, data center block. Color and lighting: strategic operations room, charcoal table, teal connection lines. Card role: "AI 회사들은 이제 챗봇 하나만 팔지 않습니다" / "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_2: Create a 4:5 visual background for carousel card 2. Scene: an operations map connecting a chat window, inbox tray, factory icon, and data center block into one business workflow chain. Specific visual direction: show the simple explanation visually, as if a complex box is opened to reveal one clear everyday object. Key objects: workflow map, inbox tray, data center block. Color and lighting: strategic operations room, charcoal table, teal connection lines. Card role: "쉽게 말하면?" / "쉽게 말해, AI 회사들이 챗봇 하나가 아니라 업무 도구와 운영 기반까지 함께 묶으려는 흐름입니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_3: Create a 4:5 visual background for carousel card 3. Scene: an operations map connecting a chat window, inbox tray, factory icon, and data center block into one business workflow chain. Specific visual direction: connect the scene to time, money, work, or content output using objects like a calendar, receipt, clock, or creator dashboard without readable text. Key objects: workflow map, inbox tray, data center block. Color and lighting: strategic operations room, charcoal table, teal connection lines. Card role: "왜 내 일과 관련 있나" / "기업용 AI가 챗봇을 넘어 업무 도구와 운영 기반까지 묶이면, 회사가 AI를 도입하는 방식 자체가 바뀝니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_4: Create a 4:5 visual background for carousel card 4. Scene: an operations map connecting a chat window, inbox tray, factory icon, and data center block into one business workflow chain. Specific visual direction: show the concrete everyday use case in progress, with a hand, desk tool, camera, laptop, or lab object doing one clear action. Key objects: workflow map, inbox tray, data center block. Color and lighting: strategic operations room, charcoal table, teal connection lines. Card role: "어디에 써먹을 수 있나" / "AI 회사가 챗봇 하나만 파는 것이 아니라, 업무 도구와 데이터센터까지 묶어서 제공하려는 흐름입니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_5: Create a 4:5 visual background for carousel card 5. Scene: an operations map connecting a chat window, inbox tray, factory icon, and data center block into one business workflow chain. Specific visual direction: show an official-source moment using an abstract document page, date marker, and verification pin without readable text or logos. Key objects: workflow map, inbox tray, data center block. Color and lighting: strategic operations room, charcoal table, teal connection lines. Card role: "원문 기준 핵심" / "Mistral AI의 2026년 5월 28일 원문 기준: Mistral 발표는 모델, 업무 에이전트, 산업 솔루션, 인프라를 함께 보여줍니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_6: Create a 4:5 visual background for carousel card 6. Scene: an operations map connecting a chat window, inbox tray, factory icon, and data center block into one business workflow chain. Specific visual direction: show caution through a measuring ruler, checklist, small warning marker, or comparison scale, not fear imagery. Key objects: workflow map, inbox tray, data center block. Color and lighting: strategic operations room, charcoal table, teal connection lines. Card role: "아직 조심할 점" / "출시 범위와 가격은 원문에서 다시 확인해야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_7: Create a 4:5 visual background for carousel card 7. Scene: an operations map connecting a chat window, inbox tray, factory icon, and data center block into one business workflow chain. Specific visual direction: show a clean one-line-conclusion feeling: one path from input to useful outcome, minimal and decisive. Key objects: workflow map, inbox tray, data center block. Color and lighting: strategic operations room, charcoal table, teal connection lines. Card role: "한 줄 결론" / "AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
-- card_8: Create a 4:5 visual background for carousel card 8. Scene: an operations map connecting a chat window, inbox tray, factory icon, and data center block into one business workflow chain. Specific visual direction: show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos. Key objects: workflow map, inbox tray, data center block. Color and lighting: strategic operations room, charcoal table, teal connection lines. Card role: "다음 AI 변화도 쉽게 볼까요?" / "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.". Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs. no readable text inside the image, no logos, no real person likeness, no brand marks, clean negative space for Korean headline overlay, 4:5 composition
 

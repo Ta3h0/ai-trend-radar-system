@@ -94,9 +94,10 @@ function promptForScene({ purpose, ratio, brief, direction, card }) {
   ].join(" ");
 }
 
-function generateImagePrompts(item, cardOutline, recommendedFormat, popularization = {}) {
+function generateImagePrompts(item, cardOutline, recommendedFormat, popularization = {}, options = {}) {
   const brief = briefFor(popularization);
   const prompts = [];
+  const includeCardPrompts = options.includeCardPrompts === true;
 
   if (["REELS", "BOTH", "REELS_FIRST"].includes(recommendedFormat)) {
     prompts.push({
@@ -146,17 +147,19 @@ function generateImagePrompts(item, cardOutline, recommendedFormat, popularizati
       })
     });
 
-    for (const card of cardOutline.cards || []) {
-      prompts.push({
-        type: `card_${card.number}`,
-        prompt: promptForScene({
-          purpose: `a 4:5 visual background for carousel card ${card.number}`,
-          ratio: "4:5",
-          brief,
-          direction: cardDirections[card.number] || "make one concrete scene that supports the card copy",
-          card
-        })
-      });
+    if (includeCardPrompts) {
+      for (const card of cardOutline.cards || []) {
+        prompts.push({
+          type: `card_${card.number}`,
+          prompt: promptForScene({
+            purpose: `a 4:5 visual background for carousel card ${card.number}`,
+            ratio: "4:5",
+            brief,
+            direction: cardDirections[card.number] || "make one concrete scene that supports the card copy",
+            card
+          })
+        });
+      }
     }
   }
 
