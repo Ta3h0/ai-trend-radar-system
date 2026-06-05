@@ -1,28 +1,13 @@
-function createDefaultCards(item) {
-  const seed = item.editorial_seed?.content_seed || {};
-  const subject = seed.title_subject || "AI 변화";
-  const angle = item.editorial_seed?.content_angle || "일과 돈의 흐름이 바뀌는 신호입니다.";
+const { removeJargon } = require("./popularization");
 
-  return [
-    {
-      title: "무슨 일이 있었나",
-      body: `${subject} 관련 공식 자료에서 새로운 변화가 확인됐습니다.`,
-      emphasis: "먼저 사실부터 봅니다."
-    },
-    {
-      title: "왜 중요한가",
-      body: angle,
-      emphasis: "도구보다 흐름이 중요합니다."
-    },
-    {
-      title: "어떻게 써야 하나",
-      body: "업무, 콘텐츠 제작, 자동화 흐름에서 작게 실험해볼 지점을 찾습니다.",
-      emphasis: "바로 적용할 질문을 남깁니다."
-    }
-  ];
+function fallbackFact(item) {
+  const fact = item.editorial_seed?.verified_facts?.[0] || item.original_title || "공식 자료에서 확인된 변화가 있습니다.";
+  return fact
+    .replace(/^.* published /i, "공식 자료 기준 공개된 내용입니다: ")
+    .replace(/^.* says /i, "원문 기준 확인할 내용입니다: ");
 }
 
-function generateCardOutline(item, recommendedFormat, recommendedTitle) {
+function generateCardOutline(item, recommendedFormat, recommendedTitle, popularization = {}) {
   if (!["CAROUSEL", "BOTH", "REELS_FIRST"].includes(recommendedFormat)) {
     return {
       recommended_card_count: 0,
@@ -31,50 +16,76 @@ function generateCardOutline(item, recommendedFormat, recommendedTitle) {
     };
   }
 
-  const seedCards = item.editorial_seed?.content_seed?.carousel_cards || [];
-  const middleCards = (seedCards.length > 0 ? seedCards : createDefaultCards(item)).slice(0, 7);
-  const thumbnailTitle = recommendedTitle
-    || item.editorial_seed?.content_seed?.recommended_title
-    || middleCards[0]?.title
-    || "AI 변화가 조용히 시작됐습니다";
-  const thumbnailBody = item.editorial_seed?.content_angle
-    || middleCards[0]?.emphasis
-    || "돈과 일의 관점에서 봐야 할 변화입니다.";
+  const plainTitle = removeJargon(popularization.non_expert_hook || recommendedTitle || "이 AI 변화, 내 일과 연결됩니다");
+  const plainSummary = popularization.plain_language_summary || "쉽게 말해, AI가 일과 콘텐츠 제작 방식을 바꾸는 변화입니다.";
+  const care = popularization.why_people_should_care || "내 일, 돈, 콘텐츠 제작 방식과 연결될 수 있습니다.";
+  const example = popularization.everyday_example || "반복 업무나 콘텐츠 시안을 더 빨리 실험하는 데 쓸 수 있습니다.";
+  const expertNote = popularization.expert_note || "전문 보충은 원문 기준 사실과 출시 범위를 확인해야 합니다.";
+  const caution = (item.editorial_seed?.uncertain_points || [])[0] || "출시 범위, 사용권, 실제 성능은 원문 기준으로 다시 확인해야 합니다.";
 
   const cards = [
     {
       number: 1,
       role: "thumbnail",
-      title: thumbnailTitle,
-      body: thumbnailBody,
-      emphasis: "오늘 저장할 AI 변화"
+      title: plainTitle,
+      body: "내 일과 콘텐츠에 생길 변화를 먼저 봅니다.",
+      emphasis: "일반인용 핵심"
     },
-    ...middleCards.map((card, index) => ({
-      number: index + 2,
+    {
+      number: 2,
       role: "body",
-      title: card.title,
-      body: card.body,
-      emphasis: card.emphasis || ""
-    }))
+      title: "쉽게 말하면?",
+      body: plainSummary,
+      emphasis: "전문용어 없이 보기"
+    },
+    {
+      number: 3,
+      role: "body",
+      title: "왜 내 일과 관련 있나",
+      body: care,
+      emphasis: "일, 돈, 콘텐츠와 연결"
+    },
+    {
+      number: 4,
+      role: "body",
+      title: "어디에 써먹을 수 있나",
+      body: example,
+      emphasis: "현실 예시"
+    },
+    {
+      number: 5,
+      role: "body",
+      title: "원문 기준 핵심",
+      body: fallbackFact(item),
+      emphasis: "사실과 해석 분리"
+    },
+    {
+      number: 6,
+      role: "body",
+      title: "아직 조심할 점",
+      body: caution,
+      emphasis: "과장 금지"
+    },
+    {
+      number: 7,
+      role: "body",
+      title: "한 줄 결론",
+      body: "AI 뉴스는 기술 이름보다 내 일상과 일에 생기는 변화로 봐야 합니다.",
+      emphasis: "쉽게 보는 AI 변화"
+    },
+    {
+      number: 8,
+      role: "cta",
+      title: "다음 AI 변화도 쉽게 볼까요?",
+      body: "저장해두고, 돈과 일에 연결되는 AI 해석을 계속 확인하세요.",
+      emphasis: "저장하고 팔로우"
+    }
   ];
 
-  cards.push({
-    number: cards.length + 1,
-    role: "cta",
-    title: "다음 AI 변화도 놓치지 마세요",
-    body: "AI 뉴스는 많습니다. 돈과 일에 연결되는 해석은 따로 정리합니다.",
-    emphasis: "저장하고 다음 변화도 확인하세요."
-  });
-
-  const safeCards = cards.slice(0, 9).map((card, index) => ({
-    ...card,
-    number: index + 1
-  }));
-
   return {
-    recommended_card_count: Math.min(9, Math.max(3, safeCards.length)),
-    cards: safeCards,
-    last_card_cta: "저장하고 다음 AI 변화도 확인하세요."
+    recommended_card_count: cards.length,
+    cards,
+    last_card_cta: "저장해두고, 다음 AI 변화도 쉽게 확인하세요."
   };
 }
 

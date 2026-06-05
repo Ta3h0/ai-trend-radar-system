@@ -1,3 +1,5 @@
+const { removeJargon, containsBannedThumbnailJargon } = require("./popularization");
+
 const forbiddenPatterns = [
   /100%\s*성공/i,
   /수익\s*보장/i,
@@ -8,7 +10,7 @@ const forbiddenPatterns = [
 ];
 
 function safeTitle(title) {
-  let next = String(title || "").trim();
+  let next = removeJargon(String(title || "").trim());
   for (const pattern of forbiddenPatterns) {
     next = next.replace(pattern, "").trim();
   }
@@ -34,76 +36,75 @@ function objectParticle(text) {
 function hookPower(title) {
   const text = String(title || "");
   const weights = [
-    ["판", 1],
-    ["뒤집", 2],
-    ["위험한 착각", 5],
-    ["놓치", 4],
-    ["돈과 일", 4],
-    ["순서", 3],
-    ["구경만", 3],
-    ["겉만", 3],
-    ["전쟁", 5],
+    ["내", 2],
+    ["일", 2],
+    ["돈", 3],
+    ["콘텐츠", 3],
+    ["혼자", 3],
+    ["노트북", 3],
     ["지휘", 5],
-    ["노트북 안", 5],
-    ["고치기", 5],
-    ["무대", 5],
-    ["연구실", 5],
-    ["지키는", 5],
-    ["로봇", 4],
-    ["모델만 파는", 5],
-    ["사라지는 기능", 4],
-    ["단순", 2],
-    ["조용히", 2]
+    ["고치", 4],
+    ["무대", 4],
+    ["지키는", 4],
+    ["멈춰", 4],
+    ["놓치", 3],
+    ["바뀌", 3],
+    ["시작", 2]
   ];
 
-  return weights.reduce((score, [word, weight]) => score + (text.includes(word) ? weight : 0), 0);
+  const jargonPenalty = containsBannedThumbnailJargon(text) ? 20 : 0;
+  return weights.reduce((score, [word, weight]) => score + (text.includes(word) ? weight : 0), 0) - jargonPenalty;
 }
 
 function strongestTitle(items) {
   return [...items].sort((a, b) => hookPower(b) - hookPower(a))[0];
 }
 
-function generateTitleCandidates(item) {
+function generateTitleCandidates(item, popularization = {}) {
   const seed = item.editorial_seed?.content_seed || {};
-  const subject = seed.title_subject || item.original_title || "AI 변화";
+  const subject = removeJargon(seed.title_subject || item.original_title || "AI 변화");
   const subjectObject = objectParticle(subject);
-  const seeded = Array.isArray(seed.hook_candidates) ? seed.hook_candidates : [];
+  const seeded = Array.isArray(seed.hook_candidates) ? seed.hook_candidates.map(removeJargon) : [];
+  const nonExpertHook = popularization.non_expert_hook || "AI 뉴스 같지만 사실은 내 일 이야기입니다";
+  const everyday = popularization.everyday_example || "내 일과 콘텐츠 제작 방식이 조금씩 바뀔 수 있습니다.";
 
-  const clean = uniqueFive([
-    `${subject}, 지금 봐야 할 핵심 변화`,
-    `${subject}가 일과 콘텐츠 제작에 주는 의미`,
-    `${subject} 흐름을 한 번에 정리했습니다`,
-    `${subject}에서 확인해야 할 포인트`,
-    `${subjectObject} 과장 없이 보는 방법`,
-    ...seeded.slice(0, 2)
+  const general = uniqueFive([
+    nonExpertHook,
+    "AI 뉴스 같지만 사실은 내 일상 이야기입니다",
+    "내 일과 콘텐츠 제작 방식이 조용히 바뀌고 있습니다",
+    "이 변화가 나한테 무슨 의미인지 쉽게 정리했습니다",
+    `${subjectObject} 쉽게 이해하는 법`,
+    `${subject}가 내 일에 들어오면 생기는 변화`
   ]);
 
   const viral = uniqueFive([
+    seeded[0],
     seeded[1],
-    seeded[2],
-    `${subjectObject} 아직 가볍게 보면 안 됩니다`,
-    `${subject} 때문에 작업 방식이 조용히 바뀝니다`,
-    `사람들이 놓치고 있는 ${subject}의 진짜 신호`,
-    `${subject}, 단순 업데이트가 아닙니다`,
-    `${subjectObject} 모르면 AI 뉴스만 보게 됩니다`
+    `${subject} 때문에 일하는 방식이 달라질 수 있습니다`,
+    `${subjectObject} 모르고 지나치면 늦게 따라갑니다`,
+    "이건 기술 뉴스가 아니라 돈과 일의 변화입니다",
+    everyday.replace(/\.$/, "입니다"),
+    "사람들이 아직 가볍게 보는 AI 변화"
   ]);
 
-  const extreme = uniqueFive([
-    ...seeded.slice(0, 3),
-    `${subject}의 판이 조용히 뒤집히고 있습니다`,
-    `${subject}, 이걸 놓치면 다음 흐름을 늦게 봅니다`,
-    `${subject}가 돈과 일의 순서를 바꾸고 있습니다`,
-    `${subjectObject} 모르면 AI를 써도 겉만 보게 됩니다`,
-    `지금 ${subject}에서 가장 위험한 착각`,
-    `${subject}, 이제 구경만 할 뉴스가 아닙니다`
+  const expert = uniqueFive([
+    `${subject}, 원문 기준 핵심만 보면 이렇습니다`,
+    `${subject}의 기술 포인트는 후반부에서만 보면 됩니다`,
+    `${subjectObject} 과장 없이 보는 체크포인트`,
+    "공식 발표와 해석을 분리해서 봐야 합니다",
+    "가능성과 확정 사실을 나눠서 봐야 합니다"
   ]);
+
+  const recommended = general[0] || strongestTitle(viral) || subject;
 
   return {
-    clean,
+    general,
     viral,
-    extreme,
-    all: [...clean, ...viral, ...extreme],
-    recommended: strongestTitle([...extreme, ...seeded]) || strongestTitle(viral) || clean[0] || subject
+    expert,
+    clean: general,
+    extreme: expert,
+    all: [...general, ...viral, ...expert],
+    recommended
   };
 }
 

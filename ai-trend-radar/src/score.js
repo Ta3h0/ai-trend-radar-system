@@ -21,7 +21,7 @@ function recommendation(finalScore100, riskLevel) {
   return "HOLD";
 }
 
-function scoreItem(item, risk) {
+function scoreItem(item, risk, popularization = {}) {
   const signals = item.editorial_seed?.sample_signals || {};
   const sourceCredibility = clamp(signals.source_credibility || 5);
   const riskScore = clamp(signals.risk_score || riskScoreFromLevel(risk.risk_level, sourceCredibility));
@@ -50,7 +50,10 @@ function scoreItem(item, risk) {
   const baseScore = materialScore * 0.4 + contentScore * 0.4;
   const riskPenalty = riskScore * 0.08;
   const confidenceBoost = sourceCredibility * 0.12;
-  const finalScore10 = clamp(baseScore - riskPenalty + confidenceBoost);
+  const scrollBoost = (popularization.scroll_stop_score || 5) * 0.08;
+  const easyBoost = (popularization.easy_understanding_score || 5) * 0.08;
+  const jargonPenalty = (popularization.jargon_penalty || 0) * 0.05;
+  const finalScore10 = clamp(baseScore - riskPenalty + confidenceBoost + scrollBoost + easyBoost - jargonPenalty);
   const finalScore100 = Math.round(finalScore10 * 10);
 
   return {
@@ -61,6 +64,9 @@ function scoreItem(item, risk) {
     carousel_fit_score: Number(carouselFitScore.toFixed(1)),
     reels_fit_score: Number(reelsFitScore.toFixed(1)),
     risk_score: Number(riskScore.toFixed(1)),
+    scroll_stop_score: popularization.scroll_stop_score || 0,
+    easy_understanding_score: popularization.easy_understanding_score || 0,
+    jargon_penalty: popularization.jargon_penalty || 0,
     final_score: finalScore100,
     final_score_scale: "100",
     final_score_raw_10: Number(finalScore10.toFixed(1)),

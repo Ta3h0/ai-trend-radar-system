@@ -11,6 +11,7 @@ const { generateCardOutline } = require("./generate-card-outline");
 const { generateCaption } = require("./generate-caption");
 const { generateImagePrompts } = require("./generate-image-prompts");
 const { validateSourceMatch, factCheckStatus } = require("./quality-check");
+const { createPopularization } = require("./popularization");
 const { writeDailyReport } = require("./build-daily-report");
 
 function parseArgs(argv) {
@@ -96,7 +97,8 @@ function buildCandidate(item, cluster, index = 0) {
     };
   }
 
-  const scores = scoreItem(item, risk);
+  const popularization = createPopularization(item);
+  const scores = scoreItem(item, risk, popularization);
   if (sourceMatch.source_match_status === "MISMATCH") {
     scores.publish_recommendation = "HOLD";
   }
@@ -104,11 +106,11 @@ function buildCandidate(item, cluster, index = 0) {
   const recommendedFormat = sourceMatch.source_match_status === "MISMATCH"
     ? "HOLD"
     : decideFormat(item, risk, scores);
-  const titleCandidates = generateTitleCandidates(item);
+  const titleCandidates = generateTitleCandidates(item, popularization);
   const recommendedTitle = sourceMatch.source_match_status === "MISMATCH"
     ? "출처 링크가 맞지 않아 오늘은 보류합니다"
     : titleCandidates.recommended;
-  const cardOutline = generateCardOutline(item, recommendedFormat, recommendedTitle);
+  const cardOutline = generateCardOutline(item, recommendedFormat, recommendedTitle, popularization);
   const imagePrompts = generateImagePrompts(item, cardOutline, recommendedFormat);
   const assetPlan = item.editorial_seed?.asset_plan || {};
   const hashtags = item.editorial_seed?.content_seed?.hashtags || ["#AI트렌드", "#AI뉴스"];
@@ -139,6 +141,16 @@ function buildCandidate(item, cluster, index = 0) {
     source_match_score: sourceMatch.source_match_score,
     source_match_notes: sourceMatch.source_match_notes,
     fact_check_status: factStatus,
+    popularization,
+    non_expert_hook: popularization.non_expert_hook,
+    plain_language_summary: popularization.plain_language_summary,
+    why_people_should_care: popularization.why_people_should_care,
+    everyday_example: popularization.everyday_example,
+    jargon_translation: popularization.jargon_translation,
+    expert_note: popularization.expert_note,
+    scroll_stop_score: popularization.scroll_stop_score,
+    easy_understanding_score: popularization.easy_understanding_score,
+    jargon_penalty: popularization.jargon_penalty,
     recommended_format: recommendedFormat,
     recommended_title: recommendedTitle,
     title_candidates: titleCandidates,

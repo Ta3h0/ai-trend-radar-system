@@ -40,7 +40,13 @@ function productionScore(candidate) {
       : candidate.recommended_format === "CAROUSEL" ? 4
         : candidate.recommended_format === "BOTH" ? 5
           : 0;
-  return candidate.scores.final_score + formatBoost + candidate.scores.hook_score + candidate.scores.visual_score;
+  return candidate.scores.final_score
+    + formatBoost
+    + candidate.scores.hook_score
+    + candidate.scores.visual_score
+    + (candidate.scroll_stop_score || 0)
+    + (candidate.easy_understanding_score || 0)
+    - (candidate.jargon_penalty || 0);
 }
 
 function topCandidate(candidates, formats, excludeIds = new Set()) {
@@ -66,14 +72,14 @@ function topPicks(candidates) {
       title: topReels.recommended_title,
       format: topReels.recommended_format,
       score: topReels.scores.final_score,
-      reason: `Visual ${topReels.scores.visual_score}, Reels fit ${topReels.scores.reels_fit_score}, ${topReels.fact_check_status}`
+      reason: `Scroll ${topReels.scroll_stop_score}/10, Easy ${topReels.easy_understanding_score}/10, ${topReels.fact_check_status}`
     } : null,
     top_carousel: topCarousel ? {
       id: topCarousel.id,
       title: topCarousel.recommended_title,
       format: topCarousel.recommended_format,
       score: topCarousel.scores.final_score,
-      reason: `Usefulness ${topCarousel.scores.usefulness_score}, Carousel fit ${topCarousel.scores.carousel_fit_score}, ${topCarousel.fact_check_status}`
+      reason: `Easy ${topCarousel.easy_understanding_score}/10, Save ${topCarousel.scores.usefulness_score}/10, ${topCarousel.fact_check_status}`
     } : null,
     hold_candidates: holdCandidates
   };
@@ -85,17 +91,22 @@ function formatTopPick(label, pick) {
 }
 
 function formatTitleTiers(titleCandidates) {
-  const candidates = titleCandidates || { clean: [], viral: [], extreme: [] };
+  const candidates = titleCandidates || { general: [], viral: [], expert: [] };
   return [
-    "#### Clean",
-    numberedList(candidates.clean),
+    "#### General Hook",
+    numberedList(candidates.general || candidates.clean),
     "",
-    "#### Viral",
+    "#### Viral Hook",
     numberedList(candidates.viral),
     "",
-    "#### Extreme",
-    numberedList(candidates.extreme)
+    "#### Expert Note Hook",
+    numberedList(candidates.expert || candidates.extreme)
   ].join("\n");
+}
+
+function jargonList(items) {
+  if (!items || items.length === 0) return "- None";
+  return items.map((item) => `- ${item.term}: ${item.plain}`).join("\n");
 }
 
 function formatImagePrompts(prompts) {
@@ -125,6 +136,21 @@ function formatCandidate(candidate, index) {
     "### Recommended Title",
     candidate.recommended_title,
     "",
+    "### Popularization Filter",
+    `- Non-expert hook: ${candidate.non_expert_hook}`,
+    `- Plain language summary: ${candidate.plain_language_summary}`,
+    `- Why people should care: ${candidate.why_people_should_care}`,
+    `- Everyday example: ${candidate.everyday_example}`,
+    `- Scroll stop score: ${candidate.scroll_stop_score}/10`,
+    `- Easy understanding score: ${candidate.easy_understanding_score}/10`,
+    `- Jargon penalty: ${candidate.jargon_penalty}/10`,
+    "",
+    "#### Jargon Translation",
+    jargonList(candidate.jargon_translation),
+    "",
+    "#### Expert Note",
+    candidate.expert_note,
+    "",
     "### Hook Title Candidates",
     formatTitleTiers(candidate.title_candidates),
     "",
@@ -150,6 +176,9 @@ function formatCandidate(candidate, index) {
     `- Korea relevance: ${candidate.scores.korea_relevance_score}/10`,
     `- Carousel fit: ${candidate.scores.carousel_fit_score}/10`,
     `- Reels fit: ${candidate.scores.reels_fit_score}/10`,
+    `- Scroll stop: ${candidate.scores.scroll_stop_score}/10`,
+    `- Easy understanding: ${candidate.scores.easy_understanding_score}/10`,
+    `- Jargon penalty: ${candidate.scores.jargon_penalty}/10`,
     `- Risk: ${candidate.scores.risk_score}/10`,
     `- Final: ${candidate.scores.final_score}/100`,
     "",

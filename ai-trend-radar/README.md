@@ -183,9 +183,11 @@ cp .env.example .env
 5. 신뢰도, 바이럴 가능성, 한국 독자 관련성, 리스크를 평가한다.
 6. `REELS`, `REELS_FIRST`, `CAROUSEL`, `BOTH`, `HOLD`를 판단한다.
 7. 소스 링크와 요약 주제가 일치하는지 확인하고 `source_match_status`, `fact_check_status`를 남긴다.
-8. 제목 후보를 `Clean`, `Viral`, `Extreme` 3단계로 생성하고 가장 강한 안전 후킹 제목을 추천한다.
-9. 카드 구성안, 릴스 구성안, 후보별 캡션 초안, 구체적인 이미지 프롬프트를 생성한다.
-10. Markdown과 JSON 결과를 `outputs/daily/`에 저장한다.
+8. `non_expert_hook`, `plain_language_summary`, `why_people_should_care`, `everyday_example`, `jargon_translation`, `expert_note`를 생성한다.
+9. `scroll_stop_score`, `easy_understanding_score`, `jargon_penalty`로 대중화 가능성을 평가한다.
+10. 제목 후보를 `General Hook`, `Viral Hook`, `Expert Note Hook`으로 생성하고 가장 쉽게 이해되는 강한 후킹 제목을 추천한다.
+11. 카드 구성안, 릴스 구성안, 후보별 캡션 초안, 구체적인 이미지 프롬프트를 생성한다.
+12. Markdown과 JSON 결과를 `outputs/daily/`에 저장한다.
 
 ## 다음 구현 우선순위
 
