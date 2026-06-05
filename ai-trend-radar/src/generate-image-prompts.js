@@ -1,48 +1,112 @@
 function guardrails(ratio) {
   return [
-    "no text inside the image",
+    "no readable text inside the image",
     "no logos",
     "no real person likeness",
     "no brand marks",
-    "leave clean negative space for Korean headline overlay",
-    `${ratio} composition`,
-    "premium editorial tech magazine style"
+    "clean negative space for Korean headline overlay",
+    `${ratio} composition`
   ].join(", ");
 }
 
-function sceneFromItem(item) {
-  const seed = item.editorial_seed || {};
-  const required = seed.asset_plan?.required_generated_images?.[0];
-  if (required) return required;
+const briefs = {
+  local_personal_ai: {
+    palette: "deep graphite desk, warm screen glow, soft blue privacy light",
+    base: "a closed laptop on a tidy desk, private documents, a small audio waveform, and a photo thumbnail glowing inside the screen while a distant cloud icon fades outside the window",
+    object: "laptop, locked folder, local desk lamp"
+  },
+  creator_studio: {
+    palette: "cinematic black stage, amber key light, magenta edge light",
+    base: "a miniature film set on a tabletop where a camera, stage lights, and three floating scene previews are being tested before a real shoot",
+    object: "director viewfinder, tiny stage, preview frames"
+  },
+  editable_image: {
+    palette: "clean studio white, translucent glass layers, focused green accent",
+    base: "a product poster separated into transparent layers, with the background, object, shadow, and color plate floating apart like editable sheets",
+    object: "layered poster, product cutout, editing glove"
+  },
+  agent_management: {
+    palette: "quiet enterprise gray, signal blue, warning amber",
+    base: "a command desk where several small AI task cards move through permission gates, audit trails, and approval stamps without showing any text",
+    object: "control dashboard, permission keys, audit timeline"
+  },
+  coding_supervisor: {
+    palette: "dark workstation, cyan code glow, calm white highlights",
+    base: "a developer desk seen from above, with multiple abstract code windows flowing into a single review checklist controlled by one hand",
+    object: "review checklist, code panels, merge switch"
+  },
+  research_assistant: {
+    palette: "laboratory silver, clean white light, electric blue data glow",
+    base: "a research bench with sample trays, microscope glass, and a glowing suggestion path connecting possible next experiments",
+    object: "sample tray, microscope, experiment path"
+  },
+  defensive_ai: {
+    palette: "matte black security room, cool cyan scan lines, red risk pin",
+    base: "a code repository visualized as a building blueprint while a scanning shield finds one small vulnerable doorway",
+    object: "shield scanner, blueprint, risk marker"
+  },
+  world_prediction: {
+    palette: "midnight robotics lab, violet simulation light, steel reflections",
+    base: "a robot training scene where a moving ball, a city block, and a video frame connect into one predicted motion path",
+    object: "motion path, robot camera, simulation grid"
+  },
+  full_stack_ai: {
+    palette: "strategic operations room, charcoal table, teal connection lines",
+    base: "an operations map connecting a chat window, inbox tray, factory icon, and data center block into one business workflow chain",
+    object: "workflow map, inbox tray, data center block"
+  },
+  general: {
+    palette: "modern editorial desk, neutral shadows, one bright AI signal",
+    base: "a simple work desk where one everyday object is connected to a subtle AI signal, showing a practical change rather than abstract technology",
+    object: "desk object, signal line, saved note"
+  }
+};
 
-  const subject = seed.content_seed?.title_subject || item.original_title || "AI trend";
-  const tags = (item.tags || []).join(", ");
-  return `${subject} represented through a concrete scene built from these signals: ${tags}`;
+const cardDirections = {
+  1: "make it poster-like with one unmistakable central object and strong empty space for a large hook",
+  2: "show the simple explanation visually, as if a complex box is opened to reveal one clear everyday object",
+  3: "connect the scene to time, money, work, or content output using objects like a calendar, receipt, clock, or creator dashboard without readable text",
+  4: "show the concrete everyday use case in progress, with a hand, desk tool, camera, laptop, or lab object doing one clear action",
+  5: "show an official-source moment using an abstract document page, date marker, and verification pin without readable text or logos",
+  6: "show caution through a measuring ruler, checklist, small warning marker, or comparison scale, not fear imagery",
+  7: "show a clean one-line-conclusion feeling: one path from input to useful outcome, minimal and decisive",
+  8: "show a save-and-follow closing mood using a phone, bookmark shape, and calm desk lighting without social media logos"
+};
+
+function briefFor(popularization = {}) {
+  return briefs[popularization.everyday_subtype] || briefs.general;
 }
 
-function promptForScene(scene, purpose, ratio) {
+function promptForScene({ purpose, ratio, brief, direction, card }) {
+  const cardLine = card
+    ? `Card role: "${card.title}" / "${card.body}".`
+    : "Single-purpose visual with no collage.";
+
   return [
     `Create ${purpose}.`,
-    `Scene: ${scene}.`,
-    "Use one clear central object, not a collage.",
-    "Make the subject understandable within one second.",
-    "Use cinematic lighting, realistic materials, and a restrained dark high-tech environment.",
+    `Scene: ${brief.base}.`,
+    `Specific visual direction: ${direction}.`,
+    `Key objects: ${brief.object}.`,
+    `Color and lighting: ${brief.palette}.`,
+    cardLine,
+    "Use realistic materials and editorial composition; avoid generic floating AI brains or abstract glowing orbs.",
     guardrails(ratio)
   ].join(" ");
 }
 
-function cardScene(baseScene, card) {
-  return `${baseScene}. Visualize the card idea "${card.title}" through a specific object or environment: ${card.body}`;
-}
-
-function generateImagePrompts(item, cardOutline, recommendedFormat) {
-  const baseScene = sceneFromItem(item);
+function generateImagePrompts(item, cardOutline, recommendedFormat, popularization = {}) {
+  const brief = briefFor(popularization);
   const prompts = [];
 
   if (["REELS", "BOTH", "REELS_FIRST"].includes(recommendedFormat)) {
     prompts.push({
       type: "reels_thumbnail",
-      prompt: promptForScene(baseScene, "a 9:16 reels thumbnail background with immediate visual impact", "9:16")
+      prompt: promptForScene({
+        purpose: "a 9:16 reels thumbnail background with immediate visual impact",
+        ratio: "9:16",
+        brief,
+        direction: "frame the main object close-up with motion or before-after tension, readable in under one second"
+      })
     });
   }
 
@@ -52,23 +116,46 @@ function generateImagePrompts(item, cardOutline, recommendedFormat) {
 
     prompts.push({
       type: "thumbnail",
-      prompt: promptForScene(cardScene(baseScene, thumbnailCard || { title: "main hook", body: "show the core AI change" }), "a 4:5 carousel thumbnail background", "4:5")
+      prompt: promptForScene({
+        purpose: "a 4:5 carousel thumbnail background",
+        ratio: "4:5",
+        brief,
+        direction: cardDirections[1],
+        card: thumbnailCard
+      })
     });
 
     prompts.push({
       type: "body_card",
-      prompt: promptForScene(baseScene, "a 4:5 explanatory body-card background with room for Korean copy blocks", "4:5")
+      prompt: promptForScene({
+        purpose: "a 4:5 reusable explanatory body-card background",
+        ratio: "4:5",
+        brief,
+        direction: "keep the center calm and place the main object lower right so Korean copy can sit clearly on the left"
+      })
     });
 
     prompts.push({
       type: "cta_background",
-      prompt: promptForScene(cardScene(baseScene, ctaCard || { title: "CTA", body: "invite saving and following" }), "a calm 4:5 closing CTA background", "4:5")
+      prompt: promptForScene({
+        purpose: "a calm 4:5 closing CTA background",
+        ratio: "4:5",
+        brief,
+        direction: cardDirections[8],
+        card: ctaCard
+      })
     });
 
     for (const card of cardOutline.cards || []) {
       prompts.push({
         type: `card_${card.number}`,
-        prompt: promptForScene(cardScene(baseScene, card), `a 4:5 visual background for carousel card ${card.number}`, "4:5")
+        prompt: promptForScene({
+          purpose: `a 4:5 visual background for carousel card ${card.number}`,
+          ratio: "4:5",
+          brief,
+          direction: cardDirections[card.number] || "make one concrete scene that supports the card copy",
+          card
+        })
       });
     }
   }

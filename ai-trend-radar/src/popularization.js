@@ -146,16 +146,18 @@ function plainSummary(item, useCase) {
 }
 
 function careReason(item, useCase) {
-  const why = item.editorial_seed?.why_it_matters || "";
-  if (why.includes("privacy") || why.includes("API")) {
-    return "AI를 쓰는 비용, 개인정보, 작업 속도와 연결되기 때문에 개인 사용자와 작은 팀이 관심을 가질 만합니다.";
-  }
-  if (why.includes("creator") || why.includes("video") || why.includes("content")) {
-    return "콘텐츠를 만드는 사람이 촬영, 편집, 시안 제작 전에 더 많은 아이디어를 싸게 시험해볼 수 있기 때문입니다.";
-  }
-  if (why.includes("developers") || why.includes("code")) {
-    return "AI가 일을 대신 끝내는 것이 아니라, 사람이 여러 AI 작업을 검토하고 지휘하는 방식으로 역할이 바뀔 수 있기 때문입니다.";
-  }
+  const reasons = {
+    local_personal_ai: "AI를 쓰는 비용, 개인정보, 작업 속도와 연결되기 때문에 개인 사용자와 작은 팀이 관심을 가질 만합니다.",
+    creator_studio: "촬영과 편집 전에 더 많은 아이디어를 싸게 시험해볼 수 있어 콘텐츠 제작자의 시간과 비용에 직접 연결됩니다.",
+    editable_image: "썸네일, 상세페이지, 광고 이미지를 다시 만드는 시간을 줄일 수 있어 콘텐츠 제작 비용과 수정 속도에 영향을 줍니다.",
+    agent_management: "AI에게 일을 맡기는 회사가 늘수록 권한, 책임, 기록을 관리하는 방식이 실제 업무 기준이 되기 때문입니다.",
+    coding_supervisor: "코드를 직접 쓰는 시간보다 AI가 만든 결과를 검토하고 합치는 시간이 더 중요해질 수 있기 때문입니다.",
+    research_assistant: "연구와 실험 속도가 빨라지면 신약, 소재, 반도체처럼 생활에 닿는 산업의 개발 방식도 달라질 수 있습니다.",
+    defensive_ai: "AI가 코드를 더 빨리 만들수록 오류와 보안 구멍도 빨리 생길 수 있어, 작은 회사와 개인 서비스에도 영향을 줍니다.",
+    world_prediction: "영상, 게임, 로봇, 시뮬레이션 제작에서 장면을 이해하고 다음 움직임을 예측하는 방식이 중요해질 수 있습니다.",
+    full_stack_ai: "기업용 AI가 챗봇을 넘어 업무 도구와 운영 기반까지 묶이면, 회사가 AI를 도입하는 방식 자체가 바뀝니다."
+  };
+  if (reasons[useCase.subtype]) return reasons[useCase.subtype];
   return `${useCase.area}에 직접 연결될 수 있기 때문에, 기술 뉴스가 아니라 내 일상과 일의 방식 변화로 볼 수 있습니다.`;
 }
 
@@ -200,12 +202,31 @@ function scorePopularization(item, useCase, jargon) {
   };
 }
 
+function publicSubject(useCase) {
+  const subjects = {
+    local_personal_ai: "내 기기에서 쓰는 AI",
+    creator_studio: "촬영 전 AI 시안",
+    editable_image: "수정하기 쉬운 AI 이미지",
+    agent_management: "AI 업무 관리",
+    coding_supervisor: "AI 코딩 검토",
+    research_assistant: "연구를 돕는 AI",
+    defensive_ai: "코드를 지키는 AI",
+    world_prediction: "다음 장면을 예측하는 AI",
+    full_stack_ai: "업무 전체를 묶는 AI"
+  };
+  return subjects[useCase.subtype] || useCase.area || "AI 변화";
+}
+
 function createPopularization(item) {
   const useCase = classifyEverydayUse(item);
   const jargon = detectedJargon(item);
   const scores = scorePopularization(item, useCase, jargon);
 
   return {
+    use_case: useCase,
+    audience_area: useCase.area,
+    everyday_subtype: useCase.subtype || "general",
+    public_subject: publicSubject(useCase),
     non_expert_hook: nonExpertHook(item, useCase),
     plain_language_summary: plainSummary(item, useCase),
     why_people_should_care: careReason(item, useCase),
@@ -219,6 +240,8 @@ function createPopularization(item) {
 function removeJargon(title) {
   let next = String(title || "");
   const replacements = {
+    "로컬 멀티모달 AI": "내 기기에서 여러 자료를 이해하는 AI",
+    "로컬 AI": "내 기기에서 쓰는 AI",
     "멀티모달 AI": "여러 자료를 한 번에 이해하는 AI",
     "멀티모달": "여러 자료를 이해하는",
     "에이전틱": "스스로 일을 나누는",
@@ -230,7 +253,8 @@ function removeJargon(title) {
     "컨텍스트 레이어": "업무 맥락 연결",
     "거버넌스": "관리 규칙",
     "인프라": "운영 기반",
-    "벤치마크": "성능 시험"
+    "벤치마크": "성능 시험",
+    "로컬 ": "내 기기에서 "
   };
 
   for (const [term, replacement] of Object.entries(replacements)) {

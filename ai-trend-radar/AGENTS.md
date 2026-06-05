@@ -68,8 +68,8 @@
 - 공식 출처, 커뮤니티 반응, 시각 자료, 한국 독자 관련성을 함께 본다.
 - 출처 기반 사실은 `verified_facts`에 넣고, 해석은 `interpretation`에 넣는다.
 - 검증이 부족한 내용은 `uncertain_points`에 남긴다.
-- 제목 후보는 `Clean`, `Viral`, `Extreme` 3단계로 각각 5개씩 생성하고, 추천 제목은 가장 강한 후킹 제목으로 표시한다.
-- `Extreme` 제목도 허위 사실, 수익 보장, 실존 인물 가짜 발언은 금지한다.
+- 제목 후보는 `General Hook`, `Viral Hook`, `Expert Note Hook` 3단계로 각각 5개씩 생성한다.
+- `Expert Note Hook`은 원문 기준 기술 보충용이며, 허위 사실, 수익 보장, 실존 인물 가짜 발언은 금지한다.
 - 후보마다 `REELS`, `REELS_FIRST`, `CAROUSEL`, `BOTH`, `HOLD` 중 하나를 추천한다.
 - Visual 8 이상, Reels fit 8 이상인 BOTH형 후보는 `REELS_FIRST`로 추천한다.
 - 매일 보고서 Summary 상단에 오늘 제작 추천 1순위 릴스, 1순위 카드뉴스, 보류 후보를 먼저 출력한다.
@@ -79,8 +79,9 @@
 - 릴스는 영상 자료 링크, 공식 영상 여부, 사용 가능성 판단, 추천 캡처 구간, 영상 없이 대체 가능한 구성을 남긴다.
 - 카드뉴스는 3~9장 구성, 카드별 제목과 본문, 이미지 후보, 이미지 생성 프롬프트, 자세한 캡션을 남긴다.
 - 카드 구성에는 실제 카드에 들어갈 문구만 출력하고 내부 설명 문장은 넣지 않는다.
-- 캡션은 후보별로 다른 문장 구조로 작성하고, 영어 원문 요약을 그대로 섞지 않는다.
-- 이미지 프롬프트는 후보별 장면을 구체적으로 설계하고 단순 키워드 치환형 문장을 피한다.
+- 캡션은 후보별로 첫 문장, 비유, 현실 예시, 댓글 질문이 다르게 느껴지도록 작성하고, 영어 원문 요약을 그대로 섞지 않는다.
+- 보고서에 노출되는 공식 사실, 주의점, Why It Matters는 사람이 바로 읽을 수 있게 한국어 표시를 우선한다.
+- 이미지 프롬프트는 후보별 장면, 소품, 조명, 카드별 역할을 구체적으로 설계하고 단순 키워드 치환형 문장을 피한다.
 - Final Score는 100점 기준으로 출력한다.
 - 모든 후보는 `non_expert_hook`, `plain_language_summary`, `why_people_should_care`, `everyday_example`, `jargon_translation`, `expert_note`를 포함한다.
 - 모든 후보는 `scroll_stop_score`, `easy_understanding_score`, `jargon_penalty`를 포함한다.

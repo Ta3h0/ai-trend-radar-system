@@ -186,8 +186,9 @@ cp .env.example .env
 8. `non_expert_hook`, `plain_language_summary`, `why_people_should_care`, `everyday_example`, `jargon_translation`, `expert_note`를 생성한다.
 9. `scroll_stop_score`, `easy_understanding_score`, `jargon_penalty`로 대중화 가능성을 평가한다.
 10. 제목 후보를 `General Hook`, `Viral Hook`, `Expert Note Hook`으로 생성하고 가장 쉽게 이해되는 강한 후킹 제목을 추천한다.
-11. 카드 구성안, 릴스 구성안, 후보별 캡션 초안, 구체적인 이미지 프롬프트를 생성한다.
-12. Markdown과 JSON 결과를 `outputs/daily/`에 저장한다.
+11. 카드 구성안, 릴스 구성안, 후보별로 다른 문장 구조의 캡션 초안, 구체적인 이미지 프롬프트를 생성한다.
+12. 보고서에 노출되는 사실/주의/해석 문장은 사람이 바로 읽을 수 있게 한국어 표시를 우선한다.
+13. Markdown과 JSON 결과를 `outputs/daily/`에 저장한다.
 
 ## 다음 구현 우선순위
 

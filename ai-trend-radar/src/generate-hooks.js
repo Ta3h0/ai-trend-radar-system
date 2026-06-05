@@ -61,30 +61,25 @@ function strongestTitle(items) {
 }
 
 function generateTitleCandidates(item, popularization = {}) {
-  const seed = item.editorial_seed?.content_seed || {};
-  const subject = removeJargon(seed.title_subject || item.original_title || "AI 변화");
+  const subject = removeJargon(popularization.public_subject || item.editorial_seed?.content_seed?.title_subject || item.original_title || "AI 변화");
   const subjectObject = objectParticle(subject);
-  const seeded = Array.isArray(seed.hook_candidates) ? seed.hook_candidates.map(removeJargon) : [];
   const nonExpertHook = popularization.non_expert_hook || "AI 뉴스 같지만 사실은 내 일 이야기입니다";
-  const everyday = popularization.everyday_example || "내 일과 콘텐츠 제작 방식이 조금씩 바뀔 수 있습니다.";
+  const audienceArea = popularization.audience_area || "일과 콘텐츠";
 
   const general = uniqueFive([
     nonExpertHook,
-    "AI 뉴스 같지만 사실은 내 일상 이야기입니다",
-    "내 일과 콘텐츠 제작 방식이 조용히 바뀌고 있습니다",
-    "이 변화가 나한테 무슨 의미인지 쉽게 정리했습니다",
-    `${subjectObject} 쉽게 이해하는 법`,
-    `${subject}가 내 일에 들어오면 생기는 변화`
+    `${subject}가 내 일에 들어오면 달라지는 것`,
+    "이제 중요한 건 AI 이름보다 내가 써먹는 방법입니다",
+    "오늘 AI 변화, 쉽게 보면 이겁니다",
+    `${subjectObject} 처음 보는 사람도 이해하게 정리했습니다`
   ]);
 
   const viral = uniqueFive([
-    seeded[0],
-    seeded[1],
-    `${subject} 때문에 일하는 방식이 달라질 수 있습니다`,
-    `${subjectObject} 모르고 지나치면 늦게 따라갑니다`,
     "이건 기술 뉴스가 아니라 돈과 일의 변화입니다",
-    everyday.replace(/\.$/, "입니다"),
-    "사람들이 아직 가볍게 보는 AI 변화"
+    "AI를 잘 몰라도 이 변화는 봐야 합니다",
+    `${subject} 때문에 내 시간이 아껴질 수 있습니다`,
+    `${subjectObject} 모르고 지나치면 AI 흐름이 더 어렵게 보입니다`,
+    `${audienceArea}에 먼저 연결되는 AI 변화입니다`
   ]);
 
   const expert = uniqueFive([

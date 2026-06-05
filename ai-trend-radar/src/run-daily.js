@@ -12,6 +12,7 @@ const { generateCaption } = require("./generate-caption");
 const { generateImagePrompts } = require("./generate-image-prompts");
 const { validateSourceMatch, factCheckStatus } = require("./quality-check");
 const { createPopularization } = require("./popularization");
+const { verifiedFactsKorean, uncertainPointsKorean } = require("./koreanize");
 const { writeDailyReport } = require("./build-daily-report");
 
 function parseArgs(argv) {
@@ -111,7 +112,7 @@ function buildCandidate(item, cluster, index = 0) {
     ? "출처 링크가 맞지 않아 오늘은 보류합니다"
     : titleCandidates.recommended;
   const cardOutline = generateCardOutline(item, recommendedFormat, recommendedTitle, popularization);
-  const imagePrompts = generateImagePrompts(item, cardOutline, recommendedFormat);
+  const imagePrompts = generateImagePrompts(item, cardOutline, recommendedFormat, popularization);
   const assetPlan = item.editorial_seed?.asset_plan || {};
   const hashtags = item.editorial_seed?.content_seed?.hashtags || ["#AI트렌드", "#AI뉴스"];
   const sourceSummaryKo = generateKoreanSourceSummary(item);
@@ -126,9 +127,12 @@ function buildCandidate(item, cluster, index = 0) {
     published_at: item.published_at,
     original_title: item.original_title,
     verified_facts: item.editorial_seed?.verified_facts || [],
+    verified_facts_ko: verifiedFactsKorean(item),
     uncertain_points: item.editorial_seed?.uncertain_points || [],
+    uncertain_points_ko: uncertainPointsKorean(item),
     interpretation: item.editorial_seed?.interpretation || "",
     why_it_matters: item.editorial_seed?.why_it_matters || "",
+    why_it_matters_ko: popularization.why_people_should_care,
     content_angle: item.editorial_seed?.content_angle || "",
     korea_relevance: scores.korea_relevance_score,
     visual_potential: scores.visual_score,
@@ -142,6 +146,10 @@ function buildCandidate(item, cluster, index = 0) {
     source_match_notes: sourceMatch.source_match_notes,
     fact_check_status: factStatus,
     popularization,
+    use_case: popularization.use_case,
+    audience_area: popularization.audience_area,
+    everyday_subtype: popularization.everyday_subtype,
+    public_subject: popularization.public_subject,
     non_expert_hook: popularization.non_expert_hook,
     plain_language_summary: popularization.plain_language_summary,
     why_people_should_care: popularization.why_people_should_care,

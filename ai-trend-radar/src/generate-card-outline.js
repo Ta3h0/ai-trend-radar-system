@@ -1,11 +1,5 @@
 const { removeJargon } = require("./popularization");
-
-function fallbackFact(item) {
-  const fact = item.editorial_seed?.verified_facts?.[0] || item.original_title || "공식 자료에서 확인된 변화가 있습니다.";
-  return fact
-    .replace(/^.* published /i, "공식 자료 기준 공개된 내용입니다: ")
-    .replace(/^.* says /i, "원문 기준 확인할 내용입니다: ");
-}
+const { officialCoreKorean, cautionKorean } = require("./koreanize");
 
 function generateCardOutline(item, recommendedFormat, recommendedTitle, popularization = {}) {
   if (!["CAROUSEL", "BOTH", "REELS_FIRST"].includes(recommendedFormat)) {
@@ -20,8 +14,7 @@ function generateCardOutline(item, recommendedFormat, recommendedTitle, populari
   const plainSummary = popularization.plain_language_summary || "쉽게 말해, AI가 일과 콘텐츠 제작 방식을 바꾸는 변화입니다.";
   const care = popularization.why_people_should_care || "내 일, 돈, 콘텐츠 제작 방식과 연결될 수 있습니다.";
   const example = popularization.everyday_example || "반복 업무나 콘텐츠 시안을 더 빨리 실험하는 데 쓸 수 있습니다.";
-  const expertNote = popularization.expert_note || "전문 보충은 원문 기준 사실과 출시 범위를 확인해야 합니다.";
-  const caution = (item.editorial_seed?.uncertain_points || [])[0] || "출시 범위, 사용권, 실제 성능은 원문 기준으로 다시 확인해야 합니다.";
+  const caution = cautionKorean(item);
 
   const cards = [
     {
@@ -56,7 +49,7 @@ function generateCardOutline(item, recommendedFormat, recommendedTitle, populari
       number: 5,
       role: "body",
       title: "원문 기준 핵심",
-      body: fallbackFact(item),
+      body: officialCoreKorean(item),
       emphasis: "사실과 해석 분리"
     },
     {
