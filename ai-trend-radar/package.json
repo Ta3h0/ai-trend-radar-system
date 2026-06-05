@@ -8,6 +8,7 @@
     "daily": "node src/run-daily.js",
     "collect": "node src/run-daily.js --collect-only",
     "report": "node src/build-daily-report.js",
+    "publish": "node src/build-publish-pack.js",
     "check": "node src/run-daily.js --dry-run"
   },
   "engines": {

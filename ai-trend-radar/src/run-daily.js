@@ -15,6 +15,7 @@ const { createPopularization } = require("./popularization");
 const { verifiedFactsKorean, uncertainPointsKorean } = require("./koreanize");
 const { writeDailyReport } = require("./build-daily-report");
 const { validateDailyMarkdown, formatValidationError } = require("./validate-daily-markdown");
+const { validatePublishPacks, formatPublishValidationError } = require("./validate-publish-pack");
 
 function parseArgs(argv) {
   const args = {
@@ -255,6 +256,10 @@ function runDaily(options = {}) {
   if (!markdownValidation.ok) {
     throw new Error(formatValidationError(markdownValidation));
   }
+  const publishValidation = validatePublishPacks({ rootDir });
+  if (!publishValidation.ok) {
+    throw new Error(formatPublishValidationError(publishValidation));
+  }
 
   return {
     mode: "dry-run",
@@ -267,6 +272,11 @@ function runDaily(options = {}) {
       ok: true,
       issues: 0,
       path: path.relative(rootDir, markdownValidation.markdownPath)
+    },
+    publish_pack_validation: {
+      ok: true,
+      scanned: publishValidation.scanned,
+      issues: 0
     },
     written: []
   };
@@ -289,6 +299,7 @@ if (require.main === module) {
     total_clusters: result.total_clusters,
     final_candidates: result.final_candidates,
     markdown_validation: result.markdown_validation,
+    publish_pack_validation: result.publish_pack_validation,
     written: result.written.map((filePath) => path.relative(path.resolve(__dirname, ".."), filePath))
   }, null, 2));
 }
