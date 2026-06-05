@@ -222,90 +222,108 @@ function visualConcept(candidate) {
     local_personal_ai: {
       style: "A raw iPhone 14 Pro POV snapshot",
       core_change: "AI 작업을 외부 서비스로 보내기 전에 내 기기 가까이에서 먼저 처리한다.",
+      prompt_summary: "Local AI processing starts near the user's own device before files are sent anywhere else.",
       intuitive_scene: "a laptop on a quiet work desk with a closed folder beside it, showing private files being prepared locally before upload",
       visible_ai_signal: "a subtle local processing ring on the laptop screen and a small assistant-style icon, no readable text",
       before_after_or_comparison: "closed private folder beside laptop vs local AI processing already started on the laptop",
       text_safe_area: "upper 45% clean dark negative space for Korean headline text",
+      ai_signal_scope: "AI indicators must appear only inside the laptop screen, not floating in the air.",
       objects: ["laptop", "closed folder", "checklist"],
       mood: "private, calm, practical, premium workspace"
     },
     creator_studio: {
       style: "A raw iPhone 14 Pro POV snapshot",
       core_change: "촬영 전에 AI로 광고/릴스 시안을 먼저 비교한다.",
-      intuitive_scene: "a real camera sits unused beside a smartphone before filming starts; the smartphone screen shows three different AI-generated ad concept previews for the same shoot",
-      visible_ai_signal: "three generated concept thumbnail cards on the smartphone, a small magic-wand style icon, subtle generation progress rings, checked candidate card, no readable text",
-      before_after_or_comparison: "real camera not yet used vs AI previews already generated",
+      prompt_summary: "AI compares ad and reels concept previews before the real shoot begins.",
+      intuitive_scene: "a commercial shoot before filming starts, with an unused real camera beside a smartphone and one storyboard sheet",
+      visible_ai_signal: "inside the smartphone screen only: three AI-generated ad concept previews, a small magic-wand style icon, subtle progress rings, one checked concept card, no readable text",
+      before_after_or_comparison: "unused real camera vs already generated AI previews on the smartphone",
       text_safe_area: "upper 45% clean dark negative space for Korean headline text",
-      objects: ["camera", "storyboard sheets", "smartphone"],
+      ai_signal_scope: "AI indicators must appear only inside the smartphone screen, not floating in the air.",
+      objects: ["smartphone", "camera", "one storyboard sheet"],
       mood: "premium creator workspace, natural desk light, clean commercial still"
     },
     editable_image: {
       style: "realistic editorial commercial still",
       core_change: "AI 이미지 작업이 생성에서 부분 수정과 비교로 이동한다.",
+      prompt_summary: "AI image work shifts from generating a whole image to comparing clean revision options.",
       intuitive_scene: "a laptop beside a printed product photo, showing one original image and three clean revision options on screen",
       visible_ai_signal: "three revision thumbnails, small magic-wand style icon, checked option card, no readable text",
       before_after_or_comparison: "one original product idea vs three generated revision options",
       text_safe_area: "upper third clean negative space for Korean headline text",
+      ai_signal_scope: "AI indicators must appear only inside the laptop screen, not floating in the air.",
       objects: ["laptop", "printed product photo", "color swatches"],
       mood: "clean studio, realistic retouching workflow"
     },
     agent_management: {
       style: "realistic editorial commercial still",
       core_change: "AI에게 일을 맡긴 뒤 권한과 기록을 확인해야 한다.",
+      prompt_summary: "AI work delegation now needs permission checks and visible records.",
       intuitive_scene: "an office desk with a laptop showing simple task cards, a checklist clipboard, and a keycard for approval",
       visible_ai_signal: "checked task cards and a small assistant-style icon, no readable text",
       before_after_or_comparison: "tasks assigned to AI vs human approval checklist waiting beside it",
       text_safe_area: "upper third clean negative space for Korean headline text",
+      ai_signal_scope: "AI indicators must appear only inside the laptop screen, not floating in the air.",
       objects: ["laptop", "checklist clipboard", "keycard"],
       mood: "organized workplace, calm compliance mood"
     },
     coding_supervisor: {
       style: "realistic editorial commercial still",
       core_change: "코드를 직접 쓰는 일보다 AI 결과를 검토하는 일이 커진다.",
+      prompt_summary: "Reviewing AI-generated code results becomes more important than writing every line by hand.",
       intuitive_scene: "a developer desk with a laptop showing three blurred code result cards and a notebook checklist beside it",
       visible_ai_signal: "three generated result cards, checked candidate card, small assistant-style icon, no readable text",
       before_after_or_comparison: "AI generated multiple code options vs human checklist selecting one",
       text_safe_area: "upper 40% clean negative space for Korean headline text",
+      ai_signal_scope: "AI indicators must appear only inside the laptop screen, not floating in the air.",
       objects: ["laptop", "notebook checklist", "coffee cup"],
       mood: "focused review, professional desk light"
     },
     research_assistant: {
       style: "realistic editorial commercial still",
       core_change: "AI가 다음 실험 후보를 먼저 좁혀준다.",
+      prompt_summary: "AI narrows down the next experiment options before the team begins testing.",
       intuitive_scene: "a lab desk with a laptop showing three blurred experiment option cards beside a sample tray and paper checklist",
       visible_ai_signal: "three generated option cards, progress ring, checked candidate marker, no readable text",
       before_after_or_comparison: "many physical samples waiting vs AI-selected experiment options on the laptop",
       text_safe_area: "upper third clean negative space for Korean headline text",
+      ai_signal_scope: "AI indicators must appear only inside the laptop screen, not floating in the air.",
       objects: ["laptop", "paper checklist", "sample tray"],
       mood: "clean lab editorial, grounded and realistic"
     },
     defensive_ai: {
       style: "realistic editorial commercial still",
       core_change: "AI가 만든 코드가 늘수록 보안 점검도 같이 필요해진다.",
+      prompt_summary: "As AI-generated code increases, security review needs to happen alongside it.",
       intuitive_scene: "a security review desk with a laptop showing three blurred risk cards, a printed checklist, and a small desk light",
       visible_ai_signal: "risk cards with check markers and a small assistant-style icon, no readable text",
       before_after_or_comparison: "generated code result cards vs security checklist beside them",
       text_safe_area: "upper 40% clean negative space for Korean headline text",
+      ai_signal_scope: "AI indicators must appear only inside the laptop screen, not floating in the air.",
       objects: ["laptop", "printed checklist", "desk light"],
       mood: "serious but realistic security workflow"
     },
     world_prediction: {
       style: "realistic editorial commercial still",
       core_change: "영상 AI가 장면 생성에서 움직임 예측으로 넓어진다.",
+      prompt_summary: "Video AI expands from scene generation into predicting what movement comes next.",
       intuitive_scene: "a robotics workbench with a camera beside a laptop showing three blurred motion sequence thumbnails",
       visible_ai_signal: "three generated motion cards, subtle progress rings, checked sequence marker, no readable text",
       before_after_or_comparison: "camera has captured one scene vs AI-generated next-motion options on laptop",
       text_safe_area: "upper 45% clean negative space for Korean headline text",
+      ai_signal_scope: "AI indicators must appear only inside the laptop screen, not floating in the air.",
       objects: ["camera", "laptop", "storyboard sheet"],
       mood: "premium robotics workspace, realistic lighting"
     },
     full_stack_ai: {
       style: "realistic editorial commercial still",
       core_change: "AI가 챗봇 하나를 넘어 업무 흐름 전체를 묶는다.",
+      prompt_summary: "AI moves beyond a single chatbot and starts grouping the whole work flow.",
       intuitive_scene: "a business operations desk with a laptop showing three blurred workflow cards beside a checklist and smartphone",
       visible_ai_signal: "workflow option cards, small assistant-style icon, checked candidate card, no readable text",
       before_after_or_comparison: "separate work tools on desk vs AI-grouped workflow options on laptop",
       text_safe_area: "upper third clean negative space for Korean headline text",
+      ai_signal_scope: "AI indicators must appear only inside the laptop screen, not floating in the air.",
       objects: ["laptop", "checklist", "smartphone"],
       mood: "executive workspace, clean practical composition"
     }
@@ -336,11 +354,12 @@ function cleanPrompt(prompt) {
     .trim();
 }
 
-function qualityCheck(subjectCount) {
+function promptConstraintCheck(subjectCount) {
   return [
     ["main subject count <= 3", subjectCount <= 3],
     ["has negative space", true],
-    ["no floating UI", true],
+    ["no floating UI outside device screen", true],
+    ["AI indicators contained inside device screen", true],
     ["no hologram", true],
     ["no readable text", true],
     ["no logo", true],
@@ -357,30 +376,31 @@ function imagePrompts(candidate) {
   const concept = visualConcept(candidate);
   const subjectCount = concept.objects.length;
   const objects = concept.objects.join(", ");
-  const negativePrompt = "No readable text, no logos, no brand marks, no sci-fi holograms, no giant floating UI, no AI brain, no robots, no abstract glowing orbs, no clutter, realistic editorial commercial photography.";
-  const conceptPrompt = `Core change: ${concept.core_change} Intuitive scene: ${concept.intuitive_scene} AI signal: ${concept.visible_ai_signal} Contrast: ${concept.before_after_or_comparison} Text area: ${concept.text_safe_area}`;
+  const negativePrompt = "No readable text, no logos, no brand marks, no floating UI outside the device screen, no holograms, no sci-fi dashboards, no AI brain, no robots, no abstract glowing orbs, no clutter, realistic editorial commercial photography.";
+  const promptSummary = concept.prompt_summary || "AI changes the workflow before the main work begins.";
+  const aiSignalScope = concept.ai_signal_scope || "AI indicators must appear only inside the device screen, not floating in the air.";
 
   return {
     visual_concept: concept,
     prompts: [{
       type: "reels_thumbnail",
-      prompt: cleanPrompt(`${concept.style}, vertical 9:16. One-sentence summary: ${concept.core_change} Scene: ${concept.intuitive_scene}. Main subjects only: ${objects}. AI signal: ${concept.visible_ai_signal}. Contrast: ${concept.before_after_or_comparison}. Text area: ${concept.text_safe_area}. Premium realistic behind-the-scenes production desk, dark table, one storyboard sheet, subtle amber desk light with soft blue accent. ${negativePrompt}`),
-      quality_check: qualityCheck(subjectCount)
+      prompt: cleanPrompt(`${concept.style}, vertical 9:16. One-sentence summary: ${promptSummary} Scene: ${concept.intuitive_scene}. Main subjects only: ${objects}. AI signal: ${concept.visible_ai_signal}. ${aiSignalScope} Contrast: ${concept.before_after_or_comparison}. Text area: ${concept.text_safe_area}. Premium realistic behind-the-scenes production desk, dark table, subtle amber desk light with soft blue accent. ${negativePrompt}`),
+      prompt_constraint_check: promptConstraintCheck(subjectCount)
     },
     {
       type: "carousel_thumbnail",
-      prompt: cleanPrompt(`${concept.style}, 4:5 carousel thumbnail. One-sentence summary: ${concept.core_change} Scene: ${concept.intuitive_scene}. Main subjects only: ${objects}. AI signal: ${concept.visible_ai_signal}. Contrast: ${concept.before_after_or_comparison}. Leave large clean negative space in the upper third for Korean headline text. Realistic editorial commercial still, simple composition, premium desk styling. ${negativePrompt}`),
-      quality_check: qualityCheck(subjectCount)
+      prompt: cleanPrompt(`${concept.style}, 4:5 carousel thumbnail. One-sentence summary: ${promptSummary} Scene: ${concept.intuitive_scene}. Main subjects only: ${objects}. AI signal: ${concept.visible_ai_signal}. ${aiSignalScope} Contrast: ${concept.before_after_or_comparison}. Leave large clean negative space in the upper third for Korean headline text. Realistic editorial commercial still, simple composition, premium desk styling. ${negativePrompt}`),
+      prompt_constraint_check: promptConstraintCheck(subjectCount)
     },
     {
       type: "body_card_background",
-      prompt: cleanPrompt(`${concept.style}, 4:5 body card background. Show the same change more quietly: ${concept.intuitive_scene}. Keep the main subjects low and to one side: ${objects}. Include a subtle AI signal through selectable visual cards and progress rings, no readable text. Leave clean empty space for Korean body copy. Soft realistic light, editorial still, restrained color palette. ${negativePrompt}`),
-      quality_check: qualityCheck(subjectCount)
+      prompt: cleanPrompt(`${concept.style}, 4:5 body card background. Show the same workflow change more quietly: ${concept.intuitive_scene}. Keep the main subjects low and to one side: ${objects}. Include subtle AI indicators only inside the device screen through selectable visual cards and progress rings, no readable text. Leave clean empty space for Korean body copy. Soft realistic light, editorial still, restrained color palette. ${negativePrompt}`),
+      prompt_constraint_check: promptConstraintCheck(subjectCount)
     },
     {
       type: "cta_background",
-      prompt: cleanPrompt(`${concept.style}, 4:5 closing CTA background. Scene: a tidy work desk after the comparison is finished, smartphone showing one checked visual option, checklist, and soft desk light. Leave clean negative space in the center for Korean CTA text. Calm realistic commercial still, warm light, premium workspace. ${negativePrompt}`),
-      quality_check: qualityCheck(3)
+      prompt: cleanPrompt(`${concept.style}, 4:5 closing CTA background. Scene: a tidy work desk after the comparison is finished, a smartphone or laptop screen showing one checked visual option, a simple checklist, and soft desk light. AI indicators must stay inside the device screen, not floating in the air. Leave clean negative space in the center for Korean CTA text. Calm realistic commercial still, warm light, premium workspace. ${negativePrompt}`),
+      prompt_constraint_check: promptConstraintCheck(3)
     }
   ]};
 }
@@ -439,8 +459,8 @@ function renderImagePrompts(imageSet) {
       `## ${entry.type}`,
       entry.prompt,
       "",
-      "Quality check:",
-      ...(entry.quality_check || []).map((check) => `- ${check.pass ? "PASS" : "FAIL"}: ${check.label}`),
+      "Prompt constraint check:",
+      ...(entry.prompt_constraint_check || []).map((check) => `- ${check.pass ? "PASS" : "FAIL"}: ${check.label}`),
       ""
     ])
   ].join("\n");
@@ -464,7 +484,7 @@ function hasOverclaim(text) {
 
 function imagePromptChecksPass(prompts) {
   const promptList = Array.isArray(prompts) ? prompts : prompts.prompts;
-  return promptList.every((entry) => (entry.quality_check || []).every((check) => check.pass));
+  return promptList.every((entry) => (entry.prompt_constraint_check || []).every((check) => check.pass));
 }
 
 function buildPreflight({ pack, caption, prompts }) {
@@ -479,7 +499,7 @@ function buildPreflight({ pack, caption, prompts }) {
     ["과장 표현 없음", !hasOverclaim(caption)],
     ["이미지 프롬프트 4개 이하", promptList.length <= 4],
     ["card_1~card_8 프롬프트 없음", !promptList.some((entry) => /^card_[1-8]$/.test(entry.type))],
-    ["이미지 프롬프트 품질 체크 통과", imagePromptChecksPass(prompts)]
+    ["이미지 프롬프트 조건 체크 통과", imagePromptChecksPass(prompts)]
   ];
 
   return checks.map(([label, pass]) => ({ label, pass }));

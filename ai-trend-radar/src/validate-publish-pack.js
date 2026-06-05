@@ -20,9 +20,37 @@ const publishForbiddenPhrases = [
   "card_8:"
 ];
 
+const publishPromptTypes = [
+  "reels_thumbnail",
+  "carousel_thumbnail",
+  "body_card_background",
+  "cta_background"
+];
+
 function countOccurrences(text, fragment) {
   if (!fragment) return 0;
   return text.split(fragment).length - 1;
+}
+
+function extractPromptBlock(text, type) {
+  const header = `## ${type}`;
+  const start = text.indexOf(header);
+  if (start === -1) return null;
+
+  const afterHeader = text.slice(start + header.length).replace(/^\r?\n/, "");
+  const nextHeader = afterHeader.search(/\r?\n##\s/);
+  const block = nextHeader === -1 ? afterHeader : afterHeader.slice(0, nextHeader);
+  const prompt = block.split(/\r?\n\r?\nPrompt constraint check:/)[0].trim();
+  return {
+    type,
+    block,
+    prompt
+  };
+}
+
+function countKoreanChars(text) {
+  const matches = String(text || "").match(/[가-힣]/g);
+  return matches ? matches.length : 0;
 }
 
 function walkPublishPacks(dir) {
@@ -55,6 +83,48 @@ function validatePublishPacks({ rootDir }) {
           filePath,
           pattern: phrase,
           count
+        });
+      }
+    }
+
+    const qualityCheckCount = countOccurrences(text, "Quality check:");
+    if (qualityCheckCount > 0) {
+      issues.push({
+        type: "publish_prompt_old_check_label",
+        filePath,
+        pattern: "Quality check:",
+        count: qualityCheckCount
+      });
+    }
+
+    for (const promptType of publishPromptTypes) {
+      const promptBlock = extractPromptBlock(text, promptType);
+      if (!promptBlock) {
+        issues.push({
+          type: "publish_prompt_missing",
+          filePath,
+          pattern: promptType,
+          count: 1
+        });
+        continue;
+      }
+
+      const koreanCharCount = countKoreanChars(promptBlock.prompt);
+      if (koreanCharCount > 0) {
+        issues.push({
+          type: "publish_prompt_non_english",
+          filePath,
+          pattern: promptType,
+          count: koreanCharCount
+        });
+      }
+
+      if (!promptBlock.block.includes("Prompt constraint check:")) {
+        issues.push({
+          type: "publish_prompt_constraint_check_missing",
+          filePath,
+          pattern: promptType,
+          count: 1
         });
       }
     }
@@ -94,6 +164,7 @@ if (require.main === module) {
 
 module.exports = {
   publishForbiddenPhrases,
+  publishPromptTypes,
   validatePublishPacks,
   formatPublishValidationError
 };
