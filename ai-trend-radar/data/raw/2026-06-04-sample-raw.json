@@ -1,0 +1,1281 @@
+[
+  {
+    "source_name": "Google Blog",
+    "source_type": "official_blog",
+    "source_tier": "S",
+    "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+    "published_at": "2026-06-03",
+    "original_title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "original_author": "Google DeepMind",
+    "raw_summary": "Google introduced Gemma 4 12B, a mid-sized open model designed for agentic multimodal intelligence on laptops, with native audio input, vision/audio flowing directly into the LLM backbone, Apache 2.0 licensing, and local use paths through tools such as LM Studio, Ollama, Hugging Face, Kaggle, LiteRT-LM, llama.cpp, MLX, SGLang, vLLM, and Transformers.",
+    "raw_content_excerpt": "Gemma 4 12B is described as laptop-ready with 16GB VRAM or unified memory, released under Apache 2.0, and designed to support multimodal and agentic workflows.",
+    "language": "en",
+    "media_urls": [
+      "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
+    ],
+    "video_urls": [],
+    "image_urls": [
+      "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
+    ],
+    "tags": [
+      "Gemma",
+      "open model",
+      "local AI",
+      "multimodal AI",
+      "AI agent"
+    ],
+    "metrics": {
+      "comments": null,
+      "likes": null,
+      "upvotes": null,
+      "views": null,
+      "stars": null
+    },
+    "cluster_hint": "gemma-4-12b-local-multimodal-ai",
+    "verified_facts": [
+      "Google published the Gemma 4 12B announcement on June 3, 2026.",
+      "Google describes Gemma 4 12B as a unified, encoder-free multimodal model.",
+      "Google says the model is laptop-ready with 16GB of VRAM or unified memory.",
+      "Google says Gemma 4 12B is released under the Apache 2.0 license."
+    ],
+    "uncertain_points": [
+      "Real-world local performance will vary by laptop hardware, quantization, and workload.",
+      "The announcement does not mean every consumer laptop will run every workflow smoothly.",
+      "Benchmark comparisons should be checked directly before quoting exact numbers in a post."
+    ],
+    "interpretation": "Local multimodal AI is moving from developer novelty toward a practical creator and small-business workflow option.",
+    "why_it_matters": "If a capable multimodal model can run locally, creators and small teams get more privacy, lower recurring API dependence, and faster experimentation for document, image, voice, and agent workflows.",
+    "content_angle": "클라우드 AI만 보던 사람들에게 '내 노트북에서 돌아가는 멀티모달 AI'라는 흐름을 설명한다.",
+    "sample_signals": {
+      "visual_impact": 6,
+      "explain_complexity": 8,
+      "hook_strength": 8,
+      "save_value": 9,
+      "source_depth": 9,
+      "demo_available": false,
+      "korea_relevance": 8,
+      "viral_potential": 7,
+      "source_credibility": 10,
+      "risk_level": "LOW",
+      "risk_notes": [
+        "Official Google source. Avoid overpromising local performance."
+      ]
+    },
+    "asset_plan": {
+      "related_video_links": [],
+      "official_video": "no",
+      "usage_judgement": "공식 블로그 링크와 페이지 캡처 후보. 이미지 직접 사용 전 Google 블로그 이미지 사용 조건 확인 필요",
+      "recommended_scene": "not applicable",
+      "alternative_no_video_production": "노트북, 이미지, 오디오, 문서 아이콘이 하나의 로컬 AI 엔진으로 합쳐지는 카드뉴스 연출",
+      "usable_image_candidates": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
+      ],
+      "reference_only_images": [],
+      "screenshot_candidates": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
+      ],
+      "required_generated_images": [
+        "노트북 안에서 이미지, 음성, 텍스트가 하나의 AI 엔진으로 합쳐지는 프리미엄 에디토리얼 이미지"
+      ]
+    },
+    "content_seed": {
+      "title_subject": "로컬 멀티모달 AI",
+      "recommended_title": "이제 AI가 노트북 안으로 들어오는 흐름이 보입니다",
+      "hook_candidates": [
+        "이제 AI가 노트북 안으로 들어오는 흐름이 보입니다",
+        "클라우드 AI만 보던 사람들은 이 변화를 놓칩니다",
+        "내 노트북에서 돌아가는 멀티모달 AI가 왔습니다",
+        "이건 단순한 오픈 모델 공개가 아닙니다",
+        "AI 자동화의 다음 변수는 로컬 실행입니다",
+        "프라이버시가 중요한 사람은 이 모델을 봐야 합니다",
+        "AI 도구 비용을 줄이는 흐름이 시작됐습니다",
+        "멀티모달 AI가 점점 개인 장비로 내려옵니다",
+        "개발자만의 이야기가 아닙니다",
+        "AI를 쓰는 방식이 클라우드 밖으로 넓어집니다"
+      ],
+      "hashtags": [
+        "#Gemma",
+        "#로컬AI",
+        "#AI트렌드",
+        "#멀티모달AI",
+        "#AI자동화"
+      ],
+      "carousel_cards": [
+        {
+          "title": "AI가 노트북 안으로",
+          "body": "Gemma 4 12B는 로컬 실행을 전면에 둔 멀티모달 모델입니다.",
+          "emphasis": "클라우드 밖 AI가 커집니다."
+        },
+        {
+          "title": "왜 중요한가",
+          "body": "API 비용, 개인정보, 속도 문제를 줄이는 방향으로 해석할 수 있습니다.",
+          "emphasis": "작은 팀에게 의미가 큽니다."
+        },
+        {
+          "title": "무엇이 다른가",
+          "body": "이미지와 오디오 입력을 별도 인코더보다 더 직접적으로 다루는 구조를 강조합니다.",
+          "emphasis": "멀티모달 구조가 단순해집니다."
+        },
+        {
+          "title": "활용 포인트",
+          "body": "문서 요약, 이미지 분석, 음성 입력, 로컬 에이전트 실험으로 이어질 수 있습니다.",
+          "emphasis": "업무 자동화의 재료입니다."
+        },
+        {
+          "title": "주의할 점",
+          "body": "노트북마다 성능은 다릅니다. 데모와 실제 운영은 분리해서 봐야 합니다.",
+          "emphasis": "가능성과 보장은 다릅니다."
+        }
+      ]
+    }
+  },
+  {
+    "source_name": "Luma",
+    "source_type": "official_newsroom",
+    "source_tier": "S",
+    "source_url": "https://lumalabs.ai/news/human-after-all",
+    "published_at": "2026-06-03",
+    "original_title": "Human, after all.",
+    "original_author": "Luma",
+    "raw_summary": "Luma joined Webedia-Elephant's Human After All AI Creator Studio as a creative partner, alongside Google and ElevenLabs. Luma says the launch included a real-time performance transformation with Ray3.14 and that creators will get access, support sessions, and office hours in Paris through the summer.",
+    "raw_content_excerpt": "Luma frames the studio as human-centered AI-assisted creation where live performance remains human while AI changes the world around the actor.",
+    "language": "en",
+    "media_urls": [
+      "https://lumalabs.ai/news/human-after-all"
+    ],
+    "video_urls": [
+      "https://lumalabs.ai/news/human-after-all"
+    ],
+    "image_urls": [
+      "https://lumalabs.ai/news/human-after-all"
+    ],
+    "tags": [
+      "Luma",
+      "AI creator studio",
+      "AI video",
+      "creator economy"
+    ],
+    "metrics": {
+      "comments": null,
+      "likes": null,
+      "upvotes": null,
+      "views": null,
+      "stars": null
+    },
+    "cluster_hint": "luma-human-after-all-ai-creator-studio",
+    "verified_facts": [
+      "Luma published the Human After All post on June 3, 2026.",
+      "Luma says it is a creative partner in Webedia-Elephant's AI Creator Studio.",
+      "Luma says Google and ElevenLabs are also among the tools creators can use in the studio.",
+      "Luma describes a launch performance where live talent was transformed in real time with Ray3.14."
+    ],
+    "uncertain_points": [
+      "The post does not provide full public access details for all creators.",
+      "Any event footage or stage visuals require usage-rights confirmation before reuse.",
+      "The quality and scalability of the workflow should not be generalized from the launch description alone."
+    ],
+    "interpretation": "AI video is becoming a studio workflow, not just a single-tool demo.",
+    "why_it_matters": "For creators, the important change is not just better video generation, but supervised production spaces where people, AI video, voice, and editing tools are combined into repeatable creative workflows.",
+    "content_angle": "AI가 창작자를 대체한다는 프레임보다, 창작자가 더 많은 세계를 시도하는 제작 스튜디오 흐름으로 풀 수 있다.",
+    "sample_signals": {
+      "visual_impact": 9,
+      "explain_complexity": 7,
+      "hook_strength": 9,
+      "save_value": 7,
+      "source_depth": 7,
+      "demo_available": true,
+      "korea_relevance": 8,
+      "viral_potential": 9,
+      "source_credibility": 9,
+      "risk_level": "MEDIUM",
+      "risk_notes": [
+        "Official Luma source, but event footage reuse needs permission."
+      ]
+    },
+    "asset_plan": {
+      "related_video_links": [
+        "https://lumalabs.ai/news/human-after-all"
+      ],
+      "official_video": "official page reference; specific footage rights need checking",
+      "usage_judgement": "확인 필요: 공식 발표 링크는 사용 가능. 영상/이미지 직접 사용은 권리 확인 필요",
+      "recommended_scene": "배우는 그대로 있고 주변 세계가 실시간으로 바뀌는 장면",
+      "alternative_no_video_production": "무대 위 실제 배우와 변화하는 가상 배경을 직접 생성 이미지와 카드뉴스로 설명",
+      "usable_image_candidates": [
+        "https://lumalabs.ai/news/human-after-all"
+      ],
+      "reference_only_images": [],
+      "screenshot_candidates": [
+        "https://lumalabs.ai/news/human-after-all"
+      ],
+      "required_generated_images": [
+        "무대 위 한 사람을 중심으로 주변 세계가 AI로 바뀌는 시네마틱 이미지"
+      ]
+    },
+    "content_seed": {
+      "title_subject": "AI 크리에이터 스튜디오",
+      "recommended_title": "AI가 창작자를 대신하는 게 아니라 무대를 바꾸고 있습니다",
+      "hook_candidates": [
+        "AI가 창작자를 대신하는 게 아니라 무대를 바꾸고 있습니다",
+        "이건 단순한 AI 영상 데모가 아닙니다",
+        "창작자가 세계를 바꾸는 방식이 달라집니다",
+        "사람은 그대로, 배경은 AI가 바꿉니다",
+        "AI 영상의 진짜 변화는 스튜디오에서 시작됩니다",
+        "크리에이터가 놓치면 안 되는 AI 제작 흐름",
+        "AI가 영상 제작비보다 먼저 바꾸는 것",
+        "이제 창작자는 더 많은 세계를 실험합니다",
+        "AI 영상 도구가 팀처럼 묶이고 있습니다",
+        "릴스로 보여주고 카드뉴스로 풀기 좋은 소재입니다"
+      ],
+      "hashtags": [
+        "#LumaAI",
+        "#AI영상",
+        "#크리에이터경제",
+        "#AI스튜디오",
+        "#릴스소재"
+      ],
+      "reels_scenes": [
+        "0~2초: 실제 배우와 AI로 변하는 배경이라는 콘셉트를 먼저 보여준다.",
+        "2~5초: Luma가 Human After All AI Creator Studio에 합류했다는 사실을 짧게 설명한다.",
+        "5~9초: 창작자가 더 많은 세계를 실험하는 제작 흐름으로 해석한다.",
+        "9~12초: 카드뉴스에서 제작 구조를 더 보라고 전환한다."
+      ],
+      "carousel_cards": [
+        {
+          "title": "AI 영상은 도구에서 스튜디오로",
+          "body": "한 번 생성하는 데모보다 여러 도구가 제작 흐름으로 묶이는 변화가 큽니다.",
+          "emphasis": "워크플로가 핵심입니다."
+        },
+        {
+          "title": "사람은 사라지지 않습니다",
+          "body": "Luma는 실제 퍼포먼스를 중심에 두고 AI가 세계를 넓히는 방향을 강조합니다.",
+          "emphasis": "대체보다 확장입니다."
+        },
+        {
+          "title": "크리에이터의 기회",
+          "body": "작은 팀도 더 많은 배경, 콘셉트, 세계관을 빠르게 실험할 수 있습니다.",
+          "emphasis": "상상력의 비용이 내려갑니다."
+        },
+        {
+          "title": "주의할 점",
+          "body": "공식 영상도 직접 재사용 전 권리 확인이 필요합니다.",
+          "emphasis": "출처와 사용권은 분리합니다."
+        }
+      ]
+    }
+  },
+  {
+    "source_name": "Stability AI",
+    "source_type": "official_research",
+    "source_tier": "B",
+    "source_url": "https://stability.ai/research/stable-layers-fine-tuning-image-layer-decomposition-models-with-vlm-scored-reinforcement-learning",
+    "published_at": "2026-06-03",
+    "original_title": "Stable-Layers: Fine-Tuning Image Layer Decomposition Models with VLM-Scored Reinforcement Learning",
+    "original_author": "Louisa Marshall",
+    "raw_summary": "Stability AI presented Stable-Layers, a reinforcement learning framework for image layer decomposition that uses a vision-language model as a scoring signal. The post says the approach improves layer separation, reduces blank or artifact-heavy layers, and lowers reconstruction error on the Crello dataset compared with the base model.",
+    "raw_content_excerpt": "The research focuses on decomposing images into cleaner editable layers using VLM-scored reinforcement learning and a two-stage evaluation pipeline.",
+    "language": "en",
+    "media_urls": [
+      "https://stability.ai/research/stable-layers-fine-tuning-image-layer-decomposition-models-with-vlm-scored-reinforcement-learning"
+    ],
+    "video_urls": [],
+    "image_urls": [
+      "https://stability.ai/research/stable-layers-fine-tuning-image-layer-decomposition-models-with-vlm-scored-reinforcement-learning"
+    ],
+    "tags": [
+      "Stability AI",
+      "image editing",
+      "design automation",
+      "VLM",
+      "research"
+    ],
+    "metrics": {
+      "comments": null,
+      "likes": null,
+      "upvotes": null,
+      "views": null,
+      "stars": null
+    },
+    "cluster_hint": "stable-layers-image-layer-decomposition",
+    "verified_facts": [
+      "Stability AI published the Stable-Layers research post on June 3, 2026.",
+      "The method fine-tunes a pretrained layer decomposition model using feedback from a vision-language model.",
+      "The post says Stable-Layers improves layer separation and reduces artifacts on the Crello dataset.",
+      "The post links to an arXiv paper."
+    ],
+    "uncertain_points": [
+      "This is research material, not necessarily a consumer product release.",
+      "The practical effect in commercial design tools depends on implementation and availability.",
+      "Dataset-level results should not be presented as a guarantee for every image."
+    ],
+    "interpretation": "Image generation is moving toward editable outputs, where creators need layers and control rather than one impressive final image.",
+    "why_it_matters": "For designers and content creators, the save-worthy point is that AI image workflows are shifting from 'generate once' to 'generate, separate, edit, and reuse.'",
+    "content_angle": "AI 이미지의 다음 경쟁력은 결과물 자체보다 수정 가능한 구조가 될 수 있다.",
+    "sample_signals": {
+      "visual_impact": 6,
+      "explain_complexity": 8,
+      "hook_strength": 8,
+      "save_value": 9,
+      "source_depth": 8,
+      "demo_available": false,
+      "korea_relevance": 7,
+      "viral_potential": 7,
+      "source_credibility": 8,
+      "risk_level": "LOW",
+      "risk_notes": [
+        "Research source. Avoid overstating as a launched product."
+      ]
+    },
+    "asset_plan": {
+      "related_video_links": [],
+      "official_video": "no",
+      "usage_judgement": "공식 연구 페이지 링크 사용 가능. 이미지 직접 사용 전 Stability AI 사용 조건 확인 필요",
+      "recommended_scene": "not applicable",
+      "alternative_no_video_production": "복잡한 포스터 이미지가 여러 편집 레이어로 분리되는 카드뉴스 연출",
+      "usable_image_candidates": [
+        "https://stability.ai/research/stable-layers-fine-tuning-image-layer-decomposition-models-with-vlm-scored-reinforcement-learning"
+      ],
+      "reference_only_images": [],
+      "screenshot_candidates": [
+        "https://stability.ai/research/stable-layers-fine-tuning-image-layer-decomposition-models-with-vlm-scored-reinforcement-learning"
+      ],
+      "required_generated_images": [
+        "하나의 광고 이미지가 투명한 여러 레이어로 분리되는 고급 에디토리얼 이미지"
+      ]
+    },
+    "content_seed": {
+      "title_subject": "AI 이미지 편집",
+      "recommended_title": "AI 이미지는 이제 예쁘게 만드는 것보다 고치기 쉬운지가 중요해집니다",
+      "hook_candidates": [
+        "AI 이미지는 이제 예쁘게 만드는 것보다 고치기 쉬운지가 중요해집니다",
+        "이미지 생성의 다음 경쟁력은 레이어입니다",
+        "디자이너가 AI 이미지를 불편해했던 이유가 바뀝니다",
+        "한 번에 뽑는 AI 이미지의 시대가 흔들립니다",
+        "AI 이미지가 진짜 도구가 되려면 이게 필요합니다",
+        "예쁜 결과보다 수정 가능한 구조가 중요합니다",
+        "AI 디자인 자동화에서 사람들이 놓치는 변화",
+        "이미지 생성보다 이미지 분해가 더 중요해질 수 있습니다",
+        "콘텐츠 제작자가 저장해둘 만한 AI 연구입니다",
+        "AI 이미지 툴의 방향이 조용히 바뀌고 있습니다"
+      ],
+      "hashtags": [
+        "#AI이미지",
+        "#StabilityAI",
+        "#디자인자동화",
+        "#생성AI",
+        "#콘텐츠제작"
+      ],
+      "carousel_cards": [
+        {
+          "title": "예쁜 이미지 다음 단계",
+          "body": "AI 이미지는 이제 생성보다 편집 가능성이 중요해지고 있습니다.",
+          "emphasis": "수정 가능한 AI가 필요합니다."
+        },
+        {
+          "title": "레이어가 왜 중요할까",
+          "body": "텍스트, 배경, 물체가 분리되면 카드뉴스와 광고 소재를 다시 쓰기 쉬워집니다.",
+          "emphasis": "재사용성이 올라갑니다."
+        },
+        {
+          "title": "이번 연구의 포인트",
+          "body": "VLM 피드백으로 이미지 레이어 분리 품질을 높이는 접근입니다.",
+          "emphasis": "AI가 AI를 평가합니다."
+        },
+        {
+          "title": "주의할 점",
+          "body": "아직 연구 단계로 보고, 실제 제품화 여부는 따로 확인해야 합니다.",
+          "emphasis": "연구와 제품은 다릅니다."
+        }
+      ]
+    }
+  },
+  {
+    "source_name": "Microsoft Official Blog",
+    "source_type": "official_blog",
+    "source_tier": "S",
+    "source_url": "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/",
+    "published_at": "2026-06-02",
+    "original_title": "Microsoft Build 2026: Be yourself at work",
+    "original_author": "Microsoft",
+    "raw_summary": "Microsoft's Build 2026 announcement emphasizes an agent platform powered by Microsoft IQ, building agents in GitHub, deploying them to Microsoft Foundry, using Web IQ for model-agnostic grounding, Scout as a work agent for Frontier customers, new MAI models, Agent 365 governance, ASSERT, and the Agent Control Specification.",
+    "raw_content_excerpt": "Microsoft frames the developer platform shift around agents that know enterprise context, model choice, grounding, and trust controls.",
+    "language": "en",
+    "media_urls": [
+      "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/"
+    ],
+    "video_urls": [
+      "https://news.microsoft.com/build-2026-live-blog/microsoft-build-2026-live/"
+    ],
+    "image_urls": [
+      "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/"
+    ],
+    "tags": [
+      "Microsoft Build",
+      "AI agent",
+      "enterprise AI",
+      "Agent 365",
+      "Microsoft IQ"
+    ],
+    "metrics": {
+      "comments": null,
+      "likes": null,
+      "upvotes": null,
+      "views": null,
+      "stars": null
+    },
+    "cluster_hint": "microsoft-build-2026-agent-platform",
+    "verified_facts": [
+      "Microsoft published the Build 2026 post on June 2, 2026.",
+      "Microsoft announced Microsoft IQ as a context layer across GitHub Copilot, Microsoft Foundry, and Copilot Studio.",
+      "Microsoft announced Web IQ as an AI-first web search stack for grounding agents.",
+      "Microsoft described Agent 365 and open trust-stack projects including ASSERT and Agent Control Specification."
+    ],
+    "uncertain_points": [
+      "Some features are limited to Frontier customers, private preview, or future rollout windows.",
+      "Claims about model performance should be checked against the original footnotes before quoting.",
+      "Enterprise availability and pricing may differ by plan and region."
+    ],
+    "interpretation": "The agent story is shifting from 'make an agent' to 'operate, govern, and ground many agents inside real work systems.'",
+    "why_it_matters": "For companies and solo builders, the content angle is that agent value increasingly depends on context, permissions, observability, and safe execution rather than just model choice.",
+    "content_angle": "AI 에이전트는 이제 기능보다 운영 체계가 핵심이라는 흐름으로 정리한다.",
+    "sample_signals": {
+      "visual_impact": 5,
+      "explain_complexity": 9,
+      "hook_strength": 8,
+      "save_value": 9,
+      "source_depth": 10,
+      "demo_available": true,
+      "korea_relevance": 8,
+      "viral_potential": 7,
+      "source_credibility": 10,
+      "risk_level": "LOW",
+      "risk_notes": [
+        "Official Microsoft source. Watch preview/general availability details."
+      ]
+    },
+    "asset_plan": {
+      "related_video_links": [
+        "https://news.microsoft.com/build-2026-live-blog/microsoft-build-2026-live/"
+      ],
+      "official_video": "yes, Microsoft Build live/blog references",
+      "usage_judgement": "공식 링크 사용 가능. 영상 클립 직접 사용 전 권리 확인 필요",
+      "recommended_scene": "Microsoft Agent Platform, Microsoft IQ, Scout, Agent 365가 언급되는 발표 구간",
+      "alternative_no_video_production": "에이전트가 GitHub, Foundry, Teams, M365로 이동하는 흐름도 카드뉴스",
+      "usable_image_candidates": [
+        "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/"
+      ],
+      "reference_only_images": [],
+      "screenshot_candidates": [
+        "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/"
+      ],
+      "required_generated_images": [
+        "여러 AI 에이전트가 기업 업무 시스템 안에서 통제되는 대시보드 이미지"
+      ]
+    },
+    "content_seed": {
+      "title_subject": "AI 에이전트 운영",
+      "recommended_title": "AI 에이전트의 진짜 전쟁은 이제 운영과 통제입니다",
+      "hook_candidates": [
+        "AI 에이전트의 진짜 전쟁은 이제 운영과 통제입니다",
+        "에이전트는 만드는 것보다 관리하는 게 더 중요해졌습니다",
+        "Microsoft Build에서 보이는 AI 에이전트의 다음 방향",
+        "이제 회사는 AI 에이전트를 직원처럼 관리하려 합니다",
+        "AI 자동화보다 먼저 봐야 할 것은 통제 구조입니다",
+        "에이전트 시대에 필요한 것은 모델만이 아닙니다",
+        "개발자들이 놓치면 안 되는 Microsoft의 AI 신호",
+        "AI 에이전트가 업무 시스템 안으로 들어오고 있습니다",
+        "이건 단순한 Build 발표가 아닙니다",
+        "AI 에이전트가 돈과 일의 구조를 바꾸는 방식"
+      ],
+      "hashtags": [
+        "#MicrosoftBuild",
+        "#AI에이전트",
+        "#업무자동화",
+        "#Agent365",
+        "#AI트렌드"
+      ],
+      "carousel_cards": [
+        {
+          "title": "에이전트는 이제 운영 문제",
+          "body": "만드는 것보다 어디서 실행되고 누가 통제하는지가 중요해졌습니다.",
+          "emphasis": "운영 체계가 경쟁력입니다."
+        },
+        {
+          "title": "Microsoft IQ",
+          "body": "업무 맥락과 웹 지식을 에이전트에 연결하는 컨텍스트 계층입니다.",
+          "emphasis": "맥락이 성능을 만듭니다."
+        },
+        {
+          "title": "Scout과 업무 자동화",
+          "body": "회의 준비, 일정 충돌, 반복 업무 같은 실제 업무 영역으로 에이전트가 들어갑니다.",
+          "emphasis": "에이전트가 업무 흐름에 붙습니다."
+        },
+        {
+          "title": "Agent 365와 통제",
+          "body": "회사는 에이전트도 보안, 권한, 감사 대상으로 다루기 시작합니다.",
+          "emphasis": "자동화에는 통제가 필요합니다."
+        },
+        {
+          "title": "우리에게 의미",
+          "body": "개인도 자동화를 만들 때 로그, 권한, 실패 처리부터 생각해야 합니다.",
+          "emphasis": "작은 자동화도 운영입니다."
+        }
+      ]
+    }
+  },
+  {
+    "source_name": "GitHub Blog",
+    "source_type": "official_blog",
+    "source_tier": "S",
+    "source_url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+    "published_at": "2026-06-02",
+    "original_title": "GitHub Copilot app: The agent-native desktop experience",
+    "original_author": "GitHub",
+    "raw_summary": "GitHub introduced the GitHub Copilot app as an agent-native desktop experience at Microsoft Build 2026. The post frames it as a control center for agent-native development where users can see active sessions, issues, pull requests, and background automations across connected repositories.",
+    "raw_content_excerpt": "GitHub says developer tools need a real place for directing multiple agents in parallel, with visibility into what agents tried, validated, and where human judgment is needed.",
+    "language": "en",
+    "media_urls": [
+      "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/"
+    ],
+    "video_urls": [],
+    "image_urls": [
+      "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/"
+    ],
+    "tags": [
+      "GitHub Copilot",
+      "AI coding assistant",
+      "agentic coding",
+      "developer tools"
+    ],
+    "metrics": {
+      "comments": null,
+      "likes": null,
+      "upvotes": null,
+      "views": null,
+      "stars": null
+    },
+    "cluster_hint": "github-copilot-agent-native-desktop",
+    "verified_facts": [
+      "GitHub published the Copilot app post on June 2, 2026.",
+      "GitHub describes the app as an agent-native desktop experience built on GitHub.",
+      "GitHub says the My Work view shows active sessions, issues, pull requests, and background automations.",
+      "GitHub says the Copilot app is in technical preview for existing Copilot Pro, Pro+, Business, and Enterprise users."
+    ],
+    "uncertain_points": [
+      "Technical preview availability may not apply to every user or region.",
+      "The actual workflow impact depends on repository setup and team practices.",
+      "Screenshots and app imagery need usage-rights confirmation before reuse."
+    ],
+    "interpretation": "Coding agents are becoming parallel work units that need management, not just chat assistants that answer one request at a time.",
+    "why_it_matters": "For developers and teams, this signals a move from 'AI helps me code' to 'I supervise multiple AI sessions like work streams.'",
+    "content_angle": "코딩 에이전트 시대에는 개발자가 직접 코드를 치는 사람에서 에이전트를 지휘하는 사람으로 이동한다는 관점.",
+    "sample_signals": {
+      "visual_impact": 6,
+      "explain_complexity": 8,
+      "hook_strength": 8,
+      "save_value": 8,
+      "source_depth": 9,
+      "demo_available": false,
+      "korea_relevance": 8,
+      "viral_potential": 7,
+      "source_credibility": 10,
+      "risk_level": "LOW",
+      "risk_notes": [
+        "Official GitHub source. Preview availability should be noted."
+      ]
+    },
+    "asset_plan": {
+      "related_video_links": [],
+      "official_video": "no",
+      "usage_judgement": "공식 블로그 링크와 화면 참고 가능. 이미지 직접 사용 전 GitHub 이미지 정책 확인 필요",
+      "recommended_scene": "not applicable",
+      "alternative_no_video_production": "개발자가 여러 AI 에이전트 세션을 지휘하는 워크보드 카드뉴스",
+      "usable_image_candidates": [
+        "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/"
+      ],
+      "reference_only_images": [],
+      "screenshot_candidates": [
+        "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/"
+      ],
+      "required_generated_images": [
+        "여러 코딩 에이전트 작업이 하나의 데스크톱 컨트롤센터에 모여 있는 이미지"
+      ]
+    },
+    "content_seed": {
+      "title_subject": "코딩 에이전트",
+      "recommended_title": "개발자는 이제 코드를 치는 사람보다 에이전트를 지휘하는 사람이 됩니다",
+      "hook_candidates": [
+        "개발자는 이제 코드를 치는 사람보다 에이전트를 지휘하는 사람이 됩니다",
+        "코딩 에이전트의 시대는 한 창에서 끝나지 않습니다",
+        "GitHub가 보여준 개발자의 다음 역할",
+        "AI 코딩 도구가 조수에서 작업자로 바뀌고 있습니다",
+        "개발 생산성의 다음 변화는 병렬 에이전트입니다",
+        "이건 단순한 Copilot 앱이 아닙니다",
+        "코딩보다 중요한 건 에이전트 관리가 될 수 있습니다",
+        "개발자가 놓치면 안 되는 AI 업무 방식",
+        "AI가 코드를 짜면 인간은 무엇을 해야 할까",
+        "코딩 자동화보다 먼저 봐야 할 운영 화면"
+      ],
+      "hashtags": [
+        "#GitHubCopilot",
+        "#코딩에이전트",
+        "#개발자도구",
+        "#AI자동화",
+        "#Codex"
+      ],
+      "carousel_cards": [
+        {
+          "title": "AI 코딩은 병렬 작업으로",
+          "body": "한 번에 하나를 묻는 챗봇에서 여러 세션을 관리하는 흐름으로 갑니다.",
+          "emphasis": "에이전트를 지휘합니다."
+        },
+        {
+          "title": "왜 앱이 필요할까",
+          "body": "여러 에이전트가 버그, 기능, 리뷰를 동시에 처리하면 상태판이 필요합니다.",
+          "emphasis": "작업 흐름이 복잡해집니다."
+        },
+        {
+          "title": "개발자의 역할 변화",
+          "body": "직접 작성보다 계획, 검토, 테스트, 병합 판단의 비중이 커집니다.",
+          "emphasis": "판단력이 중요합니다."
+        },
+        {
+          "title": "팀에게 의미",
+          "body": "에이전트 작업도 이슈, PR, 로그, 검증 흔적과 연결되어야 합니다.",
+          "emphasis": "자동화도 기록이 필요합니다."
+        }
+      ]
+    }
+  },
+  {
+    "source_name": "Microsoft Source",
+    "source_type": "official_news",
+    "source_tier": "S",
+    "source_url": "https://news.microsoft.com/source/features/innovation/majorana-2-microsoft-discovery-agentic-ai/",
+    "published_at": "2026-06-02",
+    "original_title": "Introducing Majorana 2: How Microsoft's new quantum chip was made 1,000x more reliable with the help of Microsoft Discovery's agentic AI",
+    "original_author": "Microsoft",
+    "raw_summary": "Microsoft unveiled Majorana 2, a next-generation topological quantum chip, and said Microsoft Discovery's agentic AI helped with workflows, measurements, fabrication optimization, flaw detection, and solution proposals. Microsoft says the chip has a new materials stack, a 1,000-fold reliability improvement over the prior generation, and that Microsoft Discovery is generally available.",
+    "raw_content_excerpt": "Microsoft connects agentic AI with scientific discovery and materials R&D, while also announcing a free local Microsoft Discovery app for individuals with a GitHub Copilot account.",
+    "language": "en",
+    "media_urls": [
+      "https://news.microsoft.com/source/features/innovation/majorana-2-microsoft-discovery-agentic-ai/"
+    ],
+    "video_urls": [],
+    "image_urls": [
+      "https://news.microsoft.com/source/features/innovation/majorana-2-microsoft-discovery-agentic-ai/"
+    ],
+    "tags": [
+      "Microsoft Discovery",
+      "agentic AI",
+      "quantum",
+      "scientific AI",
+      "R&D automation"
+    ],
+    "metrics": {
+      "comments": null,
+      "likes": null,
+      "upvotes": null,
+      "views": null,
+      "stars": null
+    },
+    "cluster_hint": "microsoft-discovery-majorana-2-agentic-ai-science",
+    "verified_facts": [
+      "Microsoft published the Majorana 2 article on June 2, 2026.",
+      "Microsoft says Majorana 2 was developed with help from Microsoft Discovery's agentic AI.",
+      "Microsoft says the new chip includes a materials stack with a 1,000-fold reliability improvement over prior qubits.",
+      "Microsoft says Microsoft Discovery is now generally available."
+    ],
+    "uncertain_points": [
+      "Quantum roadmap claims should be framed as Microsoft's expectation, not guaranteed outcomes.",
+      "The article is a Microsoft source, so independent scientific validation should be checked before technical deep dives.",
+      "This is not a near-term consumer AI tool story."
+    ],
+    "interpretation": "Agentic AI is moving into R&D workflows where agents help organize experiments, inspect measurements, and propose hypotheses.",
+    "why_it_matters": "Even if quantum computing is distant for most people, the workflow lesson is immediate: AI agents are becoming research teammates for complex technical work.",
+    "content_angle": "AI 에이전트가 과학 연구와 제조 실험에 들어가는 사례로, 직장인의 업무 자동화보다 더 큰 흐름을 보여준다.",
+    "sample_signals": {
+      "visual_impact": 8,
+      "explain_complexity": 9,
+      "hook_strength": 8,
+      "save_value": 8,
+      "source_depth": 9,
+      "demo_available": true,
+      "korea_relevance": 7,
+      "viral_potential": 8,
+      "source_credibility": 9,
+      "risk_level": "MEDIUM",
+      "risk_notes": [
+        "Official Microsoft source. Scientific and roadmap claims need careful framing."
+      ]
+    },
+    "asset_plan": {
+      "related_video_links": [],
+      "official_video": "no public video identified in source",
+      "usage_judgement": "공식 기사 링크 사용 가능. 칩 사진 직접 사용 전 Microsoft 이미지 사용 조건 확인 필요",
+      "recommended_scene": "칩 이미지와 AI 에이전트가 연구 데이터를 분석하는 장면을 조합",
+      "alternative_no_video_production": "양자 칩과 에이전트 연구 대시보드를 카드뉴스로 설명",
+      "usable_image_candidates": [
+        "https://news.microsoft.com/source/features/innovation/majorana-2-microsoft-discovery-agentic-ai/"
+      ],
+      "reference_only_images": [],
+      "screenshot_candidates": [
+        "https://news.microsoft.com/source/features/innovation/majorana-2-microsoft-discovery-agentic-ai/"
+      ],
+      "required_generated_images": [
+        "양자 칩 위에 연구 에이전트들이 데이터를 분석하는 미래 연구소 이미지"
+      ]
+    },
+    "content_seed": {
+      "title_subject": "과학 연구 에이전트",
+      "recommended_title": "AI 에이전트가 이제 연구실의 보조 연구원이 되고 있습니다",
+      "hook_candidates": [
+        "AI 에이전트가 이제 연구실의 보조 연구원이 되고 있습니다",
+        "이건 단순한 양자칩 뉴스가 아닙니다",
+        "AI가 과학 실험의 속도를 바꾸고 있습니다",
+        "업무 자동화보다 더 큰 AI 에이전트 변화",
+        "AI가 버그만 고치는 시대는 지나가고 있습니다",
+        "연구실에서 AI 에이전트가 하는 일",
+        "Microsoft가 보여준 에이전트의 다음 사용처",
+        "AI가 가설과 실험을 도와주는 시대",
+        "직장인 자동화의 끝판왕은 연구 자동화일 수 있습니다",
+        "AI 에이전트가 돈과 일의 구조를 바꾸는 이유"
+      ],
+      "hashtags": [
+        "#MicrosoftDiscovery",
+        "#AI에이전트",
+        "#과학AI",
+        "#업무자동화",
+        "#AI트렌드"
+      ],
+      "reels_scenes": [
+        "0~2초: 양자 칩과 연구 대시보드 이미지를 강하게 보여준다.",
+        "2~5초: Microsoft가 agentic AI를 연구 workflow에 사용했다고 설명한다.",
+        "5~9초: AI 에이전트가 실험 측정, 결함 탐지, 가설 제안을 돕는 구조를 짚는다.",
+        "9~12초: '업무 자동화 다음은 연구 자동화'로 마무리한다."
+      ],
+      "carousel_cards": [
+        {
+          "title": "AI 에이전트가 연구실로",
+          "body": "Microsoft는 Discovery의 agentic AI가 칩 연구 workflow를 도왔다고 설명합니다.",
+          "emphasis": "에이전트의 무대가 넓어집니다."
+        },
+        {
+          "title": "무엇을 도왔나",
+          "body": "측정 관리, 제조 최적화, 결함 탐지, 해결책 제안 같은 복잡한 작업입니다.",
+          "emphasis": "단순 문서 요약이 아닙니다."
+        },
+        {
+          "title": "왜 중요한가",
+          "body": "AI가 반복 업무뿐 아니라 R&D의 탐색 속도까지 바꿀 수 있다는 신호입니다.",
+          "emphasis": "지식 노동의 끝단까지 갑니다."
+        },
+        {
+          "title": "주의할 점",
+          "body": "양자 컴퓨터 일정은 전망입니다. 확정처럼 말하면 안 됩니다.",
+          "emphasis": "기대와 사실을 분리합니다."
+        }
+      ]
+    }
+  },
+  {
+    "source_name": "Anthropic",
+    "source_type": "official_news",
+    "source_tier": "S",
+    "source_url": "https://www.anthropic.com/news/expanding-project-glasswing?subjects=societal-impacts%5D%2C%C2%A0OpenAI",
+    "published_at": "2026-06-02",
+    "original_title": "Expanding Project Glasswing",
+    "original_author": "Anthropic",
+    "raw_summary": "Anthropic announced an expansion of Project Glasswing, saying roughly 50 initial partners had access to Claude Mythos Preview and found more than 10,000 high- or critical-severity security flaws. Anthropic says it is extending the partnership to about 150 new organizations and recently released Claude Security to scan codebases and suggest patches.",
+    "raw_content_excerpt": "Anthropic frames Project Glasswing as preparation for a world where cheap, fast AI models with powerful cyber capabilities require cyberdefenders to adapt.",
+    "language": "en",
+    "media_urls": [
+      "https://www.anthropic.com/news/expanding-project-glasswing?subjects=societal-impacts%5D%2C%C2%A0OpenAI"
+    ],
+    "video_urls": [],
+    "image_urls": [
+      "https://www.anthropic.com/news/expanding-project-glasswing?subjects=societal-impacts%5D%2C%C2%A0OpenAI"
+    ],
+    "tags": [
+      "Anthropic",
+      "Claude Security",
+      "AI security",
+      "cybersecurity",
+      "AI agent"
+    ],
+    "metrics": {
+      "comments": null,
+      "likes": null,
+      "upvotes": null,
+      "views": null,
+      "stars": null
+    },
+    "cluster_hint": "anthropic-project-glasswing-claude-security",
+    "verified_facts": [
+      "Anthropic published the Project Glasswing expansion on June 2, 2026.",
+      "Anthropic says roughly 50 initial partners had access to Claude Mythos Preview.",
+      "Anthropic says those partners found more than 10,000 high- or critical-severity security flaws.",
+      "Anthropic says it is extending the program to approximately 150 new organizations.",
+      "Anthropic says Claude Security scans codebases and suggests patches."
+    ],
+    "uncertain_points": [
+      "The security flaws and partner results are reported by Anthropic and should not be independently overstated.",
+      "Access is limited and security-gated, not a general consumer feature.",
+      "Cybersecurity content needs careful wording to avoid misuse instructions."
+    ],
+    "interpretation": "AI security is becoming both a tool for defense and a risk category that organizations must prepare for.",
+    "why_it_matters": "For developers and businesses, AI is no longer just a productivity story; code security, patching, and defensive workflows are becoming core AI use cases.",
+    "content_angle": "AI 보안은 앞으로 개발자와 기업이 꼭 봐야 할 자동화 영역이라는 관점으로 카드뉴스화한다.",
+    "sample_signals": {
+      "visual_impact": 5,
+      "explain_complexity": 8,
+      "hook_strength": 8,
+      "save_value": 8,
+      "source_depth": 9,
+      "demo_available": false,
+      "korea_relevance": 8,
+      "viral_potential": 7,
+      "source_credibility": 9,
+      "risk_level": "MEDIUM",
+      "risk_notes": [
+        "Cybersecurity topic. Avoid operational exploit details."
+      ]
+    },
+    "asset_plan": {
+      "related_video_links": [],
+      "official_video": "no",
+      "usage_judgement": "공식 발표 링크 사용 가능. 보안 취약점 세부 악용 방법은 다루지 않음",
+      "recommended_scene": "not applicable",
+      "alternative_no_video_production": "AI가 코드 저장소를 스캔하고 패치 제안을 내는 보안 대시보드 카드뉴스",
+      "usable_image_candidates": [
+        "https://www.anthropic.com/news/expanding-project-glasswing?subjects=societal-impacts%5D%2C%C2%A0OpenAI"
+      ],
+      "reference_only_images": [],
+      "screenshot_candidates": [
+        "https://www.anthropic.com/news/expanding-project-glasswing?subjects=societal-impacts%5D%2C%C2%A0OpenAI"
+      ],
+      "required_generated_images": [
+        "AI 보안 에이전트가 코드 저장소를 분석하는 다크 테크 에디토리얼 이미지"
+      ]
+    },
+    "content_seed": {
+      "title_subject": "AI 보안",
+      "recommended_title": "AI가 코드를 짜는 만큼 코드를 지키는 AI도 커지고 있습니다",
+      "hook_candidates": [
+        "AI가 코드를 짜는 만큼 코드를 지키는 AI도 커지고 있습니다",
+        "AI 보안은 이제 개발자만의 문제가 아닙니다",
+        "Claude가 보여준 AI 보안의 다음 방향",
+        "AI 에이전트 시대에 먼저 봐야 할 리스크",
+        "코딩 자동화보다 보안 자동화가 더 급해질 수 있습니다",
+        "AI가 취약점을 찾는 시대가 왔습니다",
+        "이건 단순한 보안 제품 발표가 아닙니다",
+        "회사들이 AI 보안을 서두르는 이유",
+        "AI 자동화가 커질수록 이 문제가 커집니다",
+        "개발자가 놓치면 안 되는 AI 보안 변화"
+      ],
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#AI보안",
+        "#개발자",
+        "#AI자동화"
+      ],
+      "carousel_cards": [
+        {
+          "title": "AI가 보안팀으로",
+          "body": "Anthropic은 Project Glasswing 확장과 Claude Security를 발표했습니다.",
+          "emphasis": "보안 자동화가 커집니다."
+        },
+        {
+          "title": "무엇을 하려는가",
+          "body": "코드베이스를 스캔하고 패치를 제안하는 방어적 AI 활용입니다.",
+          "emphasis": "취약점 대응 속도입니다."
+        },
+        {
+          "title": "왜 중요한가",
+          "body": "AI로 공격 능력도 커지는 만큼 방어 자동화도 같이 커져야 합니다.",
+          "emphasis": "양쪽 모두 AI화됩니다."
+        },
+        {
+          "title": "주의할 점",
+          "body": "악용 방법은 다루지 않고, 방어 관점과 운영 리스크만 설명합니다.",
+          "emphasis": "안전한 해석이 필요합니다."
+        }
+      ]
+    }
+  },
+  {
+    "source_name": "Runway",
+    "source_type": "official_news",
+    "source_tier": "S",
+    "source_url": "https://runwayml.com/news/introducing-cosmos-coalition",
+    "published_at": "2026-06-01",
+    "original_title": "Introducing the Cosmos Coalition",
+    "original_author": "Runway",
+    "raw_summary": "Runway announced it is a founding member of the Cosmos Coalition with NVIDIA and other AI labs to build and open-source frontier world models for physical AI. Runway says the first project will be a base model co-developed by Runway and NVIDIA.",
+    "raw_content_excerpt": "Runway frames world models as foundational to physical AI systems that can reason, predict, and act.",
+    "language": "en",
+    "media_urls": [
+      "https://runwayml.com/news/introducing-cosmos-coalition"
+    ],
+    "video_urls": [],
+    "image_urls": [
+      "https://runwayml.com/news/introducing-cosmos-coalition"
+    ],
+    "tags": [
+      "Runway",
+      "world models",
+      "physical AI",
+      "NVIDIA",
+      "open models"
+    ],
+    "metrics": {
+      "comments": null,
+      "likes": null,
+      "upvotes": null,
+      "views": null,
+      "stars": null
+    },
+    "cluster_hint": "runway-cosmos-coalition-world-models",
+    "verified_facts": [
+      "Runway announced the Cosmos Coalition on June 1, 2026.",
+      "Runway says it is a founding member with NVIDIA and other AI labs.",
+      "Runway says the initiative aims to build and open-source frontier world models for physical AI.",
+      "Runway says the first project will be a base model co-developed by Runway and NVIDIA."
+    ],
+    "uncertain_points": [
+      "The first model's release date, license details, and capabilities are not fully described in the post.",
+      "Physical AI applications remain broader than immediate creator-tool use.",
+      "Open-source details should be checked when the model is released."
+    ],
+    "interpretation": "AI video companies are moving toward world models that connect video understanding with robotics, simulation, and physical reasoning.",
+    "why_it_matters": "Creators can frame this as the bridge from AI video to AI that understands environments, actions, and future states.",
+    "content_angle": "AI 영상의 다음 단계가 로봇과 물리 세계 이해로 이어진다는 큰 그림을 정리한다.",
+    "sample_signals": {
+      "visual_impact": 7,
+      "explain_complexity": 8,
+      "hook_strength": 8,
+      "save_value": 8,
+      "source_depth": 8,
+      "demo_available": false,
+      "korea_relevance": 7,
+      "viral_potential": 7,
+      "source_credibility": 9,
+      "risk_level": "LOW",
+      "risk_notes": [
+        "Official source. Future capabilities should not be overstated."
+      ]
+    },
+    "asset_plan": {
+      "related_video_links": [],
+      "official_video": "no",
+      "usage_judgement": "공식 발표 링크 사용 가능. 모델 출시 전 성능 단정 금지",
+      "recommended_scene": "not applicable",
+      "alternative_no_video_production": "AI 영상, 로봇, 시뮬레이션이 하나의 world model로 연결되는 흐름도",
+      "usable_image_candidates": [
+        "https://runwayml.com/news/introducing-cosmos-coalition"
+      ],
+      "reference_only_images": [],
+      "screenshot_candidates": [
+        "https://runwayml.com/news/introducing-cosmos-coalition"
+      ],
+      "required_generated_images": [
+        "로봇, 도시 시뮬레이션, 영상 프레임이 하나의 물리 AI 모델로 연결되는 이미지"
+      ]
+    },
+    "content_seed": {
+      "title_subject": "월드 모델",
+      "recommended_title": "AI 영상의 다음 단계는 로봇이 세상을 이해하는 모델입니다",
+      "hook_candidates": [
+        "AI 영상의 다음 단계는 로봇이 세상을 이해하는 모델입니다",
+        "Runway가 보여준 AI 영상 이후의 큰 그림",
+        "이건 영상 생성보다 더 큰 이야기입니다",
+        "월드 모델을 모르면 AI 영상 흐름을 놓칩니다",
+        "AI가 보는 것에서 예측하는 것으로 가고 있습니다",
+        "로봇과 영상 AI가 만나는 지점",
+        "AI 영상 회사가 물리 AI를 말하는 이유",
+        "사람들이 놓치고 있는 Runway의 진짜 신호",
+        "AI 데모 뒤에 있는 다음 시장",
+        "영상 생성 다음은 세계 이해입니다"
+      ],
+      "hashtags": [
+        "#Runway",
+        "#월드모델",
+        "#PhysicalAI",
+        "#AI영상",
+        "#AI트렌드"
+      ],
+      "carousel_cards": [
+        {
+          "title": "영상 다음은 세계 이해",
+          "body": "Runway는 NVIDIA와 함께 물리 AI용 월드 모델 협력을 발표했습니다.",
+          "emphasis": "영상 AI의 방향이 넓어집니다."
+        },
+        {
+          "title": "월드 모델이란",
+          "body": "환경과 행동, 다음 상태를 이해하고 예측하는 모델로 볼 수 있습니다.",
+          "emphasis": "AI가 장면을 이해합니다."
+        },
+        {
+          "title": "왜 중요한가",
+          "body": "로봇, 시뮬레이션, 게임, 광고, 교육까지 연결될 수 있는 기반입니다.",
+          "emphasis": "시장이 넓습니다."
+        },
+        {
+          "title": "주의할 점",
+          "body": "아직 구체 모델과 성능은 공개 전입니다. 가능성과 사실을 분리해야 합니다.",
+          "emphasis": "큰 그림으로만 봅니다."
+        }
+      ]
+    }
+  },
+  {
+    "source_name": "OpenAI Help Center",
+    "source_type": "official_release_notes",
+    "source_tier": "S",
+    "source_url": "https://help.openai.com/en/articles/6825453-custom-instructions",
+    "published_at": "2026-06-02",
+    "original_title": "ChatGPT release notes: active sessions, canvas changes, and retiring OpenAI o3 and GPT-4.5",
+    "original_author": "OpenAI",
+    "raw_summary": "OpenAI's ChatGPT release notes say Active sessions are rolling out as a security feature for reviewing and signing out of sessions, canvas will no longer be available in GPT-5.5 Instant or GPT-5.5 Thinking, and OpenAI o3 and GPT-4.5 will be retired from ChatGPT on August 26, 2026 and June 27, 2026 respectively. OpenAI says the model retirement changes apply to ChatGPT only and not the API.",
+    "raw_content_excerpt": "The update is operational rather than flashy, but useful for creators and workers who need to track model and workflow changes.",
+    "language": "en",
+    "media_urls": [
+      "https://help.openai.com/en/articles/6825453-custom-instructions"
+    ],
+    "video_urls": [],
+    "image_urls": [],
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "release notes",
+      "model retirement",
+      "security"
+    ],
+    "metrics": {
+      "comments": null,
+      "likes": null,
+      "upvotes": null,
+      "views": null,
+      "stars": null
+    },
+    "cluster_hint": "openai-chatgpt-release-notes-june-2026",
+    "verified_facts": [
+      "OpenAI release notes list Active sessions as a ChatGPT security feature rolling out on June 2, 2026.",
+      "OpenAI says canvas will no longer be available in GPT-5.5 Instant or GPT-5.5 Thinking.",
+      "OpenAI says OpenAI o3 will be retired from ChatGPT on August 26, 2026.",
+      "OpenAI says GPT-4.5 will be retired from ChatGPT on June 27, 2026.",
+      "OpenAI says these retirement changes apply to ChatGPT only and not the API."
+    ],
+    "uncertain_points": [
+      "Rollout timing can differ by plan and region.",
+      "The release-note page is frequently updated, so the exact wording should be rechecked before posting.",
+      "This is not a new model launch; it is a workflow and account-management update."
+    ],
+    "interpretation": "AI tool users need to track model retirements and interface changes because prompts, canvases, and workflows can break or shift over time.",
+    "why_it_matters": "For creators and operators, boring release notes can matter more than flashy demos because they affect which model, feature, and workflow remains available.",
+    "content_angle": "AI 도구를 오래 쓰려면 새 기능보다 사라지는 기능과 계정 보안을 챙겨야 한다는 실전형 카드뉴스.",
+    "sample_signals": {
+      "visual_impact": 4,
+      "explain_complexity": 7,
+      "hook_strength": 7,
+      "save_value": 8,
+      "source_depth": 8,
+      "demo_available": false,
+      "korea_relevance": 8,
+      "viral_potential": 6,
+      "source_credibility": 10,
+      "risk_level": "LOW",
+      "risk_notes": [
+        "Official release notes. Recheck because release-note pages update often."
+      ]
+    },
+    "asset_plan": {
+      "related_video_links": [],
+      "official_video": "no",
+      "usage_judgement": "공식 릴리즈 노트 링크 사용 가능. 페이지 캡처 전 정책 확인",
+      "recommended_scene": "not applicable",
+      "alternative_no_video_production": "ChatGPT 설정, 모델 선택, 보안 세션 체크리스트를 카드뉴스로 구성",
+      "usable_image_candidates": [
+        "https://help.openai.com/en/articles/6825453-custom-instructions"
+      ],
+      "reference_only_images": [],
+      "screenshot_candidates": [
+        "https://help.openai.com/en/articles/6825453-custom-instructions"
+      ],
+      "required_generated_images": [
+        "AI 도구 업데이트 체크리스트와 보안 세션 화면을 상징하는 미니멀 이미지"
+      ]
+    },
+    "content_seed": {
+      "title_subject": "ChatGPT 업데이트",
+      "recommended_title": "새 기능보다 사라지는 기능을 먼저 봐야 할 때가 있습니다",
+      "hook_candidates": [
+        "새 기능보다 사라지는 기능을 먼저 봐야 할 때가 있습니다",
+        "ChatGPT를 매일 쓰는 사람은 이 날짜를 봐야 합니다",
+        "AI 도구는 업데이트보다 은퇴 공지가 더 중요할 수 있습니다",
+        "프롬프트가 갑자기 흔들리는 이유는 여기에 있습니다",
+        "ChatGPT 사용자라면 놓치면 안 되는 운영 업데이트",
+        "모델 선택이 바뀌면 업무 흐름도 바뀝니다",
+        "이건 화려하지 않지만 저장해야 할 AI 뉴스입니다",
+        "AI 도구를 오래 쓰려면 릴리즈 노트를 봐야 합니다",
+        "ChatGPT 보안과 모델 은퇴를 같이 봐야 하는 이유",
+        "AI 생산성은 업데이트 관리에서 시작됩니다"
+      ],
+      "hashtags": [
+        "#ChatGPT",
+        "#OpenAI",
+        "#AI업데이트",
+        "#AI생산성",
+        "#업무자동화"
+      ],
+      "carousel_cards": [
+        {
+          "title": "화려하지 않지만 중요",
+          "body": "릴리즈 노트는 실제 업무 흐름에 영향을 주는 변경을 담고 있습니다.",
+          "emphasis": "운영 뉴스입니다."
+        },
+        {
+          "title": "Active sessions",
+          "body": "계정 세션을 확인하고 모르는 세션을 로그아웃할 수 있는 보안 기능입니다.",
+          "emphasis": "보안도 생산성입니다."
+        },
+        {
+          "title": "모델 은퇴 일정",
+          "body": "OpenAI는 ChatGPT의 o3와 GPT-4.5 은퇴 일정을 안내했습니다.",
+          "emphasis": "사용 모델을 확인해야 합니다."
+        },
+        {
+          "title": "주의할 점",
+          "body": "API 변경은 아니라고 명시되어 있습니다. ChatGPT와 API를 분리해서 봐야 합니다.",
+          "emphasis": "범위를 정확히 봅니다."
+        }
+      ]
+    }
+  },
+  {
+    "source_name": "Mistral AI",
+    "source_type": "official_news",
+    "source_tier": "S",
+    "source_url": "https://mistral.ai/news/ai-now-summit-2026/",
+    "published_at": "2026-05-28",
+    "original_title": "AI Now Summit 2026",
+    "original_author": "Mistral AI",
+    "raw_summary": "Mistral AI summarized AI Now Summit 2026 announcements, including Mistral for Industrial Engineering, a partnership with Airbus, Vibe as a unified agent for long-running productivity and coding work, and a Les Ulis inference data center planned for Q3 2026.",
+    "raw_content_excerpt": "Mistral frames its announcements around full-stack enterprise and government AI for critical workflows with measurable impact and data control.",
+    "language": "en",
+    "media_urls": [
+      "https://mistral.ai/news/ai-now-summit-2026/"
+    ],
+    "video_urls": [],
+    "image_urls": [
+      "https://mistral.ai/news/ai-now-summit-2026/"
+    ],
+    "tags": [
+      "Mistral AI",
+      "Vibe",
+      "AI agents",
+      "industrial AI",
+      "enterprise AI"
+    ],
+    "metrics": {
+      "comments": null,
+      "likes": null,
+      "upvotes": null,
+      "views": null,
+      "stars": null
+    },
+    "cluster_hint": "mistral-ai-now-summit-2026-vibe-industrial-ai",
+    "verified_facts": [
+      "Mistral AI published the AI Now Summit 2026 summary on May 28, 2026.",
+      "Mistral announced Mistral for Industrial Engineering.",
+      "Mistral described Vibe as one agent for long-running, multi-step work.",
+      "Mistral says Vibe can handle inbox/calendar catch-up, deep research, deliverables, recurring processes, and coding work from request to merged change.",
+      "Mistral said the Les Ulis data center is scheduled to open in Q3 2026."
+    ],
+    "uncertain_points": [
+      "Availability and pricing for Vibe and industrial solutions should be checked directly.",
+      "Enterprise partnership examples should not be generalized to small-business outcomes.",
+      "Claims about critical workflow impact need follow-up case evidence."
+    ],
+    "interpretation": "Enterprise AI is moving from chat products toward long-running agents, industrial workflows, and owned compute capacity.",
+    "why_it_matters": "For Korean readers, this is a useful signal that AI competition is expanding from model benchmarks to workflow ownership, coding agents, industrial engineering, and infrastructure control.",
+    "content_angle": "AI 회사들이 이제 모델만 파는 것이 아니라 업무 에이전트, 산업 솔루션, 데이터센터까지 묶는 풀스택 경쟁을 한다는 흐름.",
+    "sample_signals": {
+      "visual_impact": 5,
+      "explain_complexity": 9,
+      "hook_strength": 8,
+      "save_value": 8,
+      "source_depth": 8,
+      "demo_available": false,
+      "korea_relevance": 7,
+      "viral_potential": 7,
+      "source_credibility": 9,
+      "risk_level": "LOW",
+      "risk_notes": [
+        "Official source. Enterprise claims require careful framing."
+      ]
+    },
+    "asset_plan": {
+      "related_video_links": [],
+      "official_video": "no",
+      "usage_judgement": "공식 발표 링크 사용 가능. 기업 사례와 성과는 원문 기준으로만 언급",
+      "recommended_scene": "not applicable",
+      "alternative_no_video_production": "모델, 에이전트, 산업 솔루션, 데이터센터가 연결되는 풀스택 AI 지도",
+      "usable_image_candidates": [
+        "https://mistral.ai/news/ai-now-summit-2026/"
+      ],
+      "reference_only_images": [],
+      "screenshot_candidates": [
+        "https://mistral.ai/news/ai-now-summit-2026/"
+      ],
+      "required_generated_images": [
+        "AI 모델, 업무 에이전트, 공장, 데이터센터가 연결되는 전략 지도 이미지"
+      ]
+    },
+    "content_seed": {
+      "title_subject": "풀스택 AI 경쟁",
+      "recommended_title": "AI 회사들은 이제 모델만 파는 시대를 지나가고 있습니다",
+      "hook_candidates": [
+        "AI 회사들은 이제 모델만 파는 시대를 지나가고 있습니다",
+        "Mistral 발표에서 보이는 AI 경쟁의 다음 단계",
+        "AI 모델보다 더 중요한 것은 업무 전체를 잡는 것입니다",
+        "이제 AI는 챗봇이 아니라 산업 시스템으로 들어갑니다",
+        "에이전트, 코딩, 산업, 데이터센터가 한 묶음이 됩니다",
+        "AI 회사들이 풀스택으로 가는 이유",
+        "기업 AI 시장은 이렇게 바뀌고 있습니다",
+        "개인이 봐도 중요한 Mistral의 신호",
+        "AI 업무 자동화의 큰 그림이 보입니다",
+        "모델 성능표만 보면 이 변화를 놓칩니다"
+      ],
+      "hashtags": [
+        "#MistralAI",
+        "#AI에이전트",
+        "#기업AI",
+        "#업무자동화",
+        "#AI트렌드"
+      ],
+      "carousel_cards": [
+        {
+          "title": "모델만의 경쟁이 아닙니다",
+          "body": "Mistral 발표는 모델, 업무 에이전트, 산업 솔루션, 인프라를 함께 보여줍니다.",
+          "emphasis": "풀스택 경쟁입니다."
+        },
+        {
+          "title": "Vibe의 방향",
+          "body": "메일, 캘린더, 리서치, 산출물, 코딩까지 긴 작업을 처리하는 에이전트로 소개됩니다.",
+          "emphasis": "긴 업무를 맡깁니다."
+        },
+        {
+          "title": "산업 AI",
+          "body": "Airbus와의 산업 엔지니어링 협력은 AI가 제조와 설계까지 들어가는 흐름입니다.",
+          "emphasis": "챗봇 밖으로 나갑니다."
+        },
+        {
+          "title": "우리에게 의미",
+          "body": "AI를 도구 하나로 보지 말고 업무 흐름 전체를 재설계하는 관점이 필요합니다.",
+          "emphasis": "업무 구조가 바뀝니다."
+        }
+      ]
+    }
+  }
+]

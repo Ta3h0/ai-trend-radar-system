@@ -1,0 +1,20 @@
+node_modules/
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+Thumbs.db
+
+logs/*.log
+*.log
+
+tmp/
+.cache/
+
+outputs/videos/
+outputs/renders/
+
+# 대용량 생성 이미지/영상은 필요 시 Git에 올리지 않는다.
+# assets/generated/

@@ -1,0 +1,16 @@
+{
+  "name": "ai-trend-radar",
+  "version": "0.1.0",
+  "description": "Manual AI trend newsroom system for Korean Instagram reels and carousel candidates.",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "daily": "node src/run-daily.js",
+    "collect": "node src/run-daily.js --collect-only",
+    "report": "node src/build-daily-report.js",
+    "check": "node src/run-daily.js --dry-run"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

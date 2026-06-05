@@ -1,0 +1,215 @@
+[
+  {
+    "cluster_id": "cluster-gemma-4-12b-local-multimodal-ai",
+    "cluster_title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "primary_source": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+    "supporting_sources": [],
+    "summary": "Google introduced Gemma 4 12B, a mid-sized open model designed for agentic multimodal intelligence on laptops, with native audio input, vision/audio flowing directly into the LLM backbone, Apache 2.0 licensing, and local use paths through tools such as LM Studio, Ollama, Hugging Face, Kaggle, LiteRT-LM, llama.cpp, MLX, SGLang, vLLM, and Transformers.",
+    "key_facts": [
+      "Google published the Gemma 4 12B announcement on June 3, 2026.",
+      "Google describes Gemma 4 12B as a unified, encoder-free multimodal model.",
+      "Google says the model is laptop-ready with 16GB of VRAM or unified memory.",
+      "Google says Gemma 4 12B is released under the Apache 2.0 license."
+    ],
+    "community_reaction": "No community signal attached in this sample run.",
+    "content_angles": [
+      "클라우드 AI만 보던 사람들에게 '내 노트북에서 돌아가는 멀티모달 AI'라는 흐름을 설명한다."
+    ],
+    "cluster_score": 10,
+    "item_ids": [
+      "2026-06-04-google-blog-introducing-gemma-4-12b-a-unified-encode"
+    ]
+  },
+  {
+    "cluster_id": "cluster-luma-human-after-all-ai-creator-studio",
+    "cluster_title": "Human, after all.",
+    "primary_source": "https://lumalabs.ai/news/human-after-all",
+    "supporting_sources": [],
+    "summary": "Luma joined Webedia-Elephant's Human After All AI Creator Studio as a creative partner, alongside Google and ElevenLabs. Luma says the launch included a real-time performance transformation with Ray3.14 and that creators will get access, support sessions, and office hours in Paris through the summer.",
+    "key_facts": [
+      "Luma published the Human After All post on June 3, 2026.",
+      "Luma says it is a creative partner in Webedia-Elephant's AI Creator Studio.",
+      "Luma says Google and ElevenLabs are also among the tools creators can use in the studio.",
+      "Luma describes a launch performance where live talent was transformed in real time with Ray3.14."
+    ],
+    "community_reaction": "No community signal attached in this sample run.",
+    "content_angles": [
+      "AI가 창작자를 대체한다는 프레임보다, 창작자가 더 많은 세계를 시도하는 제작 스튜디오 흐름으로 풀 수 있다."
+    ],
+    "cluster_score": 9,
+    "item_ids": [
+      "2026-06-04-luma-human-after-all"
+    ]
+  },
+  {
+    "cluster_id": "cluster-stable-layers-image-layer-decomposition",
+    "cluster_title": "Stable-Layers: Fine-Tuning Image Layer Decomposition Models with VLM-Scored Reinforcement Learning",
+    "primary_source": "https://stability.ai/research/stable-layers-fine-tuning-image-layer-decomposition-models-with-vlm-scored-reinforcement-learning",
+    "supporting_sources": [],
+    "summary": "Stability AI presented Stable-Layers, a reinforcement learning framework for image layer decomposition that uses a vision-language model as a scoring signal. The post says the approach improves layer separation, reduces blank or artifact-heavy layers, and lowers reconstruction error on the Crello dataset compared with the base model.",
+    "key_facts": [
+      "Stability AI published the Stable-Layers research post on June 3, 2026.",
+      "The method fine-tunes a pretrained layer decomposition model using feedback from a vision-language model.",
+      "The post says Stable-Layers improves layer separation and reduces artifacts on the Crello dataset.",
+      "The post links to an arXiv paper."
+    ],
+    "community_reaction": "No community signal attached in this sample run.",
+    "content_angles": [
+      "AI 이미지의 다음 경쟁력은 결과물 자체보다 수정 가능한 구조가 될 수 있다."
+    ],
+    "cluster_score": 8,
+    "item_ids": [
+      "2026-06-04-stability-ai-stable-layers-fine-tuning-image-layer-de"
+    ]
+  },
+  {
+    "cluster_id": "cluster-microsoft-build-2026-agent-platform",
+    "cluster_title": "Microsoft Build 2026: Be yourself at work",
+    "primary_source": "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/",
+    "supporting_sources": [],
+    "summary": "Microsoft's Build 2026 announcement emphasizes an agent platform powered by Microsoft IQ, building agents in GitHub, deploying them to Microsoft Foundry, using Web IQ for model-agnostic grounding, Scout as a work agent for Frontier customers, new MAI models, Agent 365 governance, ASSERT, and the Agent Control Specification.",
+    "key_facts": [
+      "Microsoft published the Build 2026 post on June 2, 2026.",
+      "Microsoft announced Microsoft IQ as a context layer across GitHub Copilot, Microsoft Foundry, and Copilot Studio.",
+      "Microsoft announced Web IQ as an AI-first web search stack for grounding agents.",
+      "Microsoft described Agent 365 and open trust-stack projects including ASSERT and Agent Control Specification."
+    ],
+    "community_reaction": "No community signal attached in this sample run.",
+    "content_angles": [
+      "AI 에이전트는 이제 기능보다 운영 체계가 핵심이라는 흐름으로 정리한다."
+    ],
+    "cluster_score": 10,
+    "item_ids": [
+      "2026-06-04-microsoft-official-blog-microsoft-build-2026-be-yourself-at-work"
+    ]
+  },
+  {
+    "cluster_id": "cluster-github-copilot-agent-native-desktop",
+    "cluster_title": "GitHub Copilot app: The agent-native desktop experience",
+    "primary_source": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+    "supporting_sources": [],
+    "summary": "GitHub introduced the GitHub Copilot app as an agent-native desktop experience at Microsoft Build 2026. The post frames it as a control center for agent-native development where users can see active sessions, issues, pull requests, and background automations across connected repositories.",
+    "key_facts": [
+      "GitHub published the Copilot app post on June 2, 2026.",
+      "GitHub describes the app as an agent-native desktop experience built on GitHub.",
+      "GitHub says the My Work view shows active sessions, issues, pull requests, and background automations.",
+      "GitHub says the Copilot app is in technical preview for existing Copilot Pro, Pro+, Business, and Enterprise users."
+    ],
+    "community_reaction": "No community signal attached in this sample run.",
+    "content_angles": [
+      "코딩 에이전트 시대에는 개발자가 직접 코드를 치는 사람에서 에이전트를 지휘하는 사람으로 이동한다는 관점."
+    ],
+    "cluster_score": 10,
+    "item_ids": [
+      "2026-06-04-github-blog-github-copilot-app-the-agent-native-desk"
+    ]
+  },
+  {
+    "cluster_id": "cluster-microsoft-discovery-majorana-2-agentic-ai-science",
+    "cluster_title": "Introducing Majorana 2: How Microsoft's new quantum chip was made 1,000x more reliable with the help of Microsoft Discovery's agentic AI",
+    "primary_source": "https://news.microsoft.com/source/features/innovation/majorana-2-microsoft-discovery-agentic-ai/",
+    "supporting_sources": [],
+    "summary": "Microsoft unveiled Majorana 2, a next-generation topological quantum chip, and said Microsoft Discovery's agentic AI helped with workflows, measurements, fabrication optimization, flaw detection, and solution proposals. Microsoft says the chip has a new materials stack, a 1,000-fold reliability improvement over the prior generation, and that Microsoft Discovery is generally available.",
+    "key_facts": [
+      "Microsoft published the Majorana 2 article on June 2, 2026.",
+      "Microsoft says Majorana 2 was developed with help from Microsoft Discovery's agentic AI.",
+      "Microsoft says the new chip includes a materials stack with a 1,000-fold reliability improvement over prior qubits.",
+      "Microsoft says Microsoft Discovery is now generally available."
+    ],
+    "community_reaction": "No community signal attached in this sample run.",
+    "content_angles": [
+      "AI 에이전트가 과학 연구와 제조 실험에 들어가는 사례로, 직장인의 업무 자동화보다 더 큰 흐름을 보여준다."
+    ],
+    "cluster_score": 9,
+    "item_ids": [
+      "2026-06-04-microsoft-source-introducing-majorana-2-how-microsoft-s-n"
+    ]
+  },
+  {
+    "cluster_id": "cluster-anthropic-project-glasswing-claude-security",
+    "cluster_title": "Expanding Project Glasswing",
+    "primary_source": "https://www.anthropic.com/news/expanding-project-glasswing?subjects=societal-impacts%5D%2C%C2%A0OpenAI",
+    "supporting_sources": [],
+    "summary": "Anthropic announced an expansion of Project Glasswing, saying roughly 50 initial partners had access to Claude Mythos Preview and found more than 10,000 high- or critical-severity security flaws. Anthropic says it is extending the partnership to about 150 new organizations and recently released Claude Security to scan codebases and suggest patches.",
+    "key_facts": [
+      "Anthropic published the Project Glasswing expansion on June 2, 2026.",
+      "Anthropic says roughly 50 initial partners had access to Claude Mythos Preview.",
+      "Anthropic says those partners found more than 10,000 high- or critical-severity security flaws.",
+      "Anthropic says it is extending the program to approximately 150 new organizations.",
+      "Anthropic says Claude Security scans codebases and suggests patches."
+    ],
+    "community_reaction": "No community signal attached in this sample run.",
+    "content_angles": [
+      "AI 보안은 앞으로 개발자와 기업이 꼭 봐야 할 자동화 영역이라는 관점으로 카드뉴스화한다."
+    ],
+    "cluster_score": 9,
+    "item_ids": [
+      "2026-06-04-anthropic-expanding-project-glasswing"
+    ]
+  },
+  {
+    "cluster_id": "cluster-runway-cosmos-coalition-world-models",
+    "cluster_title": "Introducing the Cosmos Coalition",
+    "primary_source": "https://runwayml.com/news/introducing-cosmos-coalition",
+    "supporting_sources": [],
+    "summary": "Runway announced it is a founding member of the Cosmos Coalition with NVIDIA and other AI labs to build and open-source frontier world models for physical AI. Runway says the first project will be a base model co-developed by Runway and NVIDIA.",
+    "key_facts": [
+      "Runway announced the Cosmos Coalition on June 1, 2026.",
+      "Runway says it is a founding member with NVIDIA and other AI labs.",
+      "Runway says the initiative aims to build and open-source frontier world models for physical AI.",
+      "Runway says the first project will be a base model co-developed by Runway and NVIDIA."
+    ],
+    "community_reaction": "No community signal attached in this sample run.",
+    "content_angles": [
+      "AI 영상의 다음 단계가 로봇과 물리 세계 이해로 이어진다는 큰 그림을 정리한다."
+    ],
+    "cluster_score": 9,
+    "item_ids": [
+      "2026-06-04-runway-introducing-the-cosmos-coalition"
+    ]
+  },
+  {
+    "cluster_id": "cluster-openai-chatgpt-release-notes-june-2026",
+    "cluster_title": "ChatGPT release notes: active sessions, canvas changes, and retiring OpenAI o3 and GPT-4.5",
+    "primary_source": "https://help.openai.com/en/articles/6825453-custom-instructions",
+    "supporting_sources": [],
+    "summary": "OpenAI's ChatGPT release notes say Active sessions are rolling out as a security feature for reviewing and signing out of sessions, canvas will no longer be available in GPT-5.5 Instant or GPT-5.5 Thinking, and OpenAI o3 and GPT-4.5 will be retired from ChatGPT on August 26, 2026 and June 27, 2026 respectively. OpenAI says the model retirement changes apply to ChatGPT only and not the API.",
+    "key_facts": [
+      "OpenAI release notes list Active sessions as a ChatGPT security feature rolling out on June 2, 2026.",
+      "OpenAI says canvas will no longer be available in GPT-5.5 Instant or GPT-5.5 Thinking.",
+      "OpenAI says OpenAI o3 will be retired from ChatGPT on August 26, 2026.",
+      "OpenAI says GPT-4.5 will be retired from ChatGPT on June 27, 2026.",
+      "OpenAI says these retirement changes apply to ChatGPT only and not the API."
+    ],
+    "community_reaction": "No community signal attached in this sample run.",
+    "content_angles": [
+      "AI 도구를 오래 쓰려면 새 기능보다 사라지는 기능과 계정 보안을 챙겨야 한다는 실전형 카드뉴스."
+    ],
+    "cluster_score": 10,
+    "item_ids": [
+      "2026-06-04-openai-help-center-chatgpt-release-notes-active-sessions-ca"
+    ]
+  },
+  {
+    "cluster_id": "cluster-mistral-ai-now-summit-2026-vibe-industrial-ai",
+    "cluster_title": "AI Now Summit 2026",
+    "primary_source": "https://mistral.ai/news/ai-now-summit-2026/",
+    "supporting_sources": [],
+    "summary": "Mistral AI summarized AI Now Summit 2026 announcements, including Mistral for Industrial Engineering, a partnership with Airbus, Vibe as a unified agent for long-running productivity and coding work, and a Les Ulis inference data center planned for Q3 2026.",
+    "key_facts": [
+      "Mistral AI published the AI Now Summit 2026 summary on May 28, 2026.",
+      "Mistral announced Mistral for Industrial Engineering.",
+      "Mistral described Vibe as one agent for long-running, multi-step work.",
+      "Mistral says Vibe can handle inbox/calendar catch-up, deep research, deliverables, recurring processes, and coding work from request to merged change.",
+      "Mistral said the Les Ulis data center is scheduled to open in Q3 2026."
+    ],
+    "community_reaction": "No community signal attached in this sample run.",
+    "content_angles": [
+      "AI 회사들이 이제 모델만 파는 것이 아니라 업무 에이전트, 산업 솔루션, 데이터센터까지 묶는 풀스택 경쟁을 한다는 흐름."
+    ],
+    "cluster_score": 9,
+    "item_ids": [
+      "2026-06-04-mistral-ai-ai-now-summit-2026"
+    ]
+  }
+]

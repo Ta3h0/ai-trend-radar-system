@@ -1,0 +1,52 @@
+formula:
+  description: "Final score balances material quality, content potential, and risk."
+  expression: "final_score_100 = ((material_score * 0.4 + content_score * 0.4 - risk_score * 0.08 + source_credibility * 0.12) * 10)"
+  scale: "0 to 10 for sub-scores; final score is reported on a 100-point scale."
+
+material_score:
+  factors:
+    - "새로움"
+    - "신기함"
+    - "자극성"
+    - "대중성"
+    - "한국 독자 관련성"
+    - "돈/일/자동화 연결성"
+
+content_score:
+  factors:
+    - "제목 후킹 가능성"
+    - "이미지화 가능성"
+    - "카드뉴스 구성 가능성"
+    - "릴스 구성 가능성"
+    - "캡션 확장 가능성"
+    - "저장 가치"
+    - "공유 가치"
+    - "댓글 유도 가능성"
+
+risk_score:
+  factors:
+    - "허위정보 위험"
+    - "출처 부족"
+    - "투자/금융 조언 위험"
+    - "정치/갈등 위험"
+    - "저작권 위험"
+    - "실존 인물 합성 위험"
+    - "의료/법률 조언 위험"
+    - "과장광고 위험"
+
+required_candidate_scores:
+  hook_score: 0
+  usefulness_score: 0
+  visual_score: 0
+  korea_relevance_score: 0
+  carousel_fit_score: 0
+  reels_fit_score: 0
+  risk_score: 0
+  final_score: 0
+  publish_recommendation: "A | B | C | HOLD"
+
+publish_recommendation:
+  A: "final_score >= 78 and risk_level is not HIGH"
+  B: "final_score >= 65 and risk_level is not HIGH"
+  C: "final_score >= 52 and risk_level is LOW or MEDIUM"
+  HOLD: "risk_level is HIGH, source confidence is weak, or facts are insufficient"

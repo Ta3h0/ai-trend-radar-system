@@ -1,0 +1,330 @@
+source_registry:
+  description: "AI Trend Radar uses a source registry instead of scraping the web blindly."
+  required_fields:
+    - id
+    - name
+    - tier
+    - type
+    - trust_score
+    - collect_method
+    - frequency
+    - keywords
+    - use_for
+    - risk_notes
+
+tiers:
+  S:
+    label: "공식 발표"
+    purpose:
+      - "팩트 확인"
+      - "공식 발표 기반 콘텐츠"
+      - "제품 업데이트"
+      - "새 모델/기능/가격/정책 변화 확인"
+  A:
+    label: "개발자/초기 반응"
+    purpose:
+      - "실제 반응 확인"
+      - "사람들이 흥미로워하는 도구/오픈소스 발견"
+      - "후킹 가능한 자료 발굴"
+  B:
+    label: "연구/기술 자료"
+    purpose:
+      - "깊이 있는 기술 자료 발굴"
+      - "일반인이 흥미롭게 볼 수 있는 미래 기술 소재 발굴"
+  C:
+    label: "트렌드 감지"
+    purpose:
+      - "실제 관심도 확인"
+      - "해외에서 반응 있는 소재 확인"
+  D:
+    label: "참고만"
+    purpose:
+      - "제목 문법과 포맷 참고"
+      - "실제 게시물에 그대로 사용 금지"
+
+sources:
+  - id: openai-news
+    name: "OpenAI News"
+    tier: S
+    type: official_newsroom
+    trust_score: 10
+    collect_method: rss_or_manual_url
+    frequency: daily
+    keywords: ["OpenAI", "ChatGPT", "GPT", "Sora", "AI agent"]
+    use_for: ["fact_check", "official_updates", "product_changes"]
+    risk_notes: ["Use as primary source when available."]
+
+  - id: anthropic-news
+    name: "Anthropic News"
+    tier: S
+    type: official_newsroom
+    trust_score: 10
+    collect_method: rss_or_manual_url
+    frequency: daily
+    keywords: ["Claude", "Anthropic", "AI agent", "Claude Code"]
+    use_for: ["fact_check", "official_updates", "product_changes"]
+    risk_notes: ["Use official wording for facts; keep interpretations separate."]
+
+  - id: google-ai-blog
+    name: "Google AI Blog"
+    tier: S
+    type: official_blog
+    trust_score: 10
+    collect_method: rss_or_manual_url
+    frequency: daily
+    keywords: ["Gemini", "Google AI", "AI browser", "AI video"]
+    use_for: ["fact_check", "model_updates", "research_to_product"]
+    risk_notes: ["Confirm whether content is research, preview, or launched product."]
+
+  - id: meta-ai-blog
+    name: "Meta AI Blog"
+    tier: S
+    type: official_blog
+    trust_score: 9
+    collect_method: rss_or_manual_url
+    frequency: daily
+    keywords: ["Meta AI", "Llama", "open source AI"]
+    use_for: ["official_updates", "open_source_ai", "model_releases"]
+    risk_notes: ["Check license and release status before recommending usage."]
+
+  - id: microsoft-ai-blog
+    name: "Microsoft AI Blog"
+    tier: S
+    type: official_blog
+    trust_score: 9
+    collect_method: rss_or_manual_url
+    frequency: daily
+    keywords: ["Microsoft AI", "Copilot", "AI productivity"]
+    use_for: ["official_updates", "work_productivity", "enterprise_ai"]
+    risk_notes: ["Separate enterprise product claims from consumer usefulness."]
+
+  - id: runway-news
+    name: "Runway"
+    tier: S
+    type: official_newsroom
+    trust_score: 9
+    collect_method: manual_url_or_rss
+    frequency: daily
+    keywords: ["Runway", "AI video", "AI generated video"]
+    use_for: ["video_ai", "creator_tools", "visual_demo"]
+    risk_notes: ["Check usage rights for demo videos and assets."]
+
+  - id: luma-ai-news
+    name: "Luma AI"
+    tier: S
+    type: official_newsroom
+    trust_score: 9
+    collect_method: manual_url_or_rss
+    frequency: daily
+    keywords: ["Luma AI", "AI video", "AI 3D"]
+    use_for: ["video_ai", "creator_tools", "visual_demo"]
+    risk_notes: ["Use official demos as references unless permissions are clear."]
+
+  - id: elevenlabs-news
+    name: "ElevenLabs"
+    tier: S
+    type: official_newsroom
+    trust_score: 9
+    collect_method: manual_url_or_rss
+    frequency: daily
+    keywords: ["ElevenLabs", "AI voice", "AI avatar"]
+    use_for: ["voice_ai", "creator_tools", "audio_demo"]
+    risk_notes: ["Avoid cloning real people or implying unauthorized voice use."]
+
+  - id: perplexity-news
+    name: "Perplexity"
+    tier: S
+    type: official_newsroom
+    trust_score: 9
+    collect_method: manual_url_or_rss
+    frequency: daily
+    keywords: ["Perplexity", "AI search", "AI browser"]
+    use_for: ["official_updates", "search_ai", "work_productivity"]
+    risk_notes: ["Verify whether features are generally available."]
+
+  - id: midjourney-news
+    name: "Midjourney"
+    tier: S
+    type: official_update_channel
+    trust_score: 8
+    collect_method: manual_url
+    frequency: daily
+    keywords: ["Midjourney", "AI image", "AI generated image"]
+    use_for: ["image_ai", "creator_tools", "visual_demo"]
+    risk_notes: ["Check official channel and usage policy before asset use."]
+
+  - id: hackernews
+    name: "Hacker News"
+    tier: A
+    type: developer_community
+    trust_score: 7
+    collect_method: public_api
+    frequency: daily
+    keywords: ["AI", "LLM", "agent", "automation", "open source"]
+    use_for: ["community_reaction", "early_signal", "developer_interest"]
+    risk_notes: ["Community comments are reaction signals, not verified facts."]
+
+  - id: github
+    name: "GitHub"
+    tier: A
+    type: developer_platform
+    trust_score: 8
+    collect_method: public_api_or_token
+    frequency: daily
+    keywords: ["AI agent", "LLM", "automation", "MCP", "AI coding assistant"]
+    use_for: ["open_source_tools", "stars_signal", "developer_adoption"]
+    risk_notes: ["Check license, repo activity, and whether claims are documented."]
+
+  - id: producthunt
+    name: "Product Hunt"
+    tier: A
+    type: product_discovery
+    trust_score: 6
+    collect_method: api_or_manual_url
+    frequency: daily
+    keywords: ["AI tool", "AI productivity", "AI marketing", "AI automation"]
+    use_for: ["new_products", "founder_claims", "early_market_signal"]
+    risk_notes: ["Treat launch copy as promotional until verified elsewhere."]
+
+  - id: youtube-ai-demo
+    name: "YouTube AI demos"
+    tier: A
+    type: video_platform
+    trust_score: 6
+    collect_method: api_or_manual_search
+    frequency: daily
+    keywords: ["AI demo", "AI video", "AI robot", "AI avatar", "AI tool demo"]
+    use_for: ["visual_demo", "reels_candidate", "reaction_signal"]
+    risk_notes: ["Do not download videos. Preserve links and usage judgement."]
+
+  - id: reddit-ai
+    name: "Reddit AI communities"
+    tier: C
+    type: community
+    trust_score: 5
+    collect_method: api_or_manual_url
+    frequency: daily
+    keywords: ["AI workflow", "AI side hustle", "AI automation", "AI tools"]
+    use_for: ["trend_detection", "pain_points", "community_reaction"]
+    risk_notes: ["Personal claims need verification and should not be treated as facts."]
+
+  - id: arxiv-cs-ai
+    name: "arXiv cs.AI"
+    tier: B
+    type: research
+    trust_score: 8
+    collect_method: public_api
+    frequency: daily
+    keywords: ["artificial intelligence", "AI agents", "planning"]
+    use_for: ["research_signal", "future_tech", "deep_explainers"]
+    risk_notes: ["Preprints are not always peer-reviewed; explain uncertainty."]
+
+  - id: arxiv-cs-cl
+    name: "arXiv cs.CL"
+    tier: B
+    type: research
+    trust_score: 8
+    collect_method: public_api
+    frequency: daily
+    keywords: ["language model", "LLM", "NLP", "agent"]
+    use_for: ["research_signal", "language_ai", "deep_explainers"]
+    risk_notes: ["Avoid overstating research results as product-ready features."]
+
+  - id: arxiv-cs-cv
+    name: "arXiv cs.CV"
+    tier: B
+    type: research
+    trust_score: 8
+    collect_method: public_api
+    frequency: daily
+    keywords: ["computer vision", "AI video", "image generation"]
+    use_for: ["visual_ai", "research_signal", "future_tech"]
+    risk_notes: ["Clarify whether demos are lab results or available tools."]
+
+  - id: arxiv-cs-lg
+    name: "arXiv cs.LG"
+    tier: B
+    type: research
+    trust_score: 8
+    collect_method: public_api
+    frequency: daily
+    keywords: ["machine learning", "AI model", "training", "agents"]
+    use_for: ["research_signal", "model_methods", "deep_explainers"]
+    risk_notes: ["Use plain-language explanation and avoid unsupported claims."]
+
+  - id: papers-with-code
+    name: "Papers with Code"
+    tier: B
+    type: research_index
+    trust_score: 7
+    collect_method: public_site_or_api
+    frequency: weekly
+    keywords: ["state of the art", "AI benchmark", "open source"]
+    use_for: ["research_context", "implementation_signal", "benchmark_trends"]
+    risk_notes: ["Benchmarks can be narrow; do not generalize too far."]
+
+  - id: google-trends
+    name: "Google Trends"
+    tier: C
+    type: trend_signal
+    trust_score: 6
+    collect_method: manual_or_api
+    frequency: daily
+    keywords: ["ChatGPT", "AI tools", "AI side hustle", "AI automation"]
+    use_for: ["interest_signal", "korea_relevance", "topic_priority"]
+    risk_notes: ["Trend interest is not proof of product quality or truth."]
+
+  - id: x-threads-public
+    name: "X/Threads public materials"
+    tier: C
+    type: social_signal
+    trust_score: 4
+    collect_method: manual_url_only
+    frequency: daily
+    keywords: ["AI demo", "AI tool", "AI workflow", "AI side hustle"]
+    use_for: ["trend_detection", "hook_language", "reaction_signal"]
+    risk_notes: ["Never treat viral posts as verified facts without primary sources."]
+
+  - id: ai-newsletters
+    name: "Overseas AI newsletters"
+    tier: C
+    type: newsletter
+    trust_score: 5
+    collect_method: manual_url_or_inbox
+    frequency: daily
+    keywords: ["AI news", "AI tools", "AI business", "AI automation"]
+    use_for: ["trend_detection", "curation_leads", "angle_discovery"]
+    risk_notes: ["Use as leads. Verify through primary sources."]
+
+  - id: personal-blogs
+    name: "Personal blogs"
+    tier: D
+    type: reference_only
+    trust_score: 3
+    collect_method: manual_url_only
+    frequency: as_needed
+    keywords: ["AI experience", "AI side hustle", "AI workflow"]
+    use_for: ["format_reference", "angle_reference"]
+    risk_notes: ["Reference only. Do not use unverified claims as facts."]
+
+  - id: unclear-captures
+    name: "Unclear screenshots"
+    tier: D
+    type: reference_only
+    trust_score: 1
+    collect_method: manual_url_only
+    frequency: as_needed
+    keywords: ["viral AI", "AI income", "AI hack"]
+    use_for: ["format_reference_only"]
+    risk_notes: ["Do not publish as source. Requires verification or HOLD."]
+
+  - id: reposted-short-video
+    name: "Reuploaded short-form videos"
+    tier: D
+    type: reference_only
+    trust_score: 1
+    collect_method: manual_url_only
+    frequency: as_needed
+    keywords: ["AI demo", "AI robot", "AI generated video"]
+    use_for: ["format_reference_only"]
+    risk_notes: ["Do not download or reuse. Find original source first."]

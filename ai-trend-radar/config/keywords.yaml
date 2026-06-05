@@ -1,0 +1,68 @@
+keyword_groups:
+  ai_news:
+    label: "AI 뉴스 키워드"
+    keywords:
+      - OpenAI
+      - ChatGPT
+      - GPT
+      - Claude
+      - Anthropic
+      - Gemini
+      - Google AI
+      - Meta AI
+      - Llama
+      - Perplexity
+      - Midjourney
+      - Runway
+      - Luma AI
+      - ElevenLabs
+      - Sora alternative
+      - AI agent
+      - AI browser
+      - AI video
+      - AI image
+
+  ai_automation:
+    label: "AI 자동화 키워드"
+    keywords:
+      - AI workflow
+      - AI automation
+      - AI agent workflow
+      - no-code AI
+      - Claude Code
+      - Codex
+      - Cursor
+      - MCP
+      - browser agent
+      - AI coding assistant
+      - AI productivity
+      - AI content automation
+
+  ai_money:
+    label: "부업/돈벌이 연결 키워드"
+    keywords:
+      - AI side hustle
+      - AI business
+      - AI passive income
+      - AI content automation
+      - AI marketing automation
+      - AI creator economy
+      - AI tools for creators
+      - AI ads
+      - AI ecommerce automation
+      - AI monetization
+
+  viral_demo:
+    label: "바이럴 데모 키워드"
+    keywords:
+      - AI demo
+      - AI tool demo
+      - AI generated video
+      - AI robot
+      - AI game
+      - AI movie
+      - AI ad
+      - AI avatar
+      - AI voice clone
+      - AI music
+      - AI short film

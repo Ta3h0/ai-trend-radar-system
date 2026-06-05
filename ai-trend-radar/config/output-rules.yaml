@@ -1,0 +1,56 @@
+daily_outputs:
+  directory: "outputs/daily"
+  markdown_pattern: "YYYY-MM-DD-candidates.md"
+  json_pattern: "YYYY-MM-DD-candidates.json"
+  include_summary:
+    - "오늘 제작 추천 1순위 릴스"
+    - "오늘 제작 추천 1순위 카드뉴스"
+    - "보류 후보"
+    - "Total collected"
+    - "Total normalized"
+    - "Total clusters"
+    - "Final candidates"
+    - "Recommended reels"
+    - "Recommended carousel"
+    - "Recommended both"
+    - "Hold"
+
+weekly_operation:
+  initial_month_standard:
+    uploads_per_week: 7
+    reels_per_week: 3
+    carousel_per_week: 4
+  recommended_schedule:
+    monday: "카드뉴스 / AI 트렌드 정리"
+    tuesday: "릴스 / 강한 데모·시각 자료"
+    wednesday: "카드뉴스 / AI 자동화·활용법"
+    thursday: "릴스 / 신기한 AI 사례"
+    friday: "카드뉴스 / AI 부업·돈벌이 구조"
+    saturday: "릴스 / 바이럴형 AI 데모"
+    sunday: "카드뉴스 또는 주간 AI 요약"
+  roles:
+    reels: "도달/발견/바이럴"
+    carousel: "저장/신뢰/팔로우 전환"
+    caption: "체류/이해/전문성"
+
+candidate_report_sections:
+  - "Production Decision"
+  - "Recommended Format"
+  - "Publish Recommendation"
+  - "Final Score 100"
+  - "Source Match"
+  - "Fact Check"
+  - "Recommended Title"
+  - "Hook Title Candidates Clean/Viral/Extreme"
+  - "Source Summary"
+  - "Verified Facts"
+  - "Uncertain Points"
+  - "Why It Matters"
+  - "Scores"
+  - "Risk Level"
+  - "Source Links"
+  - "Asset Plan"
+  - "Content Structure"
+  - "Detailed Caption Draft"
+  - "Hashtags"
+  - "Image Generation Prompts"

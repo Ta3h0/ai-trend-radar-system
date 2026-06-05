@@ -1,0 +1,104 @@
+formats:
+  - REELS
+  - REELS_FIRST
+  - CAROUSEL
+  - BOTH
+  - HOLD
+
+REELS:
+  suitable_for:
+    - "움직임이 핵심인 자료"
+    - "영상 데모가 있는 자료"
+    - "로봇/AI 영상/AI 광고/AI 음성/AI 아바타/AI 게임/AI 시뮬레이션"
+    - "한 장면만 봐도 '이게 진짜야?' 반응을 만들 수 있는 자료"
+    - "설명보다 장면 자체가 강한 자료"
+  examples:
+    - "농구하는 로봇"
+    - "AI가 만든 광고 영상"
+    - "AI가 타이타닉을 다시 만든 사례"
+    - "AI 영상 생성 데모"
+    - "AI 로봇 시연"
+    - "AI 게임/시뮬레이션"
+    - "AI 음성/아바타 변화"
+    - "신기한 AI 제품 데모"
+  recommendation_conditions:
+    visual_impact: ">= 8"
+    demo_available: true
+    explain_complexity: "<= 5"
+    hook_strength: ">= 8"
+  required_fields:
+    - "관련 영상 자료 링크"
+    - "공식 영상 여부"
+    - "사용 가능성 판단"
+    - "추천 캡처 구간"
+    - "영상 없이 대체 제작 가능한지"
+    - "5~12초 릴스 구성안"
+    - "캡션 초안"
+    - "출처"
+    - "리스크"
+
+CAROUSEL:
+  suitable_for:
+    - "설명/정리/해석이 필요한 자료"
+    - "저장 가치가 높은 자료"
+    - "단계별 구조가 있는 자료"
+    - "AI 기능/가이드/부업 구조/자동화 원리/툴 사용법/수익화 분석"
+  examples:
+    - "GPT 프롬프트 가이드"
+    - "AI 자동화 흐름"
+    - "AI 부업 수익 구조"
+    - "새로운 AI 기능 정리"
+    - "AI 툴 사용법"
+    - "SNS 수익화 분석"
+    - "AI 사기/과장광고 해부"
+    - "업무 자동화 체크리스트"
+  recommendation_conditions:
+    explain_complexity: ">= 7"
+    save_value: ">= 7"
+    source_depth: ">= 7"
+    visual_impact: "<= 7"
+  required_fields:
+    - "추천 카드 수: 3~9장"
+    - "1장 썸네일"
+    - "마지막 장 전환컷/CTA"
+    - "각 카드 제목"
+    - "각 카드 본문"
+    - "강조 문장"
+    - "사용 가능 이미지 후보"
+    - "참고용 이미지 후보"
+    - "직접 캡처 가능한 페이지"
+    - "필요한 AI 생성 이미지 목록"
+    - "카드별 이미지 생성 프롬프트"
+    - "자세한 캡션 초안"
+    - "출처"
+    - "리스크"
+
+BOTH:
+  recommendation_conditions:
+    visual_impact: ">= 8"
+    explain_complexity: ">= 7"
+  strategy:
+    - "1차 발행: REELS"
+    - "2차 발행: CAROUSEL"
+    - "릴스에서 카드뉴스로 이어지는 전환 문구"
+    - "카드뉴스에서 릴스를 언급하는 전환 문구"
+
+REELS_FIRST:
+  description: "BOTH 성격이지만 오늘 제작은 릴스를 먼저 추천하는 후보."
+  recommendation_conditions:
+    visual_score: ">= 8"
+    reels_fit_score: ">= 8"
+    explain_complexity: ">= 7"
+  strategy:
+    - "1차 발행: REELS"
+    - "2차 발행: CAROUSEL"
+    - "보고서 Summary의 1순위 릴스 후보로 우선 검토"
+
+HOLD:
+  conditions:
+    - "risk_level = HIGH"
+    - "source_confidence < 6"
+    - "사실 확인이 부족함"
+    - "저작권 위험이 큼"
+    - "제목은 자극적이지만 내용이 빈약함"
+    - "출처가 불명확함"
